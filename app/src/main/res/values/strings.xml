@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Mi Malabo</string>
+    <!-- Labels for Activity-->
+    <string name="buttonmain"><b>Know Malabo</b></string>
+    <string name="hotel_details"> Top Hotel</string>
+    <string name="know_malabo"><b> Know Malabo </b></string>
+    <string name="places_details"> Most Visited Places </string>
+    <string name="res_details"> Best Restaurants in Town </string>
+    <string name="Urban_details"><i><b> Top Urban Events </b></i>  </string>
+    <string name="Tribe_details"><i><b> Tribe in Malabo </b></i>  </string>
+    <string name="urban_life">Urban Life</string>
+
+    <!-- Navigation Drawer-->
+    <string name="appdrawer">Mi malabo</string>
+    <string name="welcome"> Bienvenido A Malabo </string>
+
+    <string name="open_navigation"> Open Navigation Drawer </string>
+    <string name="close_navigation"> Close Navigation Drawer </string>
+
+    <string name="gallery"> Gallery </string>
+    <string name="Tours"> City Tours </string>
+    <string name="recommend"> Special Recommendations </string>
+    <string name="help"> Help </string>
+    <string name="feedback"> Give us a Feedback</string>
+    <string name="support"> Support </string>
+    <string name="other_apps"> Download Apps </string>
+
+    <!-- Button Names -->
+    <string name="culture"><i><b> Guineanos </b></i></string>
+    <string name="restaurants"><i><b> Restaurants </b></i></string>
+    <string name="hotels"><b> Hotels </b></string>
+    <string name="parks"><i><b> Parks </b></i></string>
+    <string name="urban"><i><b> Urban </b></i>  </string>
+
+
+    <string name="celebrities"><i><b> Celebrities </b></i>  </string>
+    <string name="Sport"><i><b> Sports </b></i>  </string>
+    <string name="museums"><i><b> Museums </b></i>  </string>
+    <string name="unique"><i><b> Only in Malabo </b></i>  </string>
+    <string name="Shopping"><i><b> Our Shopping Centers </b></i>  </string>
+    <string name="tourist"><i><b> What Tourist Love </b></i></string>
+    <string name="amusement_park"><i><b> Amusement Park </b></i></string>
+    <string name="bars"><b> Bars </b> </string>
+
+
+    <string-array name="hoteles">
+        <item> Djibulo </item>
+        <item> Hilton </item>
+    </string-array>
+
+
+    <string-array name="people">
+        <item> Fang </item>
+    </string-array>
+
+    <!-- Tabs on viewpager-->
+
+    <string name="hotel_tab">hotel</string>
+    <string name="urban_tab">Urban</string>
+    <string name="people_tab">people</string>
+    <string name="restaurants_tab">food</string>
+    <string name="culture_tab">sports</string>
+    <string name="places_tab">Places</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

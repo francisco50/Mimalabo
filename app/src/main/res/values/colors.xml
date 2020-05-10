@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E43756C5</color>
+    <color name="colorPrimaryDark">#529FCE</color>
+    <color name="colorAccent">#55B159</color>
+    <color name="colorUrban">#4A148C</color>
+    <color name="colorPeople">#D50000</color>
+    <color name="colorCulture">#5DF15D</color>
+    <color name="colorFood">#FFD600</color>
+</resources>
