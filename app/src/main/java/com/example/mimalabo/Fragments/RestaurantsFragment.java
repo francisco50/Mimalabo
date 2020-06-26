@@ -47,7 +47,7 @@ public class RestaurantsFragment extends Fragment
             // placesdescription[i] = Places.places[i].getDescription1();
         }
 
-        CaptionedImagesAdapter adapter = new CaptionedImagesAdapter(resname, resImages, resdescription);
+        CaptionedImagesAdapter adapter = new CaptionedImagesAdapter(resname, resImages, resdescription,null);
         restaurantsrecycler.setAdapter(adapter);
         GridLayoutManager layoutManager = new GridLayoutManager(getActivity(),2);
         restaurantsrecycler.setLayoutManager(layoutManager);
