@@ -54,25 +54,9 @@ public class Activity_places_detail extends AppCompatActivity {
         TextView textView1 = (TextView)findViewById(R.id.places_textdescrip);
         textView1.setText(placesDescrip);
 
-
-
-        //Button button = (Button)findViewById(R.id.map_cordinates);
-
-        //Button button = (Button)cardView.findViewById(R.id.info_coordinate);
-        /*button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v)
-            {
-                Uri uri = Uri.parse("geo:" + COORDINATES);
-                Intent intent = new Intent(Intent.ACTION_VIEW,uri);
-                StartActivity(intent);
-            }
-
-            private void StartActivity(Intent intent) {
-            }
-        });*/
     }
 
+    //this is the code to display the map
     public void displayMap(View view) {
         Uri uri = Uri.parse("geo:" + COORDINATES);
         Intent intent = new Intent(Intent.ACTION_VIEW,uri);

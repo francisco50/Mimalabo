@@ -3,7 +3,10 @@ package com.example.mimalabo.DetailsActivities;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -44,7 +47,16 @@ public class CultureDetailActivity extends AppCompatActivity
         TextView textView1 = (TextView)findViewById(R.id.detail_culturedescrip);
         textView1.setText(culturedescrip);
 
+    }
 
+    //this is the code to display the map
+    public void displayMap1(View view) {
+        for(int i=0;i< Culture.culture.length;i++)
+        {
+            Uri uri = Uri.parse("geo:" + Culture.culture[i].getCoordinates());
+            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(intent);
+        }
 
     }
 
