@@ -56,11 +56,6 @@ public class PeopleFragment extends Fragment {
             coordinate[i] = Culture.culture[i].getCoordinates();
         }
 
-       /* Button[] buttons = new Button[1];
-        for(int i=0;i<buttons.length;i++)
-        {
-            buttons[i] = coordinate[i];
-        }*/
 
         CaptionedImagesAdapter Adapter = new CaptionedImagesAdapter(resname,resimage,resdescription,coordinate);
         peoplerecycler.setAdapter(Adapter);
