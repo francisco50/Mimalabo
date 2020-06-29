@@ -1,11 +1,14 @@
 package com.example.mimalabo.DetailsActivities;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -49,7 +52,29 @@ public class CultureDetailActivity extends AppCompatActivity
 
     }
 
-    //this is the code to display the map
+    /*
+    //We need to create this to work with the Appbar and add our map as an icon in the toolbar instead of a button
+    public boolean onCreateOptionsMenu(Menu menu)
+    {
+        getMenuInflater().inflate(R.menu.menu_main,menu);
+        return true;
+    }
+
+     */
+
+    /*
+    //here we are making the item respond to clicks and if clicked we call the displayMap1() method.
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        if(item.getItemId() == R.id.action_map)
+        {
+            displayMap1(null);
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    this is the code to display the map
     public void displayMap1(View view) {
         for(int i=0;i< Culture.culture.length;i++)
         {
@@ -58,6 +83,6 @@ public class CultureDetailActivity extends AppCompatActivity
             startActivity(intent);
         }
 
-    }
+    }*/
 
 }
