@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_weight="5"
-    android:layout_marginTop="0dp"
-    android:layout_marginBottom="0dp"
-    android:layout_marginLeft="-200dp"
-    android:layout_marginRight="-200dp"
-    android:background="@drawable/perfil"
-    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
     tools:context=".MainActivity">
 
     <!--
@@ -31,7 +25,39 @@
         app:layout_constraintVertical_bias="0.18" />
         -->
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/icon_image"
+        android:src="@drawable/mimalabo1"/>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:id="@+id/linear_layout"
+        android:layout_centerInParent="true">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/mimalabo2"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="KnowMalabo"
+            android:background="@drawable/button_design"
+            android:text="@string/know_malabo"
+            android:id="@+id/know_malabo"/>
+
+        <androidx.legacy.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="10dp"/>
+    </LinearLayout>
+
+<!--
     <Button
         android:id="@+id/Mbutton"
         android:layout_width="381dp"
@@ -46,6 +72,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.975" />
+        app:layout_constraintVertical_bias="0.975" />-->
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
