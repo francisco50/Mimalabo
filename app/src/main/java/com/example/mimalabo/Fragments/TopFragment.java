@@ -26,6 +26,8 @@ public class TopFragment extends Fragment
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState)
     {
+
+
         // Inflate the layout for this fragment
         RecyclerView hotelRecycler = (RecyclerView)inflater.inflate(R.layout.fragment_hotel,container,false);
 
@@ -48,7 +50,7 @@ public class TopFragment extends Fragment
            // hotelDescription[i] = Hotel.hotels[i].getDescrip();
         }
 
-        CaptionedImagesAdapter adapter = new CaptionedImagesAdapter(hotelnames,hotelImages,hotelDescription);
+        CaptionedImagesAdapter adapter = new CaptionedImagesAdapter(hotelnames,hotelImages,hotelDescription,null);
         hotelRecycler.setAdapter(adapter);
         GridLayoutManager layoutManager = new GridLayoutManager(getActivity(),2);
         hotelRecycler.setLayoutManager(layoutManager);

@@ -105,6 +105,10 @@ public class PlacesActivity extends AppCompatActivity implements NavigationView.
                 intent = new Intent(this,FeedbackActivity.class);
                 break;
 
+            case R.id.nav_settings:
+                intent = new Intent(this,SettingsActivity.class);
+                break;
+
             default:
                 intent = new Intent(this,PictureGalleryActivity.class);
                 //fragment = new GalleryFragment();
@@ -136,7 +140,8 @@ public class PlacesActivity extends AppCompatActivity implements NavigationView.
 
 
 
-    private class SectionsPagerAdapter extends FragmentPagerAdapter {
+    private class SectionsPagerAdapter extends FragmentPagerAdapter
+    {
         public SectionsPagerAdapter(FragmentManager fm) {
             super(fm);
         }

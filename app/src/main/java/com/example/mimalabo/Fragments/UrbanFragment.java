@@ -46,7 +46,7 @@ public class UrbanFragment extends Fragment
             //resdescription[i] = Urban.urbans[i].getDescription();
         }
 
-        CaptionedImagesAdapter adapter = new CaptionedImagesAdapter(resname,resimage,resdescription);
+        CaptionedImagesAdapter adapter = new CaptionedImagesAdapter(resname,resimage,resdescription,null);
         eventrecycler.setAdapter(adapter);
         GridLayoutManager layoutManager = new GridLayoutManager(getActivity(),2);
         eventrecycler.setLayoutManager(layoutManager);

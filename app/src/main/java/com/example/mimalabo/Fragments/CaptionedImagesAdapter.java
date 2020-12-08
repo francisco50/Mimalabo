@@ -1,8 +1,11 @@
 package com.example.mimalabo.Fragments;
 
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -11,15 +14,19 @@ import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 
+import com.example.mimalabo.Fragment_classes.Culture;
 import com.example.mimalabo.R;
 
 class CaptionedImagesAdapter extends RecyclerView.Adapter<CaptionedImagesAdapter.ViewHolder>
 {
 
 
+
+
     String[] captions;
     int[] imagesId;
     String[] descrip;
+    String[] coordinates;
     private Listener listener;
 
     interface Listener
@@ -27,11 +34,12 @@ class CaptionedImagesAdapter extends RecyclerView.Adapter<CaptionedImagesAdapter
         void onClick(int position);
     }
 
-    public CaptionedImagesAdapter(String[] captions, int[] imagesId, String[] descrip)
+    public CaptionedImagesAdapter(String[] captions, int[] imagesId, String[] descrip, String[] coordinates)
     {
         this.captions = captions;
         this.imagesId = imagesId;
         this.descrip = descrip;
+        this.coordinates = coordinates;
     }
 
     @Override
@@ -76,6 +84,10 @@ class CaptionedImagesAdapter extends RecyclerView.Adapter<CaptionedImagesAdapter
 
        TextView textView = (TextView)cardView.findViewById(R.id.info_textdescrip);
         textView.setText(descrip[position]);
+
+
+
+
 
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override

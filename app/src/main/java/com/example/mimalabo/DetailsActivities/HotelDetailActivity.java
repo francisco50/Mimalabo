@@ -3,7 +3,12 @@ package com.example.mimalabo.DetailsActivities;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -11,6 +16,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
 
 import com.example.mimalabo.Fragment_classes.Hotel;
+import com.example.mimalabo.Fragment_classes.Restaurants;
 import com.example.mimalabo.R;
 
 public class HotelDetailActivity extends AppCompatActivity
@@ -49,6 +55,35 @@ public class HotelDetailActivity extends AppCompatActivity
         TextView textView1 = (TextView)findViewById(R.id.detail_textdescrip);
         textView1.setText(hotelDescrip);
 
+
+    }
+
+
+    public boolean onCreateOptionsMenu(Menu menu)
+    {
+        getMenuInflater().inflate(R.menu.menu_main,menu);
+        return true;
+    }
+
+    //here we are making the item respond to clicks and if clicked we call the displayMap1() method.
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        if(item.getItemId() == R.id.action_map)
+        {
+            displayMap(null);
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    public void displayMap(View view)
+    {
+        for(int i = 0; i< Hotel.hotels.length; i++)
+        {
+            Uri uri = Uri.parse("geo:" + Hotel.hotels[i]);
+            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(intent);
+        }
 
     }
 }

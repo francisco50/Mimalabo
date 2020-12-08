@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import com.example.mimalabo.DetailsActivities.CultureDetailActivity;
 import com.example.mimalabo.Fragment_classes.Culture;
@@ -49,7 +50,14 @@ public class PeopleFragment extends Fragment {
             //resdescription[i] = Culture.culture[i].getDescription();
         }
 
-        CaptionedImagesAdapter Adapter = new CaptionedImagesAdapter(resname,resimage,resdescription);
+        String[] coordinate = new String[Culture.culture.length];
+        for(int i=0;i<coordinate.length;i++)
+        {
+            coordinate[i] = Culture.culture[i].getCoordinates();
+        }
+
+
+        CaptionedImagesAdapter Adapter = new CaptionedImagesAdapter(resname,resimage,resdescription,coordinate);
         peoplerecycler.setAdapter(Adapter);
         GridLayoutManager layoutManager = new GridLayoutManager(getActivity(),2);
         peoplerecycler.setLayoutManager(layoutManager);

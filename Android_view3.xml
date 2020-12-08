@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+	xmlns:android = "http://schemas.android.com/apk/res/android"
+	xmlns:tools = "http://schemas.android.com/tools"
+	xmlns:app = "http://schemas.android.com/apk/res-auto"
+	android:layout_width = "match_parent"
+	android:layout_height = "match_parent">
+	<ImageView
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+	app:srcCompat = "@color/colorPrimary"
+		app:layout_constraintTop_toBottomOf="@+id/HorizontalGuide36"
+		app:layout_constraintRight_toLeftOf="@+id/VerticalGuide36"
+		app:layout_constraintBottom_toTopOf="@+id/HorizontalGuide37"
+		app:layout_constraintLeft_toRightOf="@+id/VerticalGuide37"/>
+	  <android.support.constraint.Guideline
+	  	android:id="@+id/HorizontalGuide36"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	app:layout_constraintGuide_percent="0.174609375"
+	  	android:orientation="horizontal" /> 
+	  <android.support.constraint.Guideline
+	  	android:id="@+id/VerticalGuide36"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	app:layout_constraintGuide_percent="0.969097595214844"
+	  	android:orientation="vertical" /> 
+	  <android.support.constraint.Guideline
+	  	android:id="@+id/HorizontalGuide37"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	app:layout_constraintGuide_percent="0.67265625"
+	  	android:orientation="horizontal" /> 
+	  <android.support.constraint.Guideline
+	  	android:id="@+id/VerticalGuide37"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	app:layout_constraintGuide_percent="0.0353475952148437"
+	  	android:orientation="vertical" /> 
+
+	<TextView
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rutrum quam ultrices dolor imperdiet, nec fringilla quam pretium. Duis facilisis arcu elit. Aenean sapien nisl, euismod ac aliquet porttitor, ultricies eu nulla. Phasellus porta tortor a efficitur elementum. Aliquam sit amet orci et libero pellentesque gravida."
+		app:layout_constraintTop_toBottomOf="@+id/HorizontalGuide38"
+		app:layout_constraintRight_toLeftOf="@+id/VerticalGuide38"
+		app:layout_constraintBottom_toTopOf="@+id/HorizontalGuide39"
+		app:layout_constraintLeft_toRightOf="@+id/VerticalGuide39"/>
+	  <android.support.constraint.Guideline
+	  	android:id="@+id/HorizontalGuide38"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	app:layout_constraintGuide_percent="0.713671875"
+	  	android:orientation="horizontal" /> 
+	  <android.support.constraint.Guideline
+	  	android:id="@+id/VerticalGuide38"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	app:layout_constraintGuide_percent="0.969097595214844"
+	  	android:orientation="vertical" /> 
+	  <android.support.constraint.Guideline
+	  	android:id="@+id/HorizontalGuide39"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	app:layout_constraintGuide_percent="1.069921875"
+	  	android:orientation="horizontal" /> 
+	  <android.support.constraint.Guideline
+	  	android:id="@+id/VerticalGuide39"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	app:layout_constraintGuide_percent="0.0353475952148437"
+	  	android:orientation="vertical" /> 
+
+	<TextView
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:text = "NAME"
+		android:textSize = "44sp"
+		android:gravity="center"
+		app:layout_constraintTop_toBottomOf="@+id/HorizontalGuide40"
+		app:layout_constraintRight_toLeftOf="@+id/VerticalGuide40"
+		app:layout_constraintBottom_toTopOf="@+id/HorizontalGuide41"
+		app:layout_constraintLeft_toRightOf="@+id/VerticalGuide41"/>
+	  <android.support.constraint.Guideline
+	  	android:id="@+id/HorizontalGuide40"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	app:layout_constraintGuide_percent="0.03984375"
+	  	android:orientation="horizontal" /> 
+	  <android.support.constraint.Guideline
+	  	android:id="@+id/VerticalGuide40"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	app:layout_constraintGuide_percent="0.429097595214844"
+	  	android:orientation="vertical" /> 
+	  <android.support.constraint.Guideline
+	  	android:id="@+id/HorizontalGuide41"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	app:layout_constraintGuide_percent="0.174609375"
+	  	android:orientation="horizontal" /> 
+	  <android.support.constraint.Guideline
+	  	android:id="@+id/VerticalGuide41"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	app:layout_constraintGuide_percent="0.0353475952148437"
+	  	android:orientation="vertical" /> 
+
+</android.support.constraint.ConstraintLayout>

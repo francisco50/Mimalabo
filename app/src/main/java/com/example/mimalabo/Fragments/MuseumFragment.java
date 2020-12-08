@@ -4,18 +4,24 @@ package com.example.mimalabo.Fragments;
 import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.mimalabo.DetailsActivities.Activity_places_detail;
 import com.example.mimalabo.Fragment_classes.Places;
-import com.example.mimalabo.Fragments.CaptionedImagesAdapter;
 import com.example.mimalabo.R;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.Toolbar;
 
 
 public class MuseumFragment extends Fragment {
@@ -26,6 +32,7 @@ public class MuseumFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         RecyclerView placesrecycler = (RecyclerView)inflater.inflate(R.layout.fragment_places,container,false);
+
 
         String[] placesname = new String[Places.places.length];
         for(int i=0;i<placesname.length;i++)
@@ -45,7 +52,8 @@ public class MuseumFragment extends Fragment {
            // placesdescription[i] = Places.places[i].getDescription1();
         }
 
-        CaptionedImagesAdapter adapter = new CaptionedImagesAdapter(placesname, placesImages, placesdescription);
+
+        CaptionedImagesAdapter adapter = new CaptionedImagesAdapter(placesname, placesImages, placesdescription,null);
         placesrecycler.setAdapter(adapter);
         GridLayoutManager layoutManager = new GridLayoutManager(getActivity(),2);
         placesrecycler.setLayoutManager(layoutManager);
@@ -63,4 +71,10 @@ public class MuseumFragment extends Fragment {
 
     }
 
+    @Override
+    public void onCreateOptionsMenu(Menu menu,MenuInflater inflater) {
+
+        inflater.inflate(R.menu.menu_main,menu);
+        super.onCreateOptionsMenu(menu, inflater);
+    }
 }
