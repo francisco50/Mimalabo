@@ -15,6 +15,7 @@ import android.widget.TextView;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
 
+import com.example.mimalabo.Datas.HotelData;
 import com.example.mimalabo.Fragment_classes.Hotel;
 import com.example.mimalabo.Fragment_classes.Restaurants;
 import com.example.mimalabo.R;
@@ -31,7 +32,7 @@ public class HotelDetailActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hotel_detail);
 
-        Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar2);
+        Toolbar toolbar = findViewById(R.id.toolbar2);
         setSupportActionBar(toolbar);
 
         ActionBar actionBar = getSupportActionBar();
@@ -42,17 +43,17 @@ public class HotelDetailActivity extends AppCompatActivity
         //Set the textview and use the hotelId to set the text on the TextView
 
         int hotelId = (Integer)getIntent().getExtras().get(EXTRA_HOTEL_ID);
-        String hotelName = Hotel.hotels[hotelId].getName();
-        TextView textView = (TextView)findViewById(R.id.detail_textname);
+        String hotelName = HotelData.hotelList.get(hotelId).getName();
+        TextView textView = findViewById(R.id.detail_textname);
         textView.setText(hotelName);
 
-        int hotelImage = Hotel.hotels[hotelId].getImageResourceId();
-        ImageView imageView = (ImageView)findViewById(R.id.detail_image);
+        int hotelImage = HotelData.hotelList.get(hotelId).getImageResourceId();
+        ImageView imageView = findViewById(R.id.detail_image);
         imageView.setImageDrawable(ContextCompat.getDrawable(this,hotelImage));
         imageView.setContentDescription(hotelName);
 
-        String hotelDescrip = Hotel.hotels[hotelId].getDescrip();
-        TextView textView1 = (TextView)findViewById(R.id.detail_textdescrip);
+        String hotelDescrip = HotelData.hotelList.get(hotelId).getDescrip();
+        TextView textView1 = findViewById(R.id.detail_textdescrip);
         textView1.setText(hotelDescrip);
 
 
@@ -78,9 +79,9 @@ public class HotelDetailActivity extends AppCompatActivity
 
     public void displayMap(View view)
     {
-        for(int i = 0; i< Hotel.hotels.length; i++)
+        for(int i = 0; i< HotelData.hotelList.size(); i++)
         {
-            Uri uri = Uri.parse("geo:" + Hotel.hotels[i]);
+            Uri uri = Uri.parse("geo:" + HotelData.hotelList.get(i));
             Intent intent = new Intent(Intent.ACTION_VIEW, uri);
             startActivity(intent);
         }

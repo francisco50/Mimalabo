@@ -26,6 +26,10 @@
             android:id="@+id/info_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:shadowColor="#00ccff"
+            android:shadowRadius="2"
+            android:shadowDx="1"
+            android:shadowDy="1"
             android:layout_marginBottom="4dp"
             android:layout_marginStart="4dp"/>
 

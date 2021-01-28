@@ -16,13 +16,14 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.mimalabo.Datas.PlacesData;
 import com.example.mimalabo.Fragment_classes.Places;
 import com.example.mimalabo.R;
 
 
 public class Activity_places_detail extends AppCompatActivity {
 
-    public static final String EXTRA_HOTEL_ID1 = "placesId";
+    public static final String EXTRA_PLACES_ID1 = "placesId";
     //private static final String COORDINATES = "3.734893,8.7572579";
 
     @Override
@@ -32,7 +33,7 @@ public class Activity_places_detail extends AppCompatActivity {
         setContentView(R.layout.activity_places_detail);
 
 
-        Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar2);
+        Toolbar toolbar = findViewById(R.id.toolbar2);
         setSupportActionBar(toolbar);
 
         ActionBar actionBar = getSupportActionBar();
@@ -42,18 +43,18 @@ public class Activity_places_detail extends AppCompatActivity {
 
         //Set the textview and use the hotelId to set the text on the TextView
 
-        int placesId = (Integer)getIntent().getExtras().get(EXTRA_HOTEL_ID1);
-        String placesName = Places.places[placesId].getNames1();
-        TextView textView = (TextView)findViewById(R.id.places_textname);
+        int placesId = (Integer)getIntent().getExtras().get(EXTRA_PLACES_ID1);
+        String placesName = PlacesData.placesList.get(placesId).getNames1();
+        TextView textView = findViewById(R.id.places_textname);
         textView.setText(placesName);
 
-        int placesImage = Places.places[placesId].getImagesId();
-        ImageView imageView = (ImageView)findViewById(R.id.places_image);
+        int placesImage = PlacesData.placesList.get(placesId).getImagesId1();
+        ImageView imageView = findViewById(R.id.places_image);
         imageView.setImageDrawable(ContextCompat.getDrawable(this,placesImage));
         imageView.setContentDescription(placesName);
 
-        String placesDescrip = Places.places[placesId].getDescription1();
-        TextView textView1 = (TextView)findViewById(R.id.places_textdescrip);
+        String placesDescrip = PlacesData.placesList.get(placesId).getDescription1();
+        TextView textView1 = findViewById(R.id.places_textdescrip);
         textView1.setText(placesDescrip);
 
     }
@@ -78,9 +79,9 @@ public class Activity_places_detail extends AppCompatActivity {
     //this is the code to display the map
     public void displayMap(View view)
     {
-        for(int i=0;i<Places.places.length;i++)
+        for(int i=0;i<PlacesData.placesList.size();i++)
         {
-            Uri uri = Uri.parse("geo:" + Places.places[i]);
+            Uri uri = Uri.parse("geo:" + PlacesData.placesList.get(i));
             Intent intent = new Intent(Intent.ACTION_VIEW, uri);
             startActivity(intent);
         }

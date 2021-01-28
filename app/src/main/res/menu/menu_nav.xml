@@ -2,24 +2,27 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
    <group android:checkableBehavior="single">
        <item
-           android:id="@+id/nav_gallery"
-           android:icon="@android:drawable/ic_menu_gallery"
-           android:title="@string/gallery"
+           android:id="@+id/malaboHistory"
+           android:icon="@drawable/icons8_history_book_48"
+           android:title="@string/Malabo_Hist"
            android:checked="true"/>
+
+       <item
+           android:id="@+id/countryHistory"
+           android:icon="@drawable/icons8"
+           android:title="@string/EG_Hist"/>
+<!--
        <item
            android:id="@+id/nav_tours"
            android:icon="@drawable/icons8_taxi_50"
            android:title="@string/Tours" />
+-->
+
 
        <item
-           android:id="@+id/nav_recommendation"
-           android:icon="@android:drawable/ic_dialog_info"
-           android:title="@string/recommend"/>
-
-       <item
-           android:id="@+id/nav_moreapps"
-           android:icon="@android:drawable/stat_sys_download_done"
-           android:title="@string/other_apps"/>
+           android:id="@+id/topLocations"
+           android:icon="@android:drawable/ic_menu_myplaces"
+           android:title="@string/common_places"/>
 
    </group>
 

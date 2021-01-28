@@ -11,12 +11,14 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".SettingsActivity"
-            android:label="@string/title_activity_settings"></activity>
-        <activity android:name=".RecommendationActivity" />
+            android:label="@string/title_activity_settings">
+
+        </activity>
+
         <activity android:name=".CityToursActivity" />
-        <activity android:name=".PictureGalleryActivity" />
-        <activity android:name=".MoreAppsActivity" />
-        <activity android:name=".FeedbackActivity" />
+
+
+
         <activity android:name=".HelpActivity" />
         <activity
             android:name=".DetailsActivities.Activity_urban_detail"
@@ -60,6 +62,37 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
+
+        <activity
+            android:name=".EgHistoryActivity"
+            android:label="@string/eg_tab">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EgHistoryActivity" />
+        </activity>
+
+        <activity android:name=".HistoryActivity"
+            android:label="@string/malabo_tab">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HistoryActivity" />
+        </activity>
+
+        <activity android:name=".TopLocationActivity"
+            android:label="@string/common_locations">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".PlacesActivity" />
+        </activity>
+
+        <activity android:name=".FeedbackActivity"
+            android:label="Give us a FeedBack">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PlacesActivity" />
+        </activity>
+
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

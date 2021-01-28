@@ -5,7 +5,73 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
     tools:context=".FeedbackActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar13"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorFeedback"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/big_round">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="To"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit1"
+            android:background="@color/colorSnow"/>
+
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editSubject"
+        android:padding="10dp"
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/big_round"
+        android:ems="10"
+        android:hint="Subject" />
+
+    <EditText
+        android:id="@+id/edit2"
+        android:gravity="top"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10sp"
+        android:textSize="20sp"
+        android:hint="Message"
+        android:background="@drawable/big_round"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:id="@+id/button1"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="@drawable/big_round"
+        android:hint="Send Feedback"
+        android:textColor="@color/colorPeople"/>
 
 
 </LinearLayout>

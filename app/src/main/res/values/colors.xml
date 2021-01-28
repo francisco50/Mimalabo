@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#E43756C5</color>
-    <color name="colorPrimaryDark">#529FCE</color>
+    <color name="colorPrimaryDark">#3E7393</color>
+    <color name="colorWhite">#F0F4F6</color>
+    <color name="colorCool">#EF6C00</color>
+    <color name="colorGray">#808080</color>
+    <color name="colorSnow">#eee9e9</color>
     <color name="colorAccent">#55B159</color>
     <color name="colorUrban">#4A148C</color>
     <color name="colorPeople">#D50000</color>
+    <color name="colorBlack">#0C0C0C</color>
+    <color name="colorTopLocations">#F9A825</color>
+    <color name="colorFeedback">#829CD1</color>
     <color name="colorCulture">#5DF15D</color>
     <color name="colorFood">#FFD600</color>
 </resources>

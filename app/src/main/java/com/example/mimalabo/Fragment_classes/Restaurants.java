@@ -1,62 +1,151 @@
 package com.example.mimalabo.Fragment_classes;
 
-import com.example.mimalabo.R;
+import android.content.ContentValues;
+import android.os.Parcel;
+import android.os.Parcelable;
 
-public class Restaurants
+import androidx.annotation.NonNull;
+import androidx.room.ColumnInfo;
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
+
+import com.example.mimalabo.R;
+import com.example.mimalabo.sqlite.MalaboContract;
+
+//@Entity
+public class Restaurants implements Parcelable
 {
-    private String names2;
-    private int ImagesId2;
-    private String description2;
+
+
+
+    public Restaurants()
+    {
+
+    }
+
+    @Override
+    public String toString()
+    {
+        return "Restaurants{" +
+                "itemId='" + itemId + '\'' +
+                ", names='" + names + '\'' +
+                ", ImagesId=" + ImagesId +
+                ", description='" + description + '\'' +
+                ", coordinates='" + coordinates + '\'' +
+                '}';
+    }
+
+    //@PrimaryKey
+    //@NonNull
+    private String itemId;
+    //@ColumnInfo
+    private String names;
+    //@ColumnInfo
+    private int ImagesId;
+    //@ColumnInfo
+    private String description;
+    //@ColumnInfo
     private String coordinates;
 
-
-    private Restaurants(String names2, int ImagesId2, String description2, String coordinates)
-    {
-        this.names2 = names2;
-        this.ImagesId2 = ImagesId2;
-        this.description2 = description2;
-        this.coordinates = coordinates;
+    protected Restaurants(Parcel in) {
+        itemId = in.readString();
+        names = in.readString();
+        ImagesId = in.readInt();
+        description = in.readString();
+        coordinates = in.readString();
     }
 
-    public static final Restaurants[] restaurants ={
-            new Restaurants("La Luna", R.drawable.res_laluna,"La Luna Restaurant is an international cuisine restaurant located in one of the most emblematic areas of Equatorial Guinea, in front of Port Malabo.\n" +
-                    "La Luna restaurant has a large terrace with tables arranged around the pool with a stunning port of Malabo and views the presidential area.","3.734893,8.7572579"),
-            new Restaurants("Magno Suites Restaurants",R.drawable.res_magno,"Luxury and discretion go hand in hand in this Boutique Hotel located in Malabo with stunning views of Pico Basile and easy to the main financial and administrative access points of the city.\n" +
-                    "Design by Alberto Mustelier, varied and first class cuisine and service worthy of its category, are some of the values that allow guests to enjoy their stay.\n" +
-                    "An atmosphere of luxury and discretion with quality service and Wi-Fi throughout all Hotel will make your stay an unforgettable experience.","3.734893,8.7572579"),
-            new Restaurants("Restaurante Babel",R.drawable.res_babel," The Babel Restaurant is a restaurant with international cuisine based on the quality of its raw materials located in the heart of the city of Malabo of Equatorial Guinea, next to the square of Waiso.\n" +
-                    "The restaurant features an indoor room and an outdoor area where you will spend pleasant moments.\n" +
-                    "Babel offers from Monday to Friday an exceptional menu, ideal for those who do not have much time.","3.734893,8.7572579"),
-            new Restaurants("Hotel Ibis Restaurant",R.drawable.res_ibis,"A challenge to find as it has no sign, this stylish restaurant is worth seeking out, particularly for lunch. The fish is excellent: try the bilolá – a local shellfish. Wok-cooked tofu and vegetables" +
-                    " are good starters and salads are worthwhile. It's slightly less successful at dinner as not everything on the menu is available and it's quite pricey.","3.734893,8.7572579"),
-            new Restaurants("Sofitel Le Golf Restaurant",R.drawable.res_legolf,"Fruits de mer are served in this cozy French-style brasserie - along with exotic tastes from Equatorial Guinea such as fried plantains. " +
-                    "A superb seafood restaurant in Sipopo for a hearty breakfast, Sunday brunch, business lunch or à la carte dinner.","3.734893,8.7572579"),
-            new Restaurants("Sofitel President's Palace",R.drawable.res_palace,"Same as the Le Golf but this Hotel is located in the President's palace offering you a great view of the mansion. Fruits de mer are served in this cozy French-style brasserie - along with exotic tastes from Equatorial Guinea such as fried plantains. " +
-                    "A superb seafood restaurant in Sipopo for a hearty breakfast, Sunday brunch, business lunch or à la carte dinner.","3.734893,8.7572579"),
-            new Restaurants("ICEF Restaurante Malabo",R.drawable.res_icef,"Located in 'Centro cultural Frances' has a good atmosphere of that french europen feeling with special dishes like Ratatouile, escalope de poisson pane and other delicious dishes. They serve Breakfast, " +
-                    "Lunch and Dinner and also accept reservations,seatings, Table service and also serve alcohol.","3.734893,8.7572579"),
-            new Restaurants("Restaurante Imagine Malabo",R.drawable.res_imagine,"The IMAGINE Restaurant is located in the new Malabo 2 construction area, specifically between CANIGE and the United Nations building. It has a large area, of which 600 m2 will be used " +
-                    "for the Restaurant with the capacity to accommodate 500 diners. IMAGINE, will be able to organize different events, seminars, weddings, baptisms, communions, company meals ... All this at competitive prices and with the highest quality of catering.","3.734893,8.7572579"),
+    public static final Creator<Restaurants> CREATOR = new Creator<Restaurants>() {
+        @Override
+        public Restaurants createFromParcel(Parcel in) {
+            return new Restaurants(in);
+        }
 
+        @Override
+        public Restaurants[] newArray(int size) {
+            return new Restaurants[size];
+        }
     };
 
-
-    public String getNames2()
-    {
-        return names2;
+    public String getNames() {
+        return names;
     }
 
-    public String getDescription2()
-    {
-        return description2;
+    public void setNames(String names) {
+        this.names = names;
     }
 
-    public int getImagesId2()
-    {
-        return ImagesId2;
+    public int getImagesId() {
+        return ImagesId;
+    }
+
+    public void setImagesId(int imagesId) {
+        ImagesId = imagesId;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public String getCoordinates() {
         return coordinates;
+    }
+
+    public void setCoordinates(String coordinates) {
+        this.coordinates = coordinates;
+    }
+
+    public String getItemId() {
+        return itemId;
+    }
+
+    public void setItemId(String itemId) {
+        this.itemId = itemId;
+    }
+
+
+
+
+    public Restaurants(String itemId, String names, int ImagesId, String description, String coordinates)
+    {
+        this.itemId = itemId;
+        this.names = names;
+        this.ImagesId = ImagesId;
+        this.description = description;
+        this.coordinates = coordinates;
+    }
+
+    public ContentValues toValues()
+    {
+
+        //Use this to pass into the methods, this will create a good insert statement
+        ContentValues values = new ContentValues(5);
+
+        values.put(MalaboContract.COLUMN_COORDINATE2,coordinates);
+        values.put(MalaboContract.COLUMN_ID,itemId);
+        values.put(MalaboContract.COLUMN_DESCRIPTION2,description);
+        values.put(MalaboContract.COLUMN_IMAGE2,ImagesId);
+        values.put(MalaboContract.COLUMN_NAME2,names);
+        return values;
+
+    }
+
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeString(itemId);
+        dest.writeString(names);
+        dest.writeInt(ImagesId);
+        dest.writeString(description);
+        dest.writeString(coordinates);
     }
 }

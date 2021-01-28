@@ -14,6 +14,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.mimalabo.Datas.RestaurantData;
 import com.example.mimalabo.Fragment_classes.Places;
 import com.example.mimalabo.R;
 import com.example.mimalabo.Fragment_classes.Restaurants;
@@ -27,7 +28,7 @@ public class Activity_restaurant_detail extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_restaurant_detail);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar3);
+        Toolbar toolbar = findViewById(R.id.toolbar3);
         setSupportActionBar(toolbar);
 
         ActionBar actionBar = getSupportActionBar();
@@ -37,18 +38,18 @@ public class Activity_restaurant_detail extends AppCompatActivity {
 
         int restaurantId = (Integer) getIntent().getExtras().get(EXTRA_RESTAURANT_ID);
 
-        String resName = Restaurants.restaurants[restaurantId].getNames2();
-        TextView textView = (TextView) findViewById(R.id.resdetail_textname);
+        String resName = RestaurantData.restaurantsList.get(restaurantId).getNames();
+        TextView textView = findViewById(R.id.resdetail_textname);
         textView.setText(resName);
 
 
-        int resImage = Restaurants.restaurants[restaurantId].getImagesId2();
-        ImageView imageView = (ImageView) findViewById(R.id.resdetail_image);
+        int resImage = RestaurantData.restaurantsList.get(restaurantId).getImagesId();
+        ImageView imageView = findViewById(R.id.resdetail_image);
         imageView.setImageDrawable(ContextCompat.getDrawable(this, resImage));
         imageView.setContentDescription(resName);
 
-        String resDescrip = Restaurants.restaurants[restaurantId].getDescription2();
-        TextView textView1 = (TextView) findViewById(R.id.resdetail_textdescrip);
+        String resDescrip = RestaurantData.restaurantsList.get(restaurantId).getDescription();
+        TextView textView1 = findViewById(R.id.resdetail_textdescrip);
         textView1.setText(resDescrip);
     }
 
@@ -71,9 +72,9 @@ public class Activity_restaurant_detail extends AppCompatActivity {
 
     public void displayMap(View view)
     {
-        for(int i = 0; i< Restaurants.restaurants.length; i++)
+        for(int i = 0; i< RestaurantData.restaurantsList.size(); i++)
         {
-            Uri uri = Uri.parse("geo:" + Restaurants.restaurants[i]);
+            Uri uri = Uri.parse("geo:" + RestaurantData.restaurantsList.get(i));
             Intent intent = new Intent(Intent.ACTION_VIEW, uri);
             startActivity(intent);
         }

@@ -12,14 +12,24 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.mimalabo.DataSources.HotelDataSource;
+import com.example.mimalabo.DataSources.UrbanDataSource;
+import com.example.mimalabo.Datas.HotelData;
+import com.example.mimalabo.Datas.UrbanData;
 import com.example.mimalabo.DetailsActivities.Activity_urban_detail;
+import com.example.mimalabo.Fragment_classes.Hotel;
 import com.example.mimalabo.Fragment_classes.Urban;
 import com.example.mimalabo.Fragments.CaptionedImagesAdapter;
 import com.example.mimalabo.R;
 
+import java.util.Collections;
+import java.util.List;
+
 
 public class UrbanFragment extends Fragment
 {
+
+
 
     @Override
     public View onCreateView(final LayoutInflater inflater, ViewGroup container,
@@ -28,23 +38,25 @@ public class UrbanFragment extends Fragment
 
         RecyclerView eventrecycler = (RecyclerView)inflater.inflate(R.layout.fragment_urban,container,false);
 
-        String[] resname = new String[Urban.urbans.length];
+        String[] resname = new String[UrbanData.urbanList.size()];
         for(int i =0; i<resname.length;i++)
         {
-            resname[i] = Urban.urbans[i].getName();
+            resname[i] = UrbanData.urbanList.get(i).getName();
         }
 
-        int[] resimage = new int[Urban.urbans.length];
+        int[] resimage = new int[UrbanData.urbanList.size()];
         for(int i =0; i<resimage.length;i++)
         {
-            resimage[i] = Urban.urbans[i].getImageId();
+            resimage[i] = UrbanData.urbanList.get(i).getImageId();
         }
 
-        String[] resdescription = new String[Urban.urbans.length];
+        String[] resdescription = new String[UrbanData.urbanList.size()];
         for(int i =0; i<resdescription.length;i++)
         {
             //resdescription[i] = Urban.urbans[i].getDescription();
         }
+
+
 
         CaptionedImagesAdapter adapter = new CaptionedImagesAdapter(resname,resimage,resdescription,null);
         eventrecycler.setAdapter(adapter);

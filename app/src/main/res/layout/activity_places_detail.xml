@@ -26,6 +26,10 @@
             android:layout_margin="10sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:shadowColor="#0D0E0E"
+            android:shadowRadius="2"
+            android:shadowDx="1"
+            android:shadowDy="1"
             android:textAppearance="?android:attr/textAppearanceLarge"/>
 
 
@@ -41,6 +45,10 @@
             android:layout_margin="10sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:shadowColor="#0F1010"
+            android:shadowRadius="2"
+            android:shadowDx="1"
+            android:shadowDy="1"
             android:textAppearance="?android:attr/textAppearanceLarge"/>
 
 

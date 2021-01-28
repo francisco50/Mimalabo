@@ -12,14 +12,22 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.mimalabo.DataSources.RestaurantDataSource;
+import com.example.mimalabo.Datas.RestaurantData;
 import com.example.mimalabo.DetailsActivities.Activity_restaurant_detail;
 import com.example.mimalabo.Fragment_classes.Restaurants;
 import com.example.mimalabo.Fragments.CaptionedImagesAdapter;
 import com.example.mimalabo.R;
 
+import java.util.Collections;
+import java.util.List;
+
 
 public class RestaurantsFragment extends Fragment
 {
+    RestaurantDataSource restaurantDataSource;
+    List<Restaurants> restaurantList = RestaurantData.restaurantsList;
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -29,25 +37,29 @@ public class RestaurantsFragment extends Fragment
         // Inflate the layout for this fragment
         RecyclerView restaurantsrecycler = (RecyclerView)inflater.inflate(R.layout.fragment_recy_restaurants,container,false);
 
-        String[] resname = new String[Restaurants.restaurants.length];
+        String[] resname = new String[RestaurantData.restaurantsList.size()];
         for(int i=0;i<resname.length;i++)
         {
-            resname[i]= Restaurants.restaurants[i].getNames2();
+            resname[i]= RestaurantData.restaurantsList.get(i).getNames();
         }
 
-        int[] resImages = new int[Restaurants.restaurants.length];
+        int[] resImages = new int[RestaurantData.restaurantsList.size()];
         for(int i=0; i<resImages.length; i++)
         {
-            resImages[i] = Restaurants.restaurants[i].getImagesId2();
+            resImages[i] = RestaurantData.restaurantsList.get(i).getImagesId();
         }
 
-        String[] resdescription = new String[Restaurants.restaurants.length];
+        String[] resdescription = new String[RestaurantData.restaurantsList.size()];
         for(int i=0; i<resdescription.length; i++)
         {
             // placesdescription[i] = Places.places[i].getDescription1();
         }
 
-        CaptionedImagesAdapter adapter = new CaptionedImagesAdapter(resname, resImages, resdescription,null);
+
+        //restaurantDataSource.seedDatabase(restaurantList);
+        //List<Restaurants> RestaurantsListFromDb = restaurantDataSource.getAllItems();
+
+        CaptionedImagesAdapter adapter = new CaptionedImagesAdapter(resname,resImages,resdescription,null);
         restaurantsrecycler.setAdapter(adapter);
         GridLayoutManager layoutManager = new GridLayoutManager(getActivity(),2);
         restaurantsrecycler.setLayoutManager(layoutManager);

@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
 
+import com.example.mimalabo.Datas.UrbanData;
 import com.example.mimalabo.R;
 import com.example.mimalabo.Fragment_classes.Urban;
 
@@ -22,7 +23,7 @@ public class Activity_urban_detail extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_urban_detail);
 
-        Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar5);
+        Toolbar toolbar = findViewById(R.id.toolbar5);
         setSupportActionBar(toolbar);
 
 
@@ -32,17 +33,17 @@ public class Activity_urban_detail extends AppCompatActivity
 
         int urbanId = (Integer)getIntent().getExtras().get(EXTRA_URBAN_ID);
 
-        String urbannames = Urban.urbans[urbanId].getName();
-        TextView textView = (TextView)findViewById(R.id.beachtext);
+        String urbannames = UrbanData.urbanList.get(urbanId).getName();
+        TextView textView = findViewById(R.id.beachtext);
         textView.setText(urbannames);
 
-        int urbanimages = Urban.urbans[urbanId].getImageId();
-        ImageView imageView = (ImageView)findViewById(R.id.beachimage);
+        int urbanimages = UrbanData.urbanList.get(urbanId).getImageId();
+        ImageView imageView = findViewById(R.id.beachimage);
         imageView.setImageDrawable(ContextCompat.getDrawable(this,urbanimages));
         imageView.setContentDescription(urbannames);
 
-        String urbandescription = Urban.urbans[urbanId].getDescription();
-        TextView textView1 = (TextView)findViewById(R.id.beachtextdescription);
+        String urbandescription = UrbanData.urbanList.get(urbanId).getDescription();
+        TextView textView1 = findViewById(R.id.beachtextdescription);
         textView1.setText(urbandescription);
 
 

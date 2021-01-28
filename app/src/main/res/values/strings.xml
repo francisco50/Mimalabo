@@ -17,14 +17,14 @@
     <string name="open_navigation"> Open Navigation Drawer </string>
     <string name="close_navigation"> Close Navigation Drawer </string>
 
-    <string name="gallery"> Gallery </string>
+    <string name="Malabo_Hist"> Malabo History </string>
     <string name="Tours"> City Tours </string>
-    <string name="recommend"> Special Recommendations </string>
+    <string name="EG_Hist"> Country History </string>
     <string name="help"> Help </string>
     <string name="feedback"> Give us a Feedback</string>
     <string name="support"> Support </string>
     <string name="settings"> Settings </string>
-    <string name="other_apps"> Download Apps </string>
+    <string name="common_places"> Common Places </string>
 
     <!-- Button Names -->
     <string name="culture"><i><b> Guineanos </b></i></string>
@@ -82,6 +82,157 @@
     <string name="attachment_title">Download incoming attachments</string>
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
+
+    <!-- Eg and Malabo History -->
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="guinea_ecuatorial_nombre"> History of Guinea Ecuatorial </string>
+    <string name="eg_tab">Guinea Ecuatorial </string>
+
+
+    <string name="parteTitle">
+        country located on the west coast of Africa. It consists of Río Muni (also known
+        as Continental Equatorial Guinea), on the mainland, and five islands (collectively known as
+        Insular Equatorial Guinea): Bioko (formerly Fernando Po), Corisco, Great Elobey (Elobey Grande), Little
+        Elobey (Elobey Chico) and Annobón (Pagalu). Bata is the administrative capital of the continent. Formerly a
+        colony of Spain with the name of Spanish Guinea, the country achieved its independence on October 12, 1968.
+        The capital is Malabo, in Bioko.
+
+        "The island of Bioko (formerly Fernando Po) was sighted by the Portuguese explorer Fernão do Pó, probably in 1472.
+        At first it was called Formosa (“Beautiful”). Annobón was probably spotted by Ruy de Sequeira on a New Year's Day
+        (hence the name, which means "good year") between 1472 and 1475, probably 1474. By the Treaty of Tordesillas (June 7, 1494),
+        The Portuguese had exclusive commercial rights in Africa, and it was not until 1778 that they agreed to cede the islands of Annobón and Fernando Po to Spain.
+        as well as rights on the continental coast between the Ogooué and Niger rivers. These assignments were designed to give Spain its own source of slaves.
+        in Africa for transport to Latin America, where, in return, the Spanish confirmed the rights of the Portuguese west of the 50 ° W meridian in what is now Brazil.
+        The Spanish were soon decimated by yellow fever at Fernando Po, and withdrew in 1781. No European occupation was made on the continent.\n\n"
+
+        <b> "British Administration\n\n" </b> "After the British abolition of the slave trade in 1807, the Royal Navy required bases for the effective suppression of the trade.
+        Fernando Po was unemployed and was in a strategic situation from which the mouths of the Niger and the part of West Africa
+        Known as the Slave Coast, they could be watched for slaveholders. In 1827 the Spanish rented bases for this purpose from the British at Port
+        Clarence (later Santa Isabel, now Malabo), a beautiful deep-water port on the north coast, and in the Bahía de San Carlos (now Bahía de Luba) on the west coast.\n\n "
+
+        <b> "Spanish Guinea\n\n" </b> "In 1844 the Spanish made a second effort for the effective occupation of Fernando Po, and their first exploration of the continent was carried out
+        in the two decades ending in 1877. Meanwhile, the Spanish had expelled the British Baptists from Fernando Po in 1858, and in 1879 they began to use it
+        as a penal settlement for Cubans. After the Spanish-American War (1898), Spanish Guinea remained the last significant tropical colony in Spain.
+        Taking advantage of Spain's weakness, France was able to confine continental Spanish Guinea to its present limited extent. Economic development started only at that time
+        and focused on the richest and healthiest Fernando Po. The continent received significant attention from Spain only after the Spanish Civil War (1936-1939).
+        In 1959, the status of Spanish Guinea was changed and the region reorganized into two overseas provinces of Spain, each of which was placed under a civil governor.
+        Citizens, including Africans, enjoy the same rights as citizens of Spain. In 1963, a measure of economic autonomy was agreed by plebiscite
+        and administrative for the two provinces, which would henceforth be known as Equatorial Guinea.
+        In the absence of the Spanish, the British also took responsibility for the administration of the island. Thereafter, the British relocated many
+        freed slaves, in the absence of knowing their origin or being able to repatriate them. Freed slaves also came to the island from Sierra Leone and Jamaica, and in the 20th century the
+        descendants of these various groups continued to speak a form of English. Due to the existence of these freed slaves and the lack of any Spanish administration in the area,
+        the United Kingdom made several unsuccessful offers to Spain for the purchase of Fernando Po, particularly between 1839 and 1841. In 1843 the Royal Navy concentrated its antislavery patrol in Freetown
+        in Sierra Leone, and its buildings in Fernando Po were sold to a Baptist mission.\n\n"
+
+
+        <b> "Independence\n\n" </b> "The movement towards independence began to take shape in late 1967. At the beginning of the following year the Spanish government suspended autonomous political control and,
+        With the subsequent approval of the Organization of African Unity (OAU), he proposed that a national referendum be held to approve the new constitution. The constitution was approved by
+        overwhelming majority on August 11 and was followed by parliamentary elections in September and by the proclamation of independence on October 12, 1968.
+        The first president was Francisco Macías Nguema (also known as Macías Nguema Biyogo Masie). After his election in 1971, he assumed broad powers and promoted a constitution that
+        he named him president for life in July 1972. He assumed absolute personal powers in 1973, and the island of Fernando Po was renamed Isla Macías Nguema Biyogo in his honor. He controlled the radio and the press,
+        and travel abroad stopped. In 1975-1977 there were many arrests and summary executions, prompting protests from world leaders and the organization of
+        human rights Amnesty International .. During this period there was a massive exodus of citizens of Equatorial Guinea, and the Nigerian government repatriated its citizens, who had been working as laborers.
+        migrants in the plantations of Equatorial Guinea in 1976. Macías was overthrown in 1979 by his nephew, Lieutenant. Column, Teodoro Obiang Nguema Mbasogo, and executed. Obiang headed a Supreme Military Council,
+        to which it added some civilians in 1981. A less authoritarian constitution was instituted in 1982, followed by the election of 41 unopposed candidates to the legislature in 1983. Although another new constitution in 1991 provided for a
+        multiparty state - which led to the first multiparty elections, held in 1993 - there was no indication that Obiang voluntarily stepped down from power, and his regime was the target of much international criticism for
+        its oppressive nature.In the 1990s and early 2000s, the president and members of his party repeatedly won reelection by uneven margins on ballots that were riddled with charges of fraud.
+        In addition, allegations abounded that a clique surrounding the president had systematically pocketed most of the country's considerable oil revenues, which grew dramatically beginning in the late 20th century.
+        As it had done since the 1980s, the Obiang regime continued to claim that it had been the target of several coup attempts, but most of the accusations could not be confirmed. One notable exception was a conspiracy
+        to replace Obiang with exiled opposition leader Severo Moto; discovered in 2004, the plan involved foreign mercenaries. In July 2008 a Malabo court sentenced a British mercenary, Simon Mann, to 34 years in prison for his
+        participation in the matter, but Obiang pardoned him in November 2009. In November 2011, Equatorial Guinea approved many changes to its constitution by referendum with 97.7 percent of the vote.
+        The changes included making the unicameral legislature bicameral, imposing a limit of two consecutive presidential terms, lifting the age limit for presidential candidates, and creating the position of a vice president,
+        that he would be appointed by the president and that he would be next in line to assume the presidency in the event that the incumbent president dies or retires. The last two changes,
+        as well as others, they had been denounced as a means of expanding Obiang's control over power. The vote itself was subject to criticism, with accusations of voting irregularities,
+        bullying and harassment. The revised constitution was promulgated in February 2012. In May, Obiang appointed one of his sons, Teodoro (“Teodorin”) Nguema Obiang Mangue, as second vice president,
+        charge that was not foreseen in the recent constitutional changes. Teodorin was widely seen as Obiang's choice for his successor.
+        Equatorial Guinea's 2016 presidential elections were held on April 24. As in previous polls, Obiang was re-elected by a large margin, 93.7 percent, defeating six other candidates.\n\n "
+    </string>
+
+    <string name="parteTierra">
+        Continental Equatorial Guinea is an approximately rectangular territory bounded by Cameroon to the north and
+        Gabon to the east and south. Near the coast are the small islands of Corisco and Great and Little Elobey.
+        Bioko, by far the largest of the islands, is located off the coast of Cameroon in the Biafra Inlet.
+            Annobón, a volcanic island, lies south of the Equator and nearly 400 miles (640 km) southwest of Bioko.
+    </string>
+
+    <string name="parteAlivio">
+        The coast of Río Muni, the continental portion of the country, consists of a long stretch of beach with low cliffs
+        to the south. A coastal plain about 12 miles (20 km) wide abuts the coastal hills, which lead to
+        Inland plateaus (called plateaus in Spanish) that rise towards the border with Gabon. There are several chains of hills.
+        The central mountain range divides the basin of the Mbini river (Benito) to the north from the southern basin of the Utamboni river (Mitèmboni).
+        The Niefang-Mikomeseng mountain range north of the Mbini River is somewhat lower. All of these ranges form segments of the Crystal Mountains in Gabon.
+        The Mbini River (known as the Woleu River in Gabon) generally runs east to west through the center of the Muni River;
+        it is not navigable except for the first 12 miles (19 km) inland. To the north,
+        the Campo River (called Ntem in French-speaking Africa) marks part of the border with Cameroon.
+        The Utamboni River flows south. To the southwest, the Muni is not itself a river,
+        but the estuary of several rivers in Gabon and southern Equatorial Guinea. To the East,
+        the de facto border with Gabon follows the meandering course of the Kié (Kyé) river, rather than the border
+        legal at latitude 11 ° 20 ′ E. The rivers of mainland Equatorial Guinea provide
+        limited hydroelectric power generation and hydropower at some sites.
+        The coastal plain is covered by sedimentary deposits. The interior is composed mainly
+        by ancient metamorphic rocks that have undergone a long process of leaching and erosion, so that the resulting soils
+            they are relatively infertile.
+    </string>
+
+    <string name="parteInsular">
+        The main island, Bioko, is about 45 miles (72 km) long and 22 miles (35 km) wide. Its extinct volcanic cones,
+        Crater lakes and lava-rich soils form a contrast to the continent\'s landscape. In the north Santa Isabel Peak (Basile Peak),
+        An extinct volcano, it rises to a height of 9,869 feet (3,008 meters). In the center of the island, Moca Peak and Moca Heights feature a
+        Alpine type landscape. The southern part of the island, remote and poorly developed, is formed by the Gran Caldera mountain range,
+        which is rugged and jagged by streams and crater lakes.Bioko\'s coastline is largely inhospitable, consisting for the most part of a
+        cliff about 60 feet (20 meters) high, occasionally interrupted by small inlets and beaches. The south coast is very steep and dangerous
+        for navigation; San Antonio de Ureca, located in this section, is among the most isolated settlements on the island. Malabo, located on the north coast,
+        it has a relatively good harbor, built on the partially sunken rim of a volcano. The Musola River and other streams are exploited for hydroelectric power.
+        Annobón is an isolated piece of the country, about 93 miles (150 km) southwest of the island of São Tomé in São Tomé and Príncipe and
+        about 400 miles (650 km) southwest of Bioko. Like the latter, it is a volcanic island but less elevated, formed by a conglomeration of cones,
+        among which are Mount Santa Mina and Mount Quioveo. The highest elevation is approximately 2,200 feet (670 meters).
+        The small, rugged island is not 4 miles (6 km) long by 2 miles (3 km) wide.
+    </string>
+
+    <string name="parteClima">
+        The climate of both the continental region and the islands is typically equatorial, with high temperatures, heavy rains and a lot of cloudiness for most of the year.
+        Local variations are due to differences in height and proximity to the sea. The rainy seasons in the continental region are from February to June and from September to December.
+        Precipitation is higher on the coast than inland. In Bata, the rainiest months are September, October and November, with an average rainfall of approximately
+        95 inches (2,400 mm) per year. In Calatrava, further south of the coast, it sometimes reaches 180 inches (4,600 mm). Inland, however, rainfall decreases; Mikomeseng,
+        for example, you receive less than 60 inches (1,500 mm) per year. The temperature is fairly constant throughout the year, with an annual average of about 26 ° C (70 ° F).
+        The maximum temperatures are somewhat lower than in Bioko. The relative humidity, however, is higher than at Bioko.
+        Bioko\'s dry season lasts from November to March and the rest of the year is rainy; the average annual temperature is between 70 ° F (approximately 25 ° C)
+        and the temperature varies little throughout the year, reaching 32 ° C (80 ° F) in the afternoon and dropping to 70 ° F (70 ° F).
+        about 21 ° C) at night. Most of the time the sky is cloudy and overcast. Extreme rains occur in the south,
+            with rains brought by monsoon winds amounting to approximately 450 inches (11,400 mm) a year around San Antonio de Ureca.
+    </string>
+
+    <string name="partevegetal">
+        Much of the mainland of Equatorial Guinea is covered by dense rainforest that has long been exploited by the timber industry.
+        There are more than 140 species of wood, of which the most important commercially are the okume (Aucoumea klaineana), the African walnut and various mahoganies.
+        A secondary forest growth has replaced virgin forest. Mangroves border large stretches of the coast and riverbanks. Bioko has a
+        greater variety of tropical vegetation, including mangroves.
+        The continental region has a rich animal life that includes gorillas, chimpanzees, various monkeys, leopards, buffaloes, antelopes, elephants, hippos,
+        crocodiles and various snakes, including pythons. Insects abound, including the tsetse fly and the Anopheles mosquito,
+        carrier of malaria, as well as hosts of ants, beetles, spiders and termites. Bioko does not have big game, but he has several monkeys,
+        dwarf antelopes and rodents, as well as mosquitoes and other insects.
+    </string>
+
+    <!-- This session is for the History-->
+    <string name="vida_vegetal_y_animal"><b>Plant and Animal Life</b></string>
+    <string name="clima"><b>Climate</b></string>
+    <string name="guinea_ecuatorial_insular"><b>Insular Equatorial Guinea</b></string>
+    <string name="alivio_continental"><b>Relief, drainage and soils. Continental Guinea</b></string>
+    <string name="tierra"><b>Land</b></string>
+    <string name="guinea_ecuatorial"><b>Equatorial Guinea</b></string>
+    <string name="population_title"><b> Population </b> </string>
+    <string name="population"> The current population of Equatorial Guinea in 2021 is 1,449,896, an increase of 3.34% from 2020.</string>
+
+
+    <string name="historia_de_malabo">History of Malabo</string>
+    <string name="malabo"><b> Malabo </b></string>
+    <string name="malabo_tab"> History of Malabo </string>
+    <string name="malabo_history"> Malabo, before (until 1973) Santa Isabel, capital of Equatorial Guinea. It is located at the northern end of the island of Bioko (or Fernando Po) on the edge of a sunken volcano.
+        With an average temperature of 77 ° F (25 ° C) and an annual rainfall of 75 inches (1,900 mm), it has one of the most onerous climates in Biafra Inlet (Gulf of Guinea).
+        Malabo is the commercial and financial center of the republic. Its port, which is one of the deepest seaports in the region, can dock several ships and the main
+        activity is the export of cocoa, wood and coffee. It also has an international airport with flights to Bata, in continental Equatorial Guinea, and to countries in Africa and Europe, and to the United States.
+        The European population of the city declined after the 1969 riots, and later after its Nigerian contract workers returned to Nigeria in the mid-1970s.
+        The discovery and development of the country\'s oil reserves in the 1980s and 1990s led to increased business and development in the city. Popular. (2003 est.) 92,900.</string>
+    <string name="common_locations">Common Locations</string>
 
 </resources>
