@@ -9,7 +9,7 @@
 
        <item
            android:id="@+id/countryHistory"
-           android:icon="@drawable/icons8"
+           android:icon="@drawable/history"
            android:title="@string/EG_Hist"/>
 <!--
        <item
@@ -18,21 +18,24 @@
            android:title="@string/Tours" />
 -->
 
-
+<!--
        <item
            android:id="@+id/topLocations"
            android:icon="@android:drawable/ic_menu_myplaces"
            android:title="@string/common_places"/>
+           -->
 
    </group>
 
 
     <item android:title="@string/support">
         <menu>
+            <!--
             <item
                 android:id="@+id/nav_help"
                 android:icon="@android:drawable/ic_menu_help"
                 android:title="@string/help"/>
+                -->
 
             <item
                 android:id="@+id/nav_feedback"

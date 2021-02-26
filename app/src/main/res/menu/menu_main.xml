@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--
     <item
         android:id="@+id/action_map"
         android:orderInCategory="101"
         android:title="@string/display_map"
         android:icon="@drawable/ic_directions"
+        app:showAsAction="always"/>
+        -->
+
+    <item
+        android:id="@+id/action_lang"
+        android:orderInCategory="101"
+        android:title="@string/changeLang"
+        android:icon="@drawable/ic_language"
         app:showAsAction="always"/>
 
 </menu>

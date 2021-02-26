@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:gravity="center"
+
+    android:orientation="vertical"
     tools:context=".FeedbackActivity">
 
     <androidx.appcompat.widget.Toolbar
@@ -16,62 +16,69 @@
         android:background="@color/colorFeedback"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:padding="1dp"
+
+        android:layout_height="wrap_content"
+        android:text="support: francisco60@gmail.com" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
         android:layout_marginTop="40dp"
-        android:background="@drawable/big_round">
+        android:background="@drawable/big_round"
+        android:padding="10dp">
+
 
         <TextView
             android:layout_width="50dp"
             android:layout_height="wrap_content"
-            android:text="To"
-            android:textSize="20sp"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:text="@string/to"
+            android:textSize="20sp" />
 
         <EditText
+            android:id="@+id/edit1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/edit1"
-            android:background="@color/colorSnow"/>
-
+            android:background="@color/colorSnow" />
 
 
     </LinearLayout>
 
     <EditText
         android:id="@+id/editSubject"
-        android:padding="10dp"
-        android:layout_marginTop="10sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
         android:background="@drawable/big_round"
         android:ems="10"
-        android:hint="Subject" />
+        android:hint="@string/subject"
+        android:padding="10dp" />
 
     <EditText
         android:id="@+id/edit2"
-        android:gravity="top"
-        android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
         android:layout_marginTop="10sp"
-        android:textSize="20sp"
-        android:hint="Message"
-        android:background="@drawable/big_round"/>
+        android:layout_weight="1"
+        android:background="@drawable/big_round"
+        android:gravity="top"
+        android:hint="@string/message"
+        android:padding="20dp"
+        android:textSize="20sp" />
 
     <Button
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="25sp"
-        android:id="@+id/button1"
         android:layout_marginTop="10dp"
-        android:padding="10dp"
         android:background="@drawable/big_round"
-        android:hint="Send Feedback"
-        android:textColor="@color/colorPeople"/>
+        android:hint="@string/send_feedback"
+        android:padding="10dp"
+        android:textColor="@color/colorPeople"
+        android:textSize="25sp" />
 
 
 </LinearLayout>

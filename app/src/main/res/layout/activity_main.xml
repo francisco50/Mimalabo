@@ -1,45 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
+    android:background="@drawable/ocean"
+    android:scaleType="fitCenter"
     tools:context=".MainActivity">
 
     <ImageView
+        android:id="@+id/icon_image"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:layout_centerInParent="true"
-        android:id="@+id/icon_image"
-        android:src="@drawable/mimalabo1"/>
+        android:src="@drawable/mimalabo1" />
 
     <LinearLayout
+        android:id="@+id/linear_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
         android:orientation="vertical"
-        android:padding="10dp"
-        android:id="@+id/linear_layout"
-        android:layout_centerInParent="true">
+        android:padding="10dp">
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="150dp"
-            android:src="@drawable/mimalabo2"/>
-
-        <!--
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:onClick="KnowMalabo"
-            android:background="@drawable/button_design"
-            android:text="@string/know_malabo"
-            android:id="@+id/know_malabo"/>
-            -->
+            android:src="@drawable/mimalabo2" />
 
 
     </LinearLayout>
-
 
 
 </RelativeLayout>

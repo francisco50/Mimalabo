@@ -1,0 +1,1568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Mi Malabo</string>
+
+    <!-- App Multi Language -->
+    <string name="changeLang"> change Language</string>
+
+
+    <!-- Labels for Activity-->
+
+    <string name="hotel_details"> Top Hotel</string>
+    <string name="know_malabo"><b> Malabo </b></string>
+    <string name="places_details"> Lugares más visitados </string>
+    <string name="res_details"> Los mejores restaurantes </string>
+    <string name="Urban_details"><i><b> Principales eventos urbanos </b></i>  </string>
+    <string name="Tribe_details"><i><b> Tribu en Malabo </b></i>  </string>
+    <string name="urban_life">Vida urbana</string>
+
+    <!-- Navigation Drawer-->
+    <string name="appdrawer">Mi malabo</string>
+    <string name="welcome"> Bienvenido A Malabo </string>
+
+    <string name="open_navigation"> Abrir cajón de navegación </string>
+    <string name="close_navigation"> Cerrar el cajón de navegación </string>
+
+    <string name="Malabo_Hist"> Historia de Malabo </string>
+    <string name="EG_Hist"> Historia del país </string>
+    <string name="help"> Ayuda </string>
+    <string name="feedback"> Danos un feedback</string>
+    <string name="support"> Ayuda </string>
+    <string name="settings"> Configuraciones </string>
+    <string name="common_places"> Lugares comunes </string>
+
+    <!-- Button Names -->
+    <string name="restaurants"><i><b> Restaurantes </b></i></string>
+    <string name="hotels"><b> Hoteles </b></string>
+    <string name="urban"><i><b> Urbano </b></i>  </string>
+
+
+    <string-array name="hoteles">
+        <item> Djibulo </item>
+        <item> Hilton </item>
+    </string-array>
+
+
+    <string-array name="people">
+        <item> Fang </item>
+    </string-array>
+
+    <!-- Tabs on viewpager-->
+
+    <string name="hotel_tab">Hotel</string>
+    <string name="urban_tab">Urbano</string>
+    <string name="people_tab">Gente</string>
+    <string name="restaurants_tab">Comida</string>
+    <string name="places_tab">Lugares</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="display_map">Mostrar mapa</string>
+    <string name="maps"> Direcciones </string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Mensajes</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Tu firma</string>
+    <string name="reply_title">Acción de respuesta predeterminada</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sincronizar el correo electrónico periódicamente</string>
+    <string name="attachment_title">Descargar archivos adjuntos entrantes</string>
+    <string name="attachment_summary_on">Descargar automáticamente archivos adjuntos para correos electrónicos entrantes
+    </string>
+
+    <!-- Eg and Malabo History -->
+    <string name="attachment_summary_off">Descargar archivos adjuntos solo cuando se soliciten manualmente</string>
+    <string name="guinea_ecuatorial_nombre"> Historia de Guinea Ecuatorial </string>
+    <string name="eg_tab">Guinea Ecuatorial </string>
+
+
+    <string name="parteTitle">
+       país ubicado en la costa oeste de África. Consiste en Río Muni (también conocido
+        como Guinea Ecuatorial Continental), en el continente, y cinco islas (conocidas colectivamente como
+        Guinea Ecuatorial Insular): Bioko (antes Fernando Po), Corisco, Great Elobey (Elobey Grande), Little
+        Elobey (Elobey Chico) y Annobón (Pagalu). Bata es la capital administrativa del continente. Anteriormente un
+        colonia de España con el nombre de Guinea Española, el país logró su independencia el 12 de octubre de 1968.
+        La capital es Malabo, en Bioko.\n\n"La isla de Bioko
+        (antes Fernando Po) fue avistada por el explorador portugués Fernão do Pó, probablemente en 1472.
+        Al principio se llamó Formosa ("Hermosa"). Annobón probablemente fue visto por Ruy de Sequeira en un día de Año Nuevo
+        (de ahí el nombre, que significa "año bueno") entre 1472 y 1475, probablemente 1474. Por el Tratado de Tordesillas (7 de junio de 1494),
+        Los portugueses tenían derechos comerciales exclusivos en África, y no fue hasta 1778 que acordaron ceder las islas de Annobón y Fernando Po a España.
+        así como derechos en la costa continental entre los ríos Ogooué y Níger. Estas asignaciones fueron diseñadas para dar a España su propia fuente de esclavos.
+        en África para su transporte a América Latina, donde, a cambio, los españoles confirmaron los derechos de los portugueses al oeste del meridiano 50 ° W en lo que hoy es Brasil.
+        Los españoles pronto fueron diezmados por la fiebre amarilla en Fernando Po, y se retiraron en 1781. No se hizo ninguna ocupación europea en el continente.\n\n"
+
+        <b> "Administración británica\n\n" </b> “Después de la abolición británica del comercio de esclavos en 1807, la Royal Navy necesitaba bases para la supresión efectiva del comercio.
+        Fernando Po estaba en paro y se encontraba en una situación estratégica de la que salían las bocas del Níger y la parte de África Occidental
+        Conocida como la Costa de los Esclavos, podían vigilarse en busca de esclavistas. En 1827 los españoles alquilaron bases para este fin a los británicos en Port
+        Clarence (más tarde Santa Isabel, ahora Malabo), un hermoso puerto de aguas profundas en la costa norte, y en la Bahía de San Carlos (ahora Bahía de Luba) en la costa oeste.\n\n "
+
+        <b> Guinea española</b>\n\n En 1844 los españoles hicieron un segundo esfuerzo para la efectiva ocupación de Fernando Po, y se llevó a cabo su primera exploración del continente
+        en las dos décadas que terminaron en 1877. Mientras tanto, los españoles habían expulsado a los bautistas británicos de Fernando Po en 1858, y en 1879 comenzaron a usarlo.
+        como un arreglo penal para los cubanos. Después de la Guerra Hispanoamericana (1898), Guinea Española siguió siendo la última colonia tropical significativa de España.
+        Aprovechando la debilidad de España, Francia pudo confinar la Guinea española continental a su actual extensión limitada. El desarrollo económico comenzó solo en ese momento
+        y enfocado en el Fernando Po más rico y saludable. El continente recibió una atención significativa de España solo después de la Guerra Civil Española (1936-1939).
+        En 1959, se cambió el estado de Guinea española y la región se reorganizó en dos provincias de ultramar de España, cada una de las cuales fue puesta bajo un gobernador civil.
+        Los ciudadanos, incluidos los africanos, gozan de los mismos derechos que los ciudadanos de España.\n\nEn 1963, se acordó por plebiscito una medida de autonomía económica
+        y administrativa para las dos provincias, que en adelante se conocería como Guinea Ecuatorial.
+        En ausencia de los españoles, los británicos también se hicieron cargo de la administración de la isla. A partir de entonces, los británicos trasladaron a muchos
+        esclavos liberados, a falta de conocer su origen o poder repatriarlos. Los esclavos liberados también llegaron a la isla desde Sierra Leona y Jamaica, y en el siglo XX los
+        descendientes de estos diversos grupos continuaron hablando una forma de inglés. Debido a la existencia de estos esclavos liberados y a la falta de administración española en la zona,
+        el Reino Unido hizo varias ofertas infructuosas a España para la compra de Fernando Po, particularmente entre 1839 y 1841. En 1843 la Royal Navy concentró su patrulla antiesclavista en Freetown
+        en Sierra Leona, y sus edificios en Fernando Po fueron vendidos a una misión bautista.\n\n
+
+
+        <b> "Independencia\n\n" </b> "El movimiento hacia la independencia comenzó a gestarse a finales de 1967. A principios del año siguiente el gobierno español suspendió el control político autónomo y,
+        Con la posterior aprobación de la Organización de la Unidad Africana (OUA), propuso que se realizara un referéndum nacional para aprobar la nueva constitución. La constitución fue aprobada por
+        mayoría abrumadora el 11 de agosto y fue seguida por las elecciones parlamentarias en septiembre y por la proclamación de la independencia el 12 de octubre de 1968.
+        El primer presidente fue Francisco Macías Nguema (también conocido como Macías Nguema Biyogo Masie). Después de su elección en 1971, asumió amplios poderes y promovió una constitución que
+        lo nombró presidente vitalicio en julio de 1972. Asumió poderes personales absolutos en 1973, y la isla de Fernando Po pasó a llamarse Isla Macías Nguema Biyogo en su honor. Controlaba la radio y la prensa,
+        y los viajes al extranjero se detuvieron. En 1975-1977 hubo muchas detenciones y ejecuciones sumarias, lo que provocó protestas de los líderes mundiales y la organización de
+        derechos humanos Amnistía Internacional .. Durante este período se produjo un éxodo masivo de ciudadanos de Guinea Ecuatorial, y el gobierno nigeriano repatrió a sus ciudadanos, que habían estado trabajando como jornaleros.
+        migrantes en las plantaciones de Guinea Ecuatorial en 1976. Macías fue derrocado en 1979 por su sobrino, el teniente. Columna, Teodoro Obiang Nguema Mbasogo, y ejecutado. Obiang encabezó un Consejo Militar Supremo,
+        a lo que añadió algunos civiles en 1981.En 1982 se instituyó una constitución menos autoritaria, seguida de la elección de 41 candidatos a la legislatura sin oposición en 1983. Aunque otra nueva constitución en 1991 dispuso
+        Estado pluripartidista, que condujo a las primeras elecciones multipartidistas, celebradas en 1993, no había indicios de que Obiang renunciara voluntariamente al poder, y su régimen fue objeto de muchas críticas internacionales por
+        En la década de 1990 y principios de la de 2000, el presidente y los miembros de su partido ganaron repetidamente la reelección por márgenes desiguales en las papeletas que estaban plagadas de cargos de fraude.
+        Además, abundaban las acusaciones de que una camarilla que rodeaba al presidente se había embolsado sistemáticamente la mayor parte de los considerables ingresos petroleros del país, que crecieron drásticamente a partir de fines del siglo XX.
+        Como lo había hecho desde la década de 1980, el régimen de Obiang continuó afirmando que había sido blanco de varios intentos de golpe, pero la mayoría de las acusaciones no pudieron ser confirmadas. Una excepción notable fue una conspiración.
+        reemplazar a Obiang con el líder opositor exiliado Severo Moto; descubierto en 2004, el plan involucró a mercenarios extranjeros. En julio de 2008, un tribunal de Malabo condenó a un mercenario británico, Simon Mann, a 34 años de prisión por su
+        participación en el asunto, pero Obiang lo indultó en noviembre de 2009.\n\nEn noviembre de 2011, Guinea Ecuatorial aprobó muchos cambios a su constitución mediante referéndum con el 97,7 por ciento de los votos.
+        Los cambios incluyeron hacer que la legislatura unicameral sea bicameral, imponer un límite de dos mandatos presidenciales consecutivos, levantar el límite de edad para los candidatos presidenciales y crear el cargo de vicepresidente.
+        que sería designado por el presidente y que sería el siguiente en la fila para asumir la presidencia en caso de que el presidente en ejercicio fallezca o se retire. Los dos últimos cambios,
+        así como otros, habían sido denunciados como un medio para expandir el control de Obiang sobre el poder. La votación en sí fue objeto de críticas, con acusaciones de irregularidades en la votación,
+        acoso y agresion. La constitución revisada se promulgó en febrero de 2012. En mayo, Obiang nombró a uno de sus hijos, Teodoro (“Teodorin”) Nguema Obiang Mangue, como segundo vicepresidente.
+        acusación que no estaba prevista en los recientes cambios constitucionales. Teodorin fue ampliamente visto como la elección de Obiang para su sucesor.
+        Las elecciones presidenciales de Guinea Ecuatorial de 2016 se llevaron a cabo el 24 de abril. Como en encuestas anteriores, Obiang fue reelegido por un amplio margen, 93,7 por ciento, derrotando a otros seis candidatos.\n\n "
+    </string>
+
+    <string name="parteTierra">
+       Guinea Ecuatorial continental es un territorio aproximadamente rectangular delimitado por Camerún al norte y
+        Gabón al este y al sur. Cerca de la costa se encuentran las pequeñas islas de Corisco y Great y Little Elobey.
+        Bioko, con mucho la más grande de las islas, se encuentra frente a la costa de Camerún en la ensenada de Biafra.
+        Annobón, una isla volcánica, se encuentra al sur del Ecuador y a casi 400 millas (640 km) al suroeste de Bioko.
+    </string>
+
+    <string name="parteAlivio">
+       La costa de Río Muni, la porción continental del país, consiste en un largo tramo de playa con acantilados bajos.
+        al sur. Una llanura costera de unas 12 millas (20 km) de ancho linda con las colinas costeras, que conducen a
+        Mesetas del interior (llamadas mesetas en español) que se elevan hacia la frontera con Gabón. Hay varias cadenas de colinas.
+        La cordillera central divide la cuenca del río Mbini (Benito) al norte de la cuenca sur del río Utamboni (Mitèmboni).
+        La cordillera Niefang-Mikomeseng al norte del río Mbini es algo más baja. Todos estos rangos forman segmentos de las Montañas de Cristal en Gabón.
+        El río Mbini (conocido como río Woleu en Gabón) generalmente corre de este a oeste a través del centro del río Muni;
+        no es navegable excepto durante las primeras 12 millas (19 km) tierra adentro.\n\nAl norte,
+        el río Campo (llamado Ntem en África francófona) marca parte de la frontera con Camerún.
+        El río Utamboni fluye hacia el sur. Al suroeste, el Muni no es en sí mismo un río,
+        sino el estuario de varios ríos de Gabón y el sur de Guinea Ecuatorial. Hacia el este,
+        la frontera de facto con Gabón sigue el curso serpenteante del río Kié (Kyé), en lugar de la frontera
+        legal en la latitud 11 ° 20 ′ E. Los ríos de Guinea Ecuatorial continental proporcionan
+        limitada generación de energía hidroeléctrica y energía hidroeléctrica en algunos sitios.
+        La llanura costera está cubierta por depósitos sedimentarios. El interior se compone principalmente
+        por antiguas rocas metamórficas que han sufrido un largo proceso de lixiviación y erosión, de modo que los suelos resultantes
+            son relativamente infértiles.
+    </string>
+
+    <string name="parteInsular">
+       La isla principal, Bioko, tiene unas 45 millas (72 km) de largo y 22 millas (35 km) de ancho. Sus conos volcánicos extintos,
+        Los lagos de cráter y los suelos ricos en lava contrastan con el paisaje del continente. En el norte del Pico Santa Isabel (Pico Basile),
+        Un volcán extinto, se eleva a una altura de 9,869 pies (3,008 metros). En el centro de la isla, Moca Peak y Moca Heights cuentan con un
+        Paisaje de tipo alpino. La parte sur de la isla, remota y poco desarrollada, está formada por la sierra de Gran Caldera,
+        que es accidentado y dentado por arroyos y lagos de cráter. La costa de Bioko es en gran parte inhóspita, y consiste en su mayor parte en un
+        acantilado de unos 20 metros (60 pies) de altura, ocasionalmente interrumpido por pequeñas ensenadas y playas. La costa sur es muy empinada y peligrosa.
+        para la navegación; San Antonio de Ureca, ubicado en este tramo, se encuentra entre los asentamientos más aislados de la isla. Malabo, ubicada en la costa norte,
+        tiene un puerto relativamente bueno, construido sobre el borde parcialmente hundido de un volcán. El río Musola y otros arroyos se explotan para energía hidroeléctrica.
+        Annobón es una parte aislada del país, a unas 93 millas (150 km) al suroeste de la isla de Santo Tomé en Santo Tomé y Príncipe y
+        a unas 400 millas (650 km) al suroeste de Bioko. Como esta última, es una isla volcánica pero menos elevada, formada por un conglomerado de conos,
+        entre los que se encuentran el monte Santa Mina y el monte Quioveo. La elevación más alta es de aproximadamente 2200 pies (670 metros).
+        La pequeña y escarpada isla no tiene 4 millas (6 km) de largo por 2 millas (3 km) de ancho.
+    </string>
+
+    <string name="parteClima">
+        El clima tanto de la región continental como de las islas es típicamente ecuatorial, con altas temperaturas, fuertes lluvias y mucha nubosidad durante la mayor parte del año.
+        Las variaciones locales se deben a diferencias de altura y proximidad al mar. Las temporadas de lluvias en la región continental son de febrero a junio y de septiembre a diciembre.
+        La precipitación es mayor en la costa que en el interior. En Bata, los meses más lluviosos son septiembre, octubre y noviembre, con una precipitación promedio de aproximadamente
+        95 pulgadas (2400 mm) por año. En Calatrava, más al sur de la costa, a veces alcanza las 180 pulgadas (4.600 mm). Tierra adentro, sin embargo, las precipitaciones disminuyen; Mikomeseng,
+        por ejemplo, recibe menos de 60 pulgadas (1,500 mm) por año. La temperatura es bastante constante durante todo el año, con un promedio anual de aproximadamente 26 ° C (70 ° F).
+        Las temperaturas máximas son algo más bajas que en Bioko. La humedad relativa, sin embargo, es más alta que en Bioko.
+        La estación seca de Bioko dura de noviembre a marzo y el resto del año es lluvioso; la temperatura media anual está entre 70 ° F (aproximadamente 25 ° C)
+        y la temperatura varía poco a lo largo del año, alcanzando 32 ° C (80 ° F) por la tarde y bajando a 70 ° F (70 ° F).
+        alrededor de 21 ° C) por la noche. La mayor parte del tiempo el cielo está nublado y encapotado. Las lluvias extremas ocurren en el sur,
+            con lluvias traídas por los vientos monzónicos que ascienden a aproximadamente 450 pulgadas (11,400 mm) al año alrededor de San Antonio de Ureca.
+    </string>
+
+    <string name="partevegetal">
+        Gran parte del continente de Guinea Ecuatorial está cubierta por una densa selva tropical que durante mucho tiempo ha sido explotada por la industria maderera.
+        Existen más de 140 especies de madera, de las cuales las más importantes comercialmente son el okume (Aucoumea klaineana), el nogal africano y diversas caobas.
+        Un crecimiento de bosque secundario ha reemplazado al bosque virgen. Los manglares bordean grandes extensiones de costa y riberas. Bioko tiene un
+        mayor variedad de vegetación tropical, incluidos los manglares.
+        La región continental tiene una rica vida animal que incluye gorilas, chimpancés, varios monos, leopardos, búfalos, antílopes, elefantes, hipopótamos,
+        cocodrilos y varias serpientes, incluidas pitones. Abundan los insectos, incluida la mosca tsetsé y el mosquito Anopheles,
+        portador de malaria, así como huéspedes de hormigas, escarabajos, arañas y termitas. Bioko no tiene caza mayor, pero tiene varios monos,
+        antílopes enanos y roedores, así como mosquitos y otros insectos.
+    </string>
+
+    <!-- This session is for the History-->
+    <string name="vida_vegetal_y_animal"><b>Vida vegetal y animal</b></string>
+    <string name="clima"><b>Clima</b></string>
+    <string name="guinea_ecuatorial_insular"><b>Guinea Ecuatorial Insular</b></string>
+    <string name="alivio_continental"><b>Alivio, drenaje y suelos. Guinea continental</b></string>
+    <string name="tierra"><b>Tierra</b></string>
+    <string name="guinea_ecuatorial"><b>Guinea Ecuatorial</b></string>
+    <string name="population_title"><b> Población </b> </string>
+    <string name="population"> La población actual de Guinea Ecuatorial en 2021 es de 1.449.896, un aumento del 3,34% a partir de 2020.</string>
+
+
+    <string name="historia_de_malabo">Historia de Malabo</string>
+    <string name="malabo"><b> Malabo </b></string>
+    <string name="malabo_tab"> Historia de Malabo </string>
+    <string name="malabo_history"> <b>Malabo, antes (hasta 1973) Santa Isabel, capital de Guinea Ecuatorial</b>. Está ubicado en el extremo norte de la isla de Bioko (o Fernando Po) al borde de un volcán hundido.
+        Con una temperatura promedio de 77 ° F (25 ° C) y una precipitación anual de 75 pulgadas (1900 mm), tiene uno de los climas más onerosos en Biafra Inlet (Golfo de Guinea).
+        Malabo es el centro comercial y financiero de la república.\n\nSu puerto, que es uno de los puertos marítimos más profundos de la región, puede atracar varios barcos y el principal
+        La actividad es la exportación de cacao, madera y café. También tiene un aeropuerto internacional con vuelos a Bata, en Guinea Ecuatorial continental, y a países de África y Europa, y a Estados Unidos.
+        La población europea de la ciudad disminuyó después de los disturbios de 1969, y más tarde después de que sus trabajadores subcontratados nigerianos regresaron a Nigeria a mediados de la década de 1970.\n\nEl descubrimiento y desarrollo de las reservas de petróleo del país en las décadas de 1980 y 1990 condujo a un aumento de los negocios y el desarrollo de la ciudad. Popular. (2003 est.) 92,900.</string>
+    <string name="common_locations">Common Locations</string>
+
+
+    <!-- Feedback Activity-->
+    <string name="message">Mensaje</string>
+    <string name="subject">Sujeto</string>
+    <string name="to">A</string>
+    <string name="send_feedback">Enviar comentarios</string>
+
+
+    <!--Hoteles-->
+
+    <string name="legolfinfo">
+        Hotel de 5 estrellas con piscinas, playa privada, spa de servicio completo.\n\nPase el día relajándose en la
+        playa privada de arena blanca del Sofitel Malabo Sipopo Le Golf, practicando su swing en el campo de golf o dejándose mimar en el spa de servicio completo.
+        Luego, disfrute de una comida en uno de los 4 restaurantes del hotel.\n\nLas 200 habitaciones ofrecen detalles exclusivos, como carta de almohadas y pantuflas, además de comodidades como sábanas de algodón egipcio y edredón de plumas.
+        Wi-Fi gratis y balcones son estándar, al igual que televisores de pantalla plana con canales por satélite.\n\n
+        Sofitel Malabo Sipopo Le Golf ofrece 200 alojamientos con estación de conexión para iPod y minibar. Las habitaciones se abren a balcones.
+        Las camas están vestidas con sábanas de algodón egipcio, edredón de plumas y ropa de cama de alta calidad. Hay disponible un menú de almohadas. Televisor de pantalla plana con canales vía satélite premium. Los baños incluyen bañeras o duchas, pantuflas, artículos de tocador de diseño y artículos de tocador de cortesía.\n
+        Los huéspedes pueden navegar por la web utilizando el acceso inalámbrico a Internet gratuito. Los servicios para las personas que viajan por negocios incluyen escritorio, caja fuerte y teléfono. Las habitaciones también incluyen botella de agua de cortesía y cafetera y tetera. Se proporciona servicio de descubierta nocturno y servicio de limpieza diario.
+        Los servicios disponibles bajo petición incluyen masajes en la habitación.\n\n
+        Los huéspedes pueden jugar en el campo de golf de 18 hoyos y disfrutar de otras instalaciones recreativas, como 2 pistas de tenis al aire libre. En el establecimiento hay 2 bañeras de hidromasaje además de piscina al aire libre. Otras opciones de esparcimiento incluyen una sauna y un gimnasio abierto las 24 horas.
+        Las actividades recreativas que se enumeran a continuación están disponibles en el sitio o cerca; pueden aplicarse tarifas.\n\n
+        <b> Sipopo Spa </b> dispone de 2 salas de tratamiento. Los servicios incluyen tratamientos faciales, envolturas corporales, peelings corporales y tratamientos corporales. Se proporcionan una variedad de terapias de tratamiento, incluida la aromaterapia. El spa está equipado con una sauna, una bañera de hidromasaje y un baño turco / hammam.
+        No se permite la entrada al spa de huéspedes menores de 16 años.
+    </string>
+
+    <string name="magnoinfo">
+        Este hotel para no fumadores dispone de un restaurante, un bar o lounge y una cafetería.\n\nSe ofrece wifi gratis en las áreas públicas, además de servicio gratuito de transporte al aeropuerto,
+        servicio gratuito de transporte al casino y una recepción organizada por la dirección gratuita.\n\nAdemás, el establecimiento dispone de servicio a la habitación las 24 horas,
+        una sala de reuniones y servicios de concierge. Las 15 habitaciones insonorizadas ofrecen wifi gratis, Internet por cable gratis y colchones viscoelásticos.\nPara tu entretenimiento,
+        los huéspedes encontrarán televisión LED con canales por cable y películas de estreno, y otros servicios incluyen servicio a la habitación las 24 horas y refrigerador.
+    </string>
+
+    <string name="ibisinfo">
+        Este hotel para no fumadores cuenta con un restaurante, una piscina al aire libre y un bar o lounge.\n\nWiFi gratis en áreas públicas y
+        También se proporciona aparcamiento gratuito.\n\nAdemás, el establecimiento dispone de servicio de tintorería, lavandería y servicio de recepción las 24 horas.\n\n
+        Las 130 habitaciones ofrecen wifi gratis, minibar y televisión con canales de televisión por cable. Entre los demás servicios a disposición de los huéspedes, se incluyen secador de pelo, caja fuerte y ducha.
+    </string>
+
+    <string name="newchinainfo">
+        Vea por qué tantos viajeros hacen del Hotel Anda China Malabo su hotel preferido cuando visitan Malabo.\n\n
+        Al proporcionar la combinación ideal de valor, comodidad y conveniencia, ofrece una variedad de servicios diseñados para viajeros como tú. Las habitaciones cuentan con aire acondicionado y es posible conectarse a Internet.
+        ya que hay wifi gratuito disponible, lo que le permite descansar y refrescarse con facilidad.\n\nHotel Anda China Malabo ofrece recepción abierta 24 horas, conserje y servicio de habitaciones. Además, como un valorado Hotel Anda
+        Huésped de China Malabo, puede disfrutar de una piscina y un restaurante que están disponibles allí mismo.\nLos huéspedes que lleguen en vehículo tienen acceso al estacionamiento en la calle. Durante su estancia en el Hotel Anda China Malabo,
+        los visitantes pueden visitar la Catedral de Santa Isabel (3,2 km), una popular atracción de Malabo.\n\nMientras esté aquí, asegúrese de visitar Delice De France, uno de los restaurantes mediterráneos que
+        se encuentra en Malabo, que está a poca distancia del Hotel Anda China Malabo. Estamos seguros de que disfrutará de su estancia en el Hotel Anda China Malabo mientras experimenta todo lo que Malabo tiene para ofrecer.
+    </string>
+
+    <string name="sofitelinfo">
+        En este hotel encontrarás un restaurante, una piscina al aire libre y un gimnasio.
+        También se ofrecen wifi gratis en las áreas públicas, valet parking gratis y servicio gratuito de transporte al aeropuerto. Otras comodidades incluyen un bar o salón, un centro de negocios abierto las 24 horas,
+        y salas de masajes / tratamientos. Las 100 habitaciones ofrecen wifi gratis, servicio a la habitación las 24 horas y televisión con canales por satélite. También encontrarás minibar, ropa de cama de alta calidad,
+        y cafeteras.
+    </string>
+
+    <string name="tresinfo">
+        El Hotel 3 de Agosto se encuentra en Ciudad de Malabo, a 1,4 km del supermercado Martínez Hermanos, y cuenta con bar, jardín y vistas a la piscina.\n\n
+        Entre las instalaciones de esta propiedad se encuentran un restaurante, una recepción abierta las 24 horas, servicio a la habitación y wifi gratis en todas las instalaciones. El hotel dispone de habitaciones familiares.
+        Todos los días se sirve un desayuno continental en el hotel.\n\nEl Hotel 3 de Agosto ofrece una terraza. Los puntos de interés populares cerca del alojamiento incluyen la Embajada de Sudáfrica, la Clínica Guadalupe y Casa Verde.
+    </string>
+
+    <string name="hiltoninfo">
+        Hotel de 4 estrellas con servicio de aparcacoches gratuito y servicio gratuito de transporte al aeropuerto
+        Este hotel para no fumadores cuenta con un restaurante, una piscina al aire libre y 2 bares o salones.\n\nWiFi gratis en las áreas públicas, servicio de estacionamiento gratuito y transporte gratuito al aeropuerto.\n\nAdemás, se ofrece un servicio de salud club,
+        un bar junto a la piscina y una cancha de tenis al aire libre en el lugar.\n\nLas 187 habitaciones ofrecen Wi-Fi gratis e Internet por cable gratis, además de servicio a la habitación las 24 horas y TV LCD con reproductor de DVD.\n\nLos huéspedes también encontrarán minibar y bañeras separadas y duchas y cafeteras.
+        Hilton Malabo ofrece 187 alojamientos con aire acondicionado, reproductor de DVD y minibar.\n\nLas habitaciones cuentan con televisores LCD. Los baños incluyen bañeras y duchas independientes, batas, bidé y secador de pelo.
+        Los huéspedes pueden navegar por la Web con el acceso a Internet inalámbrico y por cable de cortesía.\n\nLos servicios para los negocios incluyen escritorio, caja fuerte y teléfono.\n\nAdemás, las habitaciones incluyen cafetera / tetera y plancha / tabla de planchar. Se proporciona servicio de limpieza a diario.
+        Las comodidades recreativas del hotel incluyen una cancha de tenis al aire libre, una piscina al aire libre y un gimnasio.\n\n
+        Las actividades recreativas que se enumeran a continuación están disponibles en el sitio o cerca; pueden aplicarse tarifas.
+    </string>
+
+    <string name="nationalinfo">
+        El hotel de nueva construcción abrió sus puertas en 2015, de estilo moderno, pero sin perder la historia de dónde estamos.\n\nSituado en la carretera que conecta el aeropuerto con Malabo (a 4 km del centro de la ciudad y a 4 del aeropuerto),
+        le da una ubicación privilegiada cerca de ambos puntos.\nLa impresionante fachada de espejo azul hace que sea fácil de localizar. Al entrar encontrará nuestro cuidado jardín y un amplio estacionamiento.\n\nNuestros amables porteros le facilitarán la entrada al hotel ayudándole en todo momento.\nEn la recepción, te ayudaremos en todo lo que necesites para que tu check-in sea rápido.
+        Si lo desea, puede refrescar su llegada en nuestro espacio "Gin Club" alegremente decorado.\n\nLa exclusividad de este hotel se basa en la versatilidad, en los diseños y en la decoración de las habitaciones, cambiando el estilo y el color en cada una de ellas.\n\n
+        Descansará plácidamente durante su estancia con todos los servicios necesarios. Además, para nuestros clientes, contamos con nuestro propio servicio de lavandería, para que su ropa sea tratada con la mejor garantía; como la ropa de nuestras habitaciones.
+        Contamos con una gran cantidad de servicios exclusivos, entre muchos otros, vehículos privados de traslado al aeropuerto.
+    </string>
+
+    <string name="bamyinfo">
+        Hotel de 4 estrellas, que ofrece habitaciones totalmente equipadas con aire acondicionado, televisión, un acogedor bar, sala de conferencias, ascensor de fácil acceso, wifi fuerte gratuito y piscina.
+
+    </string>
+
+    <string name="fedeinfo">
+       Situado frente al Estadio Nacional de Malabo, hotel de 3,5 estrellas con desayuno gratuito y transporte gratuito al aeropuerto\n\nAdemás de un restaurante, este hotel cuenta con un bar o lounge y servicio de tintorería.\n\nSe ofrece un desayuno inglés gratuito, además de wifi gratis en las áreas públicas, estacionamiento sin valet parking gratuito y servicio gratuito de transporte al aeropuerto.\n\nOtros servicios incluyen recepción, periódicos gratuitos y caja de seguridad en la recepción.\n\nLas 100
+        habitaciones ofrecen comodidades como área de descanso y refrigerador, además de wifi gratis y TV de pantalla plana.\nOtros servicios disponibles para los huéspedes incluyen periódicos gratuitos, agua embotellada gratis y caja fuerte.\nHotel
+        Federaciones ofrece 100 alojamientos con aire acondicionado, caja fuerte y periódicos gratuitos.\Los alojamientos ofrecen sala de estar independiente e incluyen escritorio.\nLas habitaciones cuentan con televisor de pantalla plana.
+        Los baños incluyen duchas y artículos de tocador de cortesía. Los huéspedes pueden navegar por la web utilizando el acceso inalámbrico a Internet de cortesía.\nSe ofrece servicio de limpieza todos los días".
+    </string>
+
+    <string name="candyinfo">
+        Hotel de 4 estrellas.\n\nHabitaciones y Apartamentos, en pleno centro de Malabo, frente al Centro Cultural Ecuatoguineano, en la Avenida de la Independencia.\nEn el corazón del mismo pueblo, En un lindo y agradable rincón.\n\nCuenta con habitaciones con aire acondicionado, baños, teléfono y televisores. Para aquellos que quieran unirse útil y placentero, Hotel Candy cuenta con un club nocturno.\nEl restaurante Candy está abierto a todos los turistas.
+    </string>
+
+    <string name="impalainfo">
+        Hotel de 3 estrellas.\n\nEl Hotel IMPALA se encuentra en Ciudad de Malabo y ofrece alojamiento con bañera de hidromasaje.\nSe ofrece WiFi gratuita.\nTodas las unidades incluyen una zona de cocina completamente equipada, lo que permite a los huéspedes preparar sus propias comidas.\n\nHotel en el centro de la ciudad con arquitectura occidental. Wi-fi, restaurante, recepción 24h.
+    </string>
+
+    <string name="tropicanainfo">
+        Hotel Tropicana es un hotel moderno con instalaciones exclusivas en el centro de Malabo. Cuando se habla de hoteles en Malabo es dif cil no mencionar el Tropicana Hotel. Hotel que por su ubicación ideal su arquitectura original y un exquisito servicio no dejar de seducirle.\n\nUna estancia en el Hotel Tropicana es una experiencia que vale la pena vivir. Todas las habitaciones est n equipadas con un refrigerador lleno de televisores con los principales canales internacionales escritorio silla y mesa de centro para su relajacion.\nTiene puntos de acceso para todos los clientes con una computadora con un dispositivo Wi-Fi.\n\n
+        <b>HABITACIONES</b>\n\n
+        La oferta de alojamiento de corto y largo plazo tiene tres tipos de habitaciones: simples dobles y suites.\n
+        <b>RESTAURANTE</b>\n\n
+        de las 7:00 a las 11:00 el restaurante del hotel le ofrece un buffet de desayuno rico y variado.\n
+        <b>OTROS SERVICIOS</b>\n\n
+        Gran aparcamiento vigilado 24h/24 ofrece la máxima seguridad para sus veh culos Cafetería y Bar.\n\nLavanderia : Abierto 7 d as / 7 el servicio de lavander a del Hotel Tropicana ofrece un servicio de lavanderia.\nLavamos y planchamos sus ropas.
+    </string>
+
+    <string name="mocainfo">
+        Hotel de 3 estrellas ubicado en Moka, o Moca, “nuestro hotel es un lugar muy acogedor y lleno de magia, es el lugar que siempre soñaste para tus vacaciones, te esperamos”. Rodeado de hermosos árboles y un clima agradable y fresco, el hotel también cuenta con una discoteca en el interior.\n\n
+        <b>PRECIO POR NOCHE 1/2 PERSONAS</b>\n\n
+        1:30 horas de Malabo\n
+        Comida a la carta por persona\n\n
+
+        <b>Habitación estándar</b>\n\n
+45.000 XAF\n
+77 USD (aprox.)\n
+69 EURO (aprox.)\n\n
+
+        <b>Habitación mini suite</b>\n\n
+55.000 XAF\n
+94 USD (aprox.)\n
+84 EURO (aprox.)\n\n
+
+        <b>Almuerzo buffet</b>\n\n
+15.000 XAF\n
+25,7 USD (aprox.)\n
+22,9 EURO (aprox.)\n\n
+
+        <b>Cena buffet</b>\nn
+12.000 XAF\n
+20.56 USD (aprox.)\n
+18,32 EURO (aprox.)\n
+    </string>
+
+    <string name="bahai2info">
+        Hotel de 3 estrellas ubicado en el centro de Malabo, La versión original de este nuevo hotel solía estar situado en el puerto en el centro de Malabo,
+        pero se ha trasladado a este moderno edificio en el suburbio de Caracolas junto a la carretera del aeropuerto.\n\nLas habitaciones están bien decoradas y son cómodas, y el personal es agradable. Sin embargo, todo parece inquietantemente vacío.
+        El Hotel cuenta con fuerte wifi y un servicio amigable, con una espléndida vista de Caracolas y lugares cercanos.
+    </string>
+
+    <string name="retiroinfo">
+        El destino empresarial y de ocio definitivo y único en Riaba, Guinea Ecuatorial.\n
+
+        Único lugar en Guinea Ecuatorial donde podrá degustar la mejor comida, bebidas y productos del mundo en nuestros diferentes restaurantes y bares.\n\n
+
+        <b>Administrado por Luxury Hotels Management Company Ltd</b>\n\n
+        Empresa de Gestión Hotelera que sigue todas las actividades operativas, organizativas, de marketing, generales y administrativas, trabajando en la industria hotelera de “Lujo” en Europa y África.\n\n
+
+        La empresa fue fundada por experimentados profesionales que operan en “turismo de negocios” durante varios años y luego en posesión del know-how necesario para crear y desarrollar todo tipo de actividades de consultoría, diseño, ingeniería y gestión como parte de la hotelería turística nacional e internacional.
+        La experiencia acumulada en más de 30 años trabajando en estrecha colaboración con directivos más preparados y el continuo estudio y actualización, aportan un acervo de conocimientos que el equipo pone a disposición a través de servicios personalizados, cuidadosamente diseñados, orientados a optimizar los resultados compartidos por catch up.
+    </string>
+
+    <string name="complejoinfo">
+
+        El Complejo Ligia ofrece alojamiento con restaurante, aparcamiento privado gratuito, centro de fitness y bar en Ciudad de Malabo, a 700 metros del supermercado Malabo Rial.\n\nEste hotel de 3 estrellas cuenta con salón compartido y habitaciones con aire acondicionado, conexión WiFi gratuita y baño privado.\n\nEl alojamiento cuenta con recepción 24 horas, servicio de habitaciones y servicio de cambio de divisa.
+
+        Las habitaciones del hotel están equipadas con TV de pantalla plana con canales vía satélite.\nTambién incluyen armario.\n\n
+
+        El Complejo Ligia sirve un desayuno continental o a la carta.\n\n
+
+        El alojamiento dispone de barbacoa. El Complejo Ligia cuenta con mesa de billar.\n\n
+
+        El hotel está a 1,5 km del supermercado Malabo EGTC y a 3,7 km del supermercado Martínez Hermanos.\n\nEl aeropuerto más cercano es el aeropuerto internacional de San Isabel (Saint Isabel), situado a 11 km del Complejo Ligia.\n\nEl establecimiento ofrece un servicio de enlace con el aeropuerto por un suplemento.\n\n
+
+        <b>¡Hablamos tu idioma!</b>
+    </string>
+
+    <string name="carmengalxy">
+
+        Estamos ubicados en la entrada del colegio Pilar Buepoyo saliendo en seis casas.
+    </string>
+
+    <string name="hotellapazinfo">
+
+        El Hotel La Paz Malabo, situado en Ciudad de Malabo, a 12 km del supermercado Malabo Rial, ofrece alojamiento con restaurante, estacionamiento privado gratuito, bar y jardín.\n\nEl establecimiento
+        está a unos 12 km del supermercado AECT de Malabo, a 15 km del supermercado Martínez Hermanos y a 45 km del parque nacional Pico Basile.
+        Los puntos de interés locales, como la embajada de Sudáfrica y la catedral de Malabo, se encuentran a 16 km y 36 km, respectivamente.\n\nTodas las habitaciones del hotel cuentan con balcón.
+        Todas las habitaciones del Hotel La Paz Malabo incluyen aire acondicionado y TV de pantalla plana.\nTodas las mañanas se sirve un desayuno a la carta en el alojamiento.\n\n
+        El Hotel La Paz Malabo ofrece una terraza. Hay asistencia ininterrumpida disponible en la recepción, donde el personal habla inglés, español y francés. La clínica Guadalupe se encuentra a 15 km del hotel, mientras que la Casa Verde está a 15 km.
+    </string>
+
+    <string name="lateinfo">
+
+        África es diversa y multicultural, y te ofrecemos un viaje que te hará descubrir la riqueza y diversidad de su cocina.\nTodo
+        en madera, ladrillo y estampado de leopardo, este restaurante de moda es el lugar para ser visto.\n\nHay un
+        bar en la entrada y un salón de cabaret en el piso de arriba.\n\nEl menú incluye platos africanos que incluyen caracoles gigantes y pollo o pescado con salsa de chocolate, así como platos cameruneses como ndolé y follon. El menú cambia semanalmente.
+    </string>
+
+
+    <string name="lakebiaoinfo">
+
+        El lago Biao debería ser otra maravilla del mundo. Es un lugar que debes incluir en tu lista de deseos de viaje, a unos 30 minutos de Riaba y aproximadamente a 1 hora de Malabo en coche, lo puedes encontrar en el sur de la isla de Bioko.\n\nEl lago Biao es uno de los pocos lagos que se encuentra en el cráter de un volcán. Se consideró santuario y retiro de los grandes sacerdotes bubis.
+
+        El viaje de Moka al lago es simplemente espectacular.\n\nUn viaje de 3 horas por la jungla y expirado que te haría sentir como un explorador de documentales. Esperamos que el viaje sea un poco desafiante, por lo que proporcionaremos mucha agua para la hidratación y alimentos a base de proteínas para obtener energía para el viaje.
+
+        Durante la exploración, veríamos una mezcla de llanuras, helechos y árboles hasta llegar al hermoso cráter del lago. En las mañanas, dependiendo de la hora a la que partamos, podrá ver aves endémicas, así como monos.\n\n
+
+        <b>Detalles</b>\n\n
+        <b>Duración</b>\n
+        Total: 5-6 horas (unidad incluida)\n
+        3 horas de caminata\n\n
+
+        <b>¿Qué incluye?</b>\n\n
+
+        Suficiente desayuno y mucha agua.\n
+        En esta excursión encontrarás una mezcla de sensaciones, observarás llanuras, helechos y árboles hasta llegar al mirador del hermoso cráter del lago.\n
+        Posibilidad de observar aves endémicas, así como monos en estado totalmente salvaje.\n
+        Diversión y conocimiento del bosque a partes iguales.\n
+        Guía local experto en la materia.\n\n
+
+        <b>¿Qué debo llevar para esta actividad?</b>\n\n
+        Botas de montaña.\n
+        Pantalón largo y ligero.\n
+        Impermeable.\n
+        Mucha agua.\n
+    </string>
+
+
+    <string name="arenainfo">
+
+        Arena Blanca es la única playa de arena blanca de Bioko; la mayoría de las playas tienen arenas negras.
+        El agua es tibia y limpia con corrientes suaves y apta para nadar.\n\nDurante la estación seca, la zona suele estar repleta de mariposas.
+        Puede disfrutar de mariscos y otras delicias en cualquiera de los varios restaurantes agradables y económicos de los alrededores.
+    </string>
+
+    <string name="coriscoinfo">
+
+        Corisco es una pequeña isla de Guinea Ecuatorial, ubicada a 29 kilómetros (18 millas) al suroeste del estuario del Río Muni que define la frontera con Gabón.\n\nCorisco,
+        cuyo nombre deriva de la palabra portuguesa para relámpago, tiene un área de solo 14 km2 y su punto más alto se encuentra a 35 metros (115 pies) sobre el nivel del mar.
+        Durante la Edad del Hierro (50 a. C. - 1400 d. C.) y antes de la llegada de los portugueses, la isla estaba densamente poblada.\n\nLa evidencia más importante
+        de ocupación humana proviene de la zona de Nandá, cerca de la costa oriental, donde se han excavado decenas de enterramientos prehistóricos.
+        Después de más de tres siglos de abandono, durante los cuales la isla fue visitada esporádicamente por marineros europeos, Corisco fue colonizada por el pueblo benga.
+        Llegaron durante la segunda mitad del siglo XVIII atraídos por las perspectivas del comercio con los europeos. La isla fue posteriormente adquirida por España en 1843, como resultado de un arreglo hecho por JJ Lerena y Barry con el rey Benga Bonkoro I.
+        Bonkoro I murió en 1846 y fue sucedido por su hijo Bonkoro II, pero debido a las rivalidades en la isla, Bonkoro II se mudó a São Tomé, y Munga I gobernó en Corisco de 1848 a 1858, su hijo Munga II asumió el control y conoció al explorador Manuel Iradier en la década de 1870.\n\nEn general,
+        los españoles prestaron poca atención a Corisco. A principios del siglo XX, era parte de la administración de Elobey, Annobon y Corisco, y se emitían sellos postales con ese nombre.
+        Se convirtió en parte integral de Guinea Ecuatorial tras la independencia. Corisco y las aguas circundantes de la Bahía de Corisco se han vuelto de interés en los últimos años por sus perspectivas petroleras.
+    </string>
+
+    <string name="urekainfo">
+
+        Ureka es uno de los lugares más mágicos y maravillosos de la isla de Bioko Norte, y cómo todo lo valioso, el camino es tortuoso y lleno de aventuras.\n\nLa
+        salida a Ureka se realizará a primera hora de la mañana.\n\nMagnífico paseo por las playas vírgenes en el que se cruzarán diferentes ríos y se escuchareis los propios sonidos de la selva y de la naturaleza hasta llegar a ver la desovación de las increibles tortugas laúd (según las fechas).\nEs un maravilloso paseo, y tras ello, toca disfrutar de una cenita en la playa.\n\nSe hará noche en tiendas de campaña a pie de la playa y podrás admirar las estrellas. Disfruta, porque es un paraíso.
+        Al día siguiente desayuno y amanecer en la playa y después de darse un baño con las luces del Alba y un poquito de trekking por la selva antes de emprender el camino de vuelta por la playa hasta los vehículos para volver a la ciudad de Malabo.
+        Con esta excursión conoceréis las tres cascadas más importantes de la zona, así cómo el corazón de Moaba. Es una excursión para los amantes de la naturaleza, y que no puede faltar en tu visita a la Isla de Bioko.
+    </string>
+
+    <string name="flarexinfo">
+
+        <b>FLAREX HOTEL (FLAVIA RESIDENTIAL COMPLEX)</b>\n\n
+        Un hotel de lujo situado en el barrio Timbabe (Malabo) Bioko Norte.\n\n16 Suites lujos.\nRestaurante\nGim Club (Terraza, Barbacoa)\nSPA (Sala de Masaje, Jacuzi, Tienda, Peluqueria).\n
+    </string>
+
+    <string name="yolyinfo">
+        Hotel Yoly Hermanos y surgió en 1995 por iniciativa de la Sra. Carlota Nzang Obono una mujer emprendedora que inicia la primera persona promovida por un hotel ecuatoguineano en la ciudad de Malabo.\n\nHotel Yoly
+        Hermanos bien y se suma a la pequeña red hotelera en ese momento en la isla, ya que solo existían hoteles en las colonias como época bahiana, bantú y ureka. Inicialmente, solo había 18 habitaciones, pero se está reabriendo la primera ampliación del Hotel que va a tener 30 habitaciones para tratar de albergar la creciente demanda de ocupación con la que se está encontrando el 1 de mayo de 2000.\n\nActualmente,
+        cuenta con 47 habitaciones y está ejecutando la tercera extensión del Hotel Yoly and Brothers. Y este pronto contará con 73 habitaciones. Podemos decir que el Hotel Yoly and Brothers es uno de los hoteles con más tradición en Malabo, con referencia tanto para Guinea Ecuatorial que se trasladan desde el continente a la isla del país, como para muchas personas extranjeras que vienen a la isla por diferentes razones.\n\nTodas
+        esto es posible gracias al ambiente familiar que desde su creación e implementación por la Sra. Carlota Nzang Obono impulsó y aún mantiene y cuida al equipo que actualmente maneja el Hotel, por lo cual es muy importante que los clientes y hospedarse en el mismo se sientan en casa.
+
+    </string>
+
+    <string name="preguisinfo">
+
+        <b>El Apartahotel Preguis</b> le ofrece la mejor opción para alojarse en la ciudad de Malabo, tanto si tiene que realizar una estancia corta, como para residentes habituales.\n
+
+Cada uno de nuestros apartamentos le ofrece una completa vivienda con la mejor decoración, un mobiliario de auténtico lujo y todas las comodidades que necesita, incluyendo una completa cocina para aquellos que deseen hacer una auténtica vida de hogar.\n\n
+
+Pero además, en Preguis encontrará los mejores servicios de cualquier hotel: recepción multi-idioma las 24 horas, Internet WIFI, servicio de limpieza diario de los apartamentos, servicio de transporte especial, generador y climatización permanentes, Bar-Vips, servicio de peluquería, estética y masajes, etc.
+
+En Apartahotel Preguis le ofrecemos la mejor relación calidad-precio durante su estancia en la ciudad de Malabo.\n\n
+
+
+
+<b>Informacion de Contacto</b>\n\n
+
+Apartahotel Preguis\nBarrio Alcaide, junto a Iglesia Jesús y María\nTeléfono 00 240 333 040 710 y 222 01 99 55\nPara solicitar información y consultar nuestros precios diríjase a: apartahotelpreguis@gmail.com
+    </string>
+
+    <string name="complejocaribeinfo">
+
+        Complejo El Caribe es en lugar turistico situado a 5 kilometros de la cuidad al lado del aeropuerto.
+        Hallamos en el la vista hacia el mar, disfrutando del aire puro y de lo mejor que puede encontrar en la capital.\n\n
+        <b>SERVICIOS</b>\n\n
+       Disponemos de cuatro extructura fundementales, tales como: un Bar, con terraza disponible al aire libre y con vista hacia el mar, con el fin de disfrutar mientras consume.
+       Una Piscina con estilo Europeo, agua natural, incluido un esquisito Plato de barbacoa con servidumbre a su dispocicion y como no, si no viene preparado para el chapuson, no se preocupe . Caribe dispone de una tienda de bikinis tanto para hombres como para mujeres a precios normalmente asequibles.
+       Un Hotel con habitaciones suits en el que puedes gosar de lo mejor. Sabanas a nivel y con corchones flex, electrodomesticos e internet, como muchas cosas mas.\n\n
+        <b>Restaurante</b>\n\nlo mas impresindible de un complejo.” Después de una gran jornada laboral no viene mal relajarse con un esquisito manjar”.\nEn Caribe encontrara los mejores platos del día, preparados como usted lo mande,ya que disponemos de cocineros de diferentes nacionalidades, usted solo pida y lo tendra.\nEl personal del complejo El caribe esta para usted, el objetivo del personal es que el cliente se sienta a gusto.\n\n
+       Para mas informacion puedes contactar con nosotros a esa direcion: complejoelcaribe@hotmail.com
+
+    </string>
+
+    <string name="leticiainfo">
+        <b>El HOTEL LETICIA</b> se encuentra en Ciudad de Malabo, a 8 km del supermercado Martínez Hermanos y a 11 km del supermercado Malabo Rial, y cuenta con restaurante, bar, jardín y wifi gratis.\n\nEste hotel de 4 estrellas cuenta con terraza y habitaciones con aire acondicionado y baño privado.\n\n La embajada de Sudáfrica está a 9 km y la clínica Guadalupe se encuentra a 9 km del hotel.\n
+        Todas las habitaciones del hotel están equipadas con TV de pantalla plana.\nTodas las mañanas se sirve un desayuno continental en el HOTEL LETICIA.\nHablando inglés, español y francés en la recepción, el personal está listo para ayudar las 24 horas.\nEl supermercado Malabo EGTC se encuentra a 11 km del alojamiento, mientras que el parque nacional Pico Basile está a 49 km.
+
+    </string>
+
+    <string name="colinasinfo">
+        El Colinas Hotel se encuentra en Ciudad de Malabo, a 5 km del supermercado Martínez Hermanos, y ofrece alojamiento con restaurante, aparcamiento privado gratuito, piscina al aire libre y bar.\n\nCuenta con recepción 24 horas, servicio de habitaciones y WiFi gratuita en todas las instalaciones.\nEl alojamiento cuenta con salón compartido y servicio de conserjería.
+
+Todos los alojamientos están equipados con aire acondicionado, TV de pantalla plana con canales por cable, hervidor de agua, ducha, secador de pelo y escritorio.\nTodas las habitaciones incluyen armario y baño privado.\n\n
+
+El Colinas Hotel sirve todos los días un desayuno continental.\nEl establecimiento alberga un solárium.\nEl Colinas Hotel está a 7 km del supermercado Malabo Rial y del supermercado Malabo EGTC.\nEl aeropuerto más cercano es el aeropuerto internacional de Malabo (Saint Isabel), situado a 6 km del hotel.\n\n
+
+        <b>¡Hablamos tu idioma!</b>
+
+    </string>
+
+
+    <!-- PLACES-->
+
+    <string name="eclipseinfo">
+        ¡Ven a divertirte en la mejor discoteca de Malabo!\n"Ambiente agradable con una gran pista de baile y salas VIP.\n\nAnimación con DJs, rifas, conciertos, fiestas con música africana, rap, house, hip-hop, R&amp;B.\n¡Ahora con WiFi GRATIS!
+        Ya no tienes que esperar para compartir tus mejores momentos con tus amigos.\nSi vienes hoy, volverás mañana.
+
+    </string>
+
+    <string name="delmarinfo">
+        Lounge al aire libre junto a Bahía Sound, y otro grande de noche en la ciudad, donde podrás relajarte en sus terrazas con asientos,
+        o donde podrás vibrar al ritmo del R&amp;B más pegadizo.\n\nUn lounge / discoteca de lujo con vistas al mar.
+    </string>
+
+    <string name="barcoinfo">
+        Si está buscando jugar con la fortuna, este moderno casino es su lugar.\n
+        Un establecimiento donde también podrás disfrutar de un aperitivo o un cóctel a altas horas de la noche.
+    </string>
+
+    <string name="colonialinfo">
+        Malabo es la ciudad más antigua de Guinea Ecuatorial y es por eso que se puede ver una gran cantidad de edificios
+        con arquitectura colonial que a la vez conviven con edificios modernos construidos en la última y reciente etapa.\n\nLas calles del centro, de diseño cuadrado, revelan la antigua concepción de ciudad moderna, con zonas peatonales en todas ellas.\n
+        Este fenómeno provoca una sensación de presión arquitectónica atenuada por la baja estatura de las edificaciones
+        en una combinación entre la occidentalización arquitectónica y el africanismo que conserva construcciones menores de la época colonial,
+        muchas de ellas en mal estado, que aún se conserva.\n\nAsí, hoy en día todavía es posible ver casas de madera del siglo XIX, como las ubicadas entre las calles Nigeria y Rey Boncoro.
+    </string>
+
+    <string name="playasinfo">
+        Ambos conforman dos pequeños paraísos.\nEstá muy cerca de Malabo, playa seis,
+        está a 5 minutos en coche y tiene más de 3 kilómetros de longitud.\n\n
+        Hasta la apertura de la nueva playa en la ciudad de Sipopo, estas eran
+        las playas por excelencia de la ciudad de Malabo, por lo que los fines
+        de semana solían (y siguen estando) bastante concurridas.\nLa Playa del Quince,
+        que encontramos en la carretera que une Malabo con Luba, tiene arena blanca, muy popular, sobre todo los fines de semana.
+    </string>
+
+    <string name="mercadoinfo">
+        Este mercado es el lugar ideal para vivir la auténtica experiencia del “buyansellam” (palabra en Pidgin-Inglés para comprar y vender), donde se puede disfrutar de la auténtica experiencia del clásico mercado africano.\n\nEste mercado es el centro perfecto de una mezcla de muchas nacionalidades diferentes, es el mercado principal y casi todas las materias primas de los países donde se origina el capital.\n\nSolo
+        apto para personas que realmente saben regatear.
+    </string>
+
+    <string name="rutainfo">
+        Ruta47 EG es una filial en Guinea Ecuatorial de la agencia de viajes para África Ruta47.\nOpera rutas turísticas para visitar la Isla de Malabo, y próximamente la Región Continental del país.\n
+        La promoción del turismo y los servicios locales en el destino serán los pilares sobre los que se basará esta nueva apuesta de la Ruta 47.\nEstá previsto establecer colaboradores en todos los puntos clave del país y en el mediano plazo establecer la segunda oficina en la parte En la ciudad de Bata.\n
+        Los diferentes acuerdos establecidos con varios turoperadores permitirán a Guinea Ecuatorial salir de las colas en lo que a recepción turística se refiere.\n
+        Entre los servicios que ofrece el equipo de Ruta47 EG se encuentran:\n\n
+        El equipo de trabajo de Ruta47 GE está formado por profesionales.\n
+        Tenemos un gran conocimiento de Guinea Ecuatorial.\n
+        Tenemos una gran experiencia en el mundo del turismo receptivo y emisor.\n
+        Llevamos años ofreciendo experiencias inéditas a quienes deseen visitar Guinea Ecuatorial.\n
+        Entre nuestros colaboradores, contamos con profesionales en la administración de empresas turísticas y hoteleras, estadistas, economistas, abogados, sociólogos, antropólogos y geólogos.\n
+    </string>
+
+    <string name="sipopoinfo">
+        La Ciudad de Sipopo es una zona de ocio turistico y de congresos internacional situado en la zona de Sipopo, en la Isla de Malabo, Guinea Ecuatorial.\n\nLa ciudad ha sido construida por el Gobierno de la República de Guinea Ecuatorial,para acoger reuniones internacionales.\n
+        El 5 de junio 2011, coincidiendo con las celebraciones del aniversario de S. E. el Presidente de la República, se procedió a la inauguración de la ciudad de Sipopo
+        La superficie total de Sipopo es de 3.003.320,39 m² y el Gobierno de Guinea Ecuatorial ha invertido más de 580.000 millones de euros en la construcción de todo el complejo que ayudará a la diversificación de la economía del país.\n\n
+        El complejo esta formado por un total de 21 obras de infraestructuras que han sido acometidas por diez empresas diferentes en menos de dos años.\nEl objetivo principal de la construcción de Sipopo es que la isla de Bioko pueda ofrecer un espectacular centro de recepción a los turistas, en uno de los entornos de mayor belleza del país, en plena selva y con playas paradisíacas.\n
+        Dentro de este espacio de turismo destacan las 52 villas residenciales situadas junto a las playas, que ofrecen una vivienda independiente para alquiler turístico de particulares o instituciones; así como el nuevo Sofitel Malabo Sipopo Le Golf, el primer resort balneario de Guinea Ecuatorial, con una playa privada de un kilómetro de longitud y un campo de golf.
+    </string>
+
+    <string name="bibliotecainfo">
+        La Biblioteca Nacional de Guinea Ecuatorial, con el acrónimo BnGE, es la institución superior del Estado y cabecera del sistema Bibliotecario Guineano.\nLa BnGE estaba adscrita al Ministerio de Cultura, pero actualmente es un departamento particular y como Biblioteca Nacional es el centro responsable de la preservación, conservación y difusión del patrimonio documental de Guinea Ecuatorial.\n\n
+
+Actualmente es un organismo estatal y sus empleados han sido contratados como funcionarios situados cada uno según sus expedientes académicos en el nivel correspondiente. Pero se tiene previsto para finales del año 2009 definir la Biblioteca Nacional como una institución pública independiente de carácter administrativo con identidad civil, con sus propios estatutos y con autonomía financiera que dependerá orgánicamente del Ministerio de Cultura.\n
+
+La Biblioteca Nacional, antiguo edificio del famoso escultor ecuatoguineano Leandro Mbomio Nsue, fue rehabilitado entre los años 2007 y 2008 por el S.E. Presidente de la República de Guinea Ecuatorial Teodoro Obiang Nguema Mbasogo y a partir de su inauguración el 4 de junio de 2009: «Día de la revolución Cultural de Guinea Ecuatorial» realizará las funciones de una biblioteca pública, y contará con un fondo bibliográfico de 60.000 unidades.\n\n
+
+Las principales funciones de la Biblioteca Nacional son:\n\n
+
+Reunir, catalogar y conservar los fondos bibliográficos recogidos en cualquier soporte material, producidos en cualquier lengua española o en otro idioma, al servicio de la investigación, la cultura y la información, y difundir el conocimiento de dichos fondos.\n\n
+
+Fomentar la investigación, fundamentalmente en el área de humanidades, mediante la consulta, estudio, préstamo y reproducción de los materiales que constituyen su fondo bibliográfico y documental.\n\n
+
+Difundir la información sobre sus fondos mediante la publicación de catálogos, y particularmente sobre la producción bibliográfica guineana.
+
+    </string>
+
+    <string name="museoinfo">
+
+       The Museum of Modern Art Equatorial Guinea (Spanish: Museo de Arte Moderno de Guinea Ecuatorial) is a modern art museum in Malabo, the capital city of Equatorial Guinea.\n\nThe museum displays contemporary and traditional artworks from the continent of Africa.\n
+        The collection of the Museum shows traditional and contemporary artworks from across Africa and encompasses pieces by some of the regions best-known creators.\nThe seeks to enhance the understanding and appreciation of Africa’s diverse people and culture through the arts.\n\n
+        The Museum is currently adding to the collection and is working with young artists from across the region. It also aims to provide support and education to a new generation of artists by not only providing a space to exhibit but also giving them an opportunity to work with other institutions across the world.\n
+        In the past 30 years, Contemporary African art has expanded dramatically with many important collections being formed. It is still in its infancy, however. European and American galleries and major collectors particularly Jean Pigozzi, have continued to highlight and expand interest.
+        Two-dimensional works, as well as sculptures using a variety of materials and general installations, make Contemporary Africa one of the most vibrant, collectable and rich sources of future talent.
+
+    </string>
+
+
+    <string name="parqueinfo">
+        El Parque Nacional de Malabo es un parque temático y de ocio construido por el Gobierno de Guinea Ecuatorial ( Ministerio de Turismo y Cultura) en la isla de Bioko.\n\n
+
+Este gran parque, inaugurado el 16 de Junio de 2016, consta de una superficie total de 87 hectáreas y cuenta con zonas de ocio, arte, paseo, deporte, restauración, etc.\n\n
+        El Parque Nacional de Malabo forma parte de las obras que ha acometido el Gobierno, para mejorar el ocio de la ciudad y se puede acceder al mismo a
+        unos precios populares de 500 Francos CFA (menos de un euro) los adultos y 250 Francos CFA los niños.\n\nAdicionalmente, y para garantizar la seguridad de todos los visitantes,
+        el parque cuenta con algo más de una treinta de efectivos del cuerpo nacional de policía.
+    </string>
+
+    <string name="francesinfo">
+        Construido en 1985, el Instituto Cultural de Expresión Francesa (ICEF) de Malabo, es una parte importante del paisaje cultural de Guinea Ecuatorial. Juega
+        un papel importante en la difusión de la lengua francesa en Malabo - Guinea Ecuatorial.\n\nDentro de este edificio histórico hay una gran biblioteca para niños llena de actividades en francés, dibujos animados y novelas novedosas para niños, también contiene una biblioteca para adultos, un gran espacio para
+        Espectáculos para los días de canto de artistas, este lugar alberga una variedad de artistas cada mes, algunos de los cuales son internacionales y locales.
+    </string>
+
+    <string name="categralinfo">
+        Malabo es la capital y principal ciudad de Guinea Ecuatorial y de la provincia de Bioko Norte. Está localizada en la costa norte de la isla de Bioko (isla conocida antiguamente por los bubis, sus habitantes autóctonos, como Etulá y como Fernando Póo por los europeos).
+
+Se denominó Port Clarence en su fundación llevada a cabo por los británicos y más adelante pasó a llamarse Santa Isabel durante la etapa colonial española.\n\nEn 1472,
+        en su intento por encontrar una nueva ruta hacia las Indias, el navegante portugués Fernando Póo, descubrió la isla de Bioko, que llamó «Fermosa». Más tarde la isla fue bautizada con el nombre de su descubridor, Fernando Póo. A principios del siglo XVI, concretamente en 1507, el portugués Ramos de Esquivel realizó un primer intento de colonización en la isla de Fernando Póo.
+        Con los tratados de San Ildefonso en 1777 y de El Pardo en 1778, durante el reinado del rey español Carlos III los portugueses cedieron a los españoles la isla de Fernando Póo, Annobón y el derecho a realizar comercio en la parte continental, una zona de influencia aproximado de 800.000 km² en África, a cambio de la Colonia del Sacramento en el Río de la Plata y la isla de Santa Catalina frente a las costas brasileñas (ocupadas por los españoles).\n\nLa zona se extendía desde el delta del Níger hasta la desembocadura del río Ogüé —en el actual Gabón— y comprendía, además de las islas de Fernando Póo y Annobón, los islotes de Corisco y Elobeyes.\n\nEn 1821,
+        el capitán británico Nelly abordó la isla de Fernando Póo. La encontró abandonada y fundó los establecimientos de Melville Bay (Riaba) y San Carlos (Luba). Algunos años más tarde, otro capitán británico, William Fitzwilliam Owen decidió colonizar la isla y establecer en el norte de la misma —en el emplazamiento de la actual capital— una base para los barcos británicos que perseguían a los traficantes europeos de esclavos.
+        Es así como surge, el 25 de diciembre de 1827 Port Clarence, sobre las ruinas de un asentamiento portugués previo. El nombre fue elegido en honor al Duque de Clarence, que luego se convertiría en Williams IV. Los bubis autóctonos de la isla la llamaron «Ripotó» («lugar de los extranjeros»).\n\nEn 1844,
+        cuando ya gobernaba la reina Isabel II tras la regencia de su madre María Cristina y Baldomero Espartero, en un intento de modernizar España y de rescatar su patrimonio, España le hizo saber al Reino Unido su deseo de hacerse de nuevo con el control de la colonia y, por tanto, de la isla. Tardaron una década más para llevar a cabo este control directo.\n\nEn 1849, el Comandante español Lerena y Barry llegó a Fernando Póo para poner a España al mando de la isla,
+        según el Tratado del Pardo sobre los territorios Africanos, y aunque el mismo ratificaba al Gobernador John Beecroft, no es hasta la llegada de Carlos Chacón (1958) a Port Clarence, cuatro años tras la muerte de Beecroft, cuando la Capital pasa a llamarse Santa Isabel, en honor a la Reina de España.\n\nLa capital
+        ya contaba con mayor dinamismo y las misiones religiosas protestantes estaban teniendo mucho éxito, y el cambio de gobernador se hizo patente al imponerse los católicos y por ende forzar a la marcha de los misioneros protestantes.
+        Pero fue después de 1883, tras la llegada de los misioneros claretianos, cuando la ciudad, trazada a cordel, empezó a elevarse y adornarse con edificios que iban a definir una configuración urbanística marcada en torno a su Iglesia Catedral y la Plaza de España, hoy denominada Plaza de la Independencia.\n\nEl
+        primer gran edificio levantado en Santa Isabel fue la Catedral de Santa Isabel que emergió tras un pavoroso incendio que convirtió en cenizas el altar, y el coro del primer templo católico de madera. Fue reemplazado, a continuación, por otro de hierro traído de Bélgica inaugurado el 14 de abril 1897, con una misa solemne, a las 12 del mediodía, oficiada por cuatro celebrantes. Sobre aquella base se fue alzando, poco a poco, año tras año, lo que hoy constituye, sin lugar a dudas, la joya de la corona de la arquitectura colonial española en Guinea Ecuatorial.
+        Se trata de un templo de estilo neogótico del que destaca su fachada, flanqueada por dos torres de 40 metros de altura, y su cuerpo de tres naves.  la fachada del edificio presenta elegantes puertas y ventanas en forma de arco, mientras que en el interior se pueden encontrar pilares de madera finamente tallada y de piedra cincelada.
+
+Fuentes:
+
+http://www.inclusion.gob.es/cartaespana/es/noticias/Noticia_0245.htm
+    </string>
+
+    <string name="verdeinfo">
+        La Casa Verde (la Casa Verde) está ubicada en el corazón de la ciudad. El edificio, que data de mediados del siglo XIX, fue anteriormente la embajada de Portugal.\n\n
+        La Casa Verde es el hogar de varios negocios y recientemente se sometió a una importante renovación.\nAdmire la encantadora arquitectura de mediados del siglo XIX de La Casa Verde El color verde audaz de la casa de tres pisos está acentuado por balcones blancos con frontones,
+        contraventanas y puertas. Una vez que fue sede de la Embajada de Portugal, el edificio ahora alberga varios negocios. Las renovaciones recientes han restaurado su atractivo interior y exterior.\n\n
+
+        Se trata de un edificio colonial y uno de los pocos que quedan de su estilo, ya que es uno de los edificios más antiguos de la ciudad –si no es el más antiguo– que se conserva aún. Este edificio, prefabricado, fue construido en Bélgica, totalmente en madera de pinotea americana, y fue llevado a Guinea y montado allí, aproximadamente a mediados del siglo XIX. Su color, aunque sí era verde, era mucho más claro que el actual; era de un tono verde-grisáceo suave; el color actual es, indudablemente, más espectacular y resalta la belleza de la casa.
+
+        Su primer destino fue servir de sede al Consulado de Portugal.\n\n
+
+        Posteriormente, en 1901, sirvió de sede a la compañía Pérez e Hijos. Más tarde, pasó a ser propiedad de Muñoz y Gala.
+    </string>
+
+    <string name="estadioinfo">
+        El Nuevo Estadio de Malabo es una cancha para usos múltiples localizada en Malabo, Guinea Ecuatorial. Este estadio es actualmente usado generalmente para partidos de fútbol.
+        La selección de fútbol de Guinea Ecuatorial normalmente hace las veces de local en este estadio que fue inaugurado en 2007 y posee una capacidad para 15.250 espectadores.\n\nFue
+        escogido como una de las 4 sedes de la Copa Africana de Naciones 2012, junto con el Estadio La Libertad, ambos ubicados en Guinea Ecuatorial.\n\nEL Nuevo Estadio
+        de Malabo está situado en el barrio de Atepa, a pocos quilómetros de la ciudad de Malabo.
+        Alberga una capacidad de 30.000 espectadores y actualmente es el estadio más importante de la República de Guinea Ecuatorial por delante del estadio La Libertad (Bata) y el estadio La Paz (Malabo).
+        Este estadio será una de las cuatro sedes de la copa de África de Naciones 2015 que se celebrara en Guinea Ecuatorial.\n\n
+
+DATOS TECNICOS\n\n
+Localización : Malabo, Guinea Ecuatorial\n
+Superficie : Pasto\n
+Capacidad : 30.000 espectadores\n
+Construcción y Apertura : 2007\n
+Equipo local : Selección de fútbol de Guinea Ecuatorial\n
+Acontecimientos : Copa Africana de Naciones 2012\n
+
+
+    </string>
+
+    <string name="espanainfo">
+        El Centro Cultural de España en Malabo (CCEM) es una institución cultural ubicada en la ciudad de Malabo, capital de Guinea Ecuatorial.\n
+        Pertenece a la Red de Centros Culturales de AECID (Agencia Española de Cooperación Internacional para el Desarrollo) y está adscrito orgánicamente a la Embajada de España en Malabo.\n\n
+
+Como Unidad de Cooperación en el Exterior tiene entre sus líneas prioritarias promover el acceso a la cultura para fortalecer el concepto de ciudadanía,
+        gestionar de manera sostenible el patrimonio cultural del país y promover la relación entre comunicación y cultura, fomentando la creación y
+        las expresiones artísticas locales y el apoyo a las industrias culturales.\n\nSin olvidar la difusión de la cultura española y/o en español contribuyendo al
+        enriquecimiento y el respeto de la diversidad cultural: «comenzó siendo parte del Centro Hispano-Guineano, que era un centro cultural compartido por los dos gobiernos.
+        El CCEM surge dentro del marco de las sucesivas comisiones mixtas entre los gobiernos de España y Guinea Ecuatorial. Y desde el inicio de esta nueva andadura,
+        siempre ha estado presente el objetivo de potenciar la riqueza cultural de Guinea Ecuatorial, sus diferentes lenguas autóctonas, sus diferentes manifestaciones artísticas que,
+        aunque son equiparables a las de los demás países del entorno, tienen una gran peculiaridad.\n\nLa lengua vehicular que las aglutina es el español y por eso es diferente -no digo mejor, sino diferente-, y es ésa su peculiaridad.\n\nTodas
+        sus actividades son de entrada libre y gratuita.
+    </string>
+
+    <string name="egculturalinfo">
+        El Centro Cultural Ecuatoguineano toma la responsabilidad de coordinar y difundir las tradiciones y costumbres de los pueblos de Guinea Ecuatorial.\n
+
+Dispone de Bibliotecas y salas de exposición, juegos, baile, cine y numerosos despachos para el personal son algunas de las dependencias más sobresalientes de esta casa de la cultura de todos los ecuatoguineanos.\n\n
+
+El Centro Cultural está basado sobre cuatro pilares fundamentales:\n\n
+
+La Cultura: En ella podemos encontrar;\n
+La semana cultural Bubi, la semana Cultural Fang, semana cultural Annobonesa semana cultural Bisió, semana cultural Ndowé, concurso de juegos tradicionales, concurso de platos típicos Nacionales.\n\n
+
+La Educación: Aprendizaje de las lenguas locales, conferencia sobre varios temas de actualidad cultural científica, tecnología, organización de cursos de lenguas vernáculas.\n\n
+
+La Divulgación: Exposición artística, esculturas, fotografías, pinturas, y publicación de libros de autores guineanos.\n\n
+
+Entretenimiento: Concurso de actuaciones musicales, en este caso nuestra Gala Juvenil, es un concurso donde participan cantantes y bailarines donde los mejores son los que se llevan los premios. Se realiza cada sábado y tiene como finalidad la promoción de los artistas guineanos y para ello, los ganadores serán premiados con la creación de un disco.\n\n
+
+Música tradicional, religiosa, invitaciones a los trovadores.
+    </string>
+
+    <string name="universidadinfo">
+        El actual organigrama funcional de la UNGE entró en vigor a partir de enero de 2004, en el que se desarrollan las competencias de los órganos estatutarios.\n\n
+        Su estructura se diferencia de la anterior en cuanto al número de órganos unipersonales, al introducir nuevos: vicerrectores, decanos, vicedecanos y directores universitarios.\n
+        Actualmente, la UNGE trabaja con un Rector, un Vicerrector (el responsable de la universidad en Bata), un Secretario General con su adjunto, el Administrador Gerente,
+        los Decanos y Vicedecanos de las facultades y los Directores Universitarios de cooperación interuniversitaria, asuntos académicos, enfoque modular, bibliotecas, residencia universitaria, etc.\n\n
+        Pero la universidad también cuenta con otros órganos colegiados: el claustro universitario, el patronato de la universidad, el consejo de gobierno y el consejo de facultades.
+
+    </string>
+
+    <string name="socialinfo">
+        Disfruta de un entorno privilegiado, donde encontrarás actividades educativas y de ocio para toda la familia.\n\n
+
+Para Royal Palm lo importante es tu felicidad, por eso trabajamos para ofrecerte el mejor
+servicio y comfort. Sabemos que lo importante es la familia y queremos que formes parte de la
+nuestra.\n\n
+
+Te ofrecemos las mejores instalaciones con las últimas prestaciones para que las disfrutes
+tanto solo, como en familia, porque sabemos que son los pequeños detalles los que hacen que
+la vida sea una aventura de ensueño.\n\n
+
+        <b>Actividades Sampaka Royal Palm</b>\n\n
+Clases de natación , Clases de ballet clásico, clases de pilates, clases de latino, gimnasio, música, animación y mucho más coordinado por los mejores profesionales.\n\n
+
+        <b>Mangue_Boutique</b>\n\n
+
+Mangue_Boutique y la tienda de la marca Mangue_Designs, es una tienda de complementos decorativos, complementos de moda y joyas. Además, prestamos servicios de decoración.\n\n
+
+Tenemos joyas hechas a mano de material natural y complementos de moda y decoración de estilo afro moderno y de material natural.\n\n
+
+        <b>Café Malabo</b>\n\n
+Para encuentros en pareja ó con tus amigos, ven a disfrutar de los mejores cócteles acompañado de tapas y shisha.\n
+Ambiente, sofisticado, agradable y divertido con buena música.\n
+Vive la experiencia de Café Malabo, en Royal Palm club social, sampaka\n\n
+
+        <b>El Nido</b>\n\n
+El Nido es una guardería para niños de 18 meses a 3 años.\n
+Le ofrecemos un ambiente agradable y seguro para el desarrollo de su hijo.\n\n
+
+De lunes a viernes, nuestro equipo cuida de sus hijos acompañándolos durante los juegos y actividades organizadas durante todo el día.\n
+Pintar, colorear, cantar, bailar, piscina será la vida diaria de sus hijos.\n\n
+
+
+
+<b>Cache Boutique</b>\n\n
+
+MODA Y COMPLEMENTOS AFRICANOS\n\n
+
+CON LAS MARCAS: NANAWAX, PATHE´O, DIVADELICIOUS ENTRE OTROS.\n\n
+
+Lunes viernes y sábado:\n\n
+    </string>
+
+    <string name="kabaninfo">
+        Los Supermercados Martínez Hermanos y MH Express están ubicados estratégicamente en las zonas más concurridas de Bata y Malabo con el objetivo de estar al alcance del pueblo de Guinea Ecuatorial.\nQueremos
+        que nuestros clientes puedan acceder fácilmente a nuestros productos, ofreciendo la máxima calidad posible y el mejor servicio en infraestructuras y equipo humano, porque en Supermercados Martínez Hermanos “Marcamos la diferencia”.\n\n
+
+        <b>Supermercados Martínez Hermanos City</b>\n\n
+
+En atención a la demanda de nuestros clientes, ponemos en marcha nuestra nueva red de Supermercados, Martínez Hermanos City,
+        un concepto de establecimiento moderno, con la misma calidad y nuestros productos de primeras marcas, que cuenta con
+        una gran variedad de surtido en un espacio cómodo y práctico, diseñado para realizar nuestra comprar diaria de forma rápida, al mejor precio.\n\n
+
+        <b>MH City, tu compra ágil al mejor precio.</b>
+
+Nos preocupamos por ofrecer el mejor de los servicios a nuestro
+s clientes y seguir mejorando su experiencia de compra a través de nuevos servicios y establecimientos
+        únicos como MH City.
+    </string>
+
+    <string name="esperanzainfo">
+        Los Supermercados Martínez Hermanos y MH Express están ubicados estratégicamente en las zonas más concurridas de Bata y Malabo con el objetivo de estar al alcance del pueblo de Guinea Ecuatorial.\n\n
+        Queremos que nuestros clientes puedan acceder fácilmente a nuestros productos, ofreciendo la máxima calidad posible y el mejor servicio en infraestructuras y equipo humano, porque en Supermercados Martínez Hermanos “Marcamos la diferencia”.\n\n
+
+        <b>Supermercados Martínez Hermanos City</b>\n\n
+
+En atención a la demanda de nuestros clientes, ponemos en marcha nuestra nueva red de Supermercados, Martínez Hermanos City,
+        un concepto de establecimiento moderno, con la misma calidad y nuestros productos de primeras marcas, que cuenta con una gran variedad de surtido en un espacio cómodo y práctico,
+        diseñado para realizar nuestra comprar diaria de forma rápida, al mejor precio.\n\n
+
+MH City, tu compra ágil al mejor precio.\n\n
+
+Nos preocupamos por ofrecer el mejor de los servicios a nuestro
+s clientes y seguir mejorando su experiencia de compra a través de nuevos servicios y establecimientos únicos como MH City.
+    </string>
+
+    <string name="bahiainfo">
+        Donde antiguamente se ubicaban los llamados puerto viejo y puerto nuevo, gracias a su calado natural de hasta 16 metros, donde atracar buques de gran calado,
+        hoy se ha construido el Nuevo Puerto de Malabo que consta de 484 metros de muelle, más un dique de abrigo de unos 400 metros.\n\n
+        Esta bahía ha sido testigo de la historia hispano-cubana, cuando en 1866 el buque “Rosa del Turia” deportó a 176 cubanos,
+        coincidiendo allí con los deportados revolucionarios andaluces llegados en 1861 y 1862.\n\nEstos cubanos fueron asentados en el islote Enrique en la bahía de Santa Isabel,
+        aislados de la población a los cuales hay que sumarle otros 250 cubanos deportados por el Capitán General de Cuba Domingo Dulce.
+    </string>
+
+    <string name="banapainfo">
+        Fundado en 1884 y considerad la cuna de la misión Claretiana en Guinea Ecuatorial, el edificio ubicado en el barrio de Banapá, en la salida sur de la ciudad, en ruta hacia la ciudad de Lubá, se encuentra este enclave histórico para la Comunidad Claretiana.\n\n
+        Este seminario se creó para poder consolidar y perpetuar la obra de evangelización, y para ello era necesaria e imprescindible la creación de estos seminarios, donde formar al clero nativo (secular y religioso).\n\nSiguiendo las aspiraciones y directrices de la Iglesia, el Padre Armengol Col fundó,
+        en 1914, el primer seminario para la formación del clero indígena en la misión de concepción (Riaba), de donde se trasladaría cuatro años más tarde a Basilé y posteriormente, en 1932, a Banapá, donde funcionó normalmente y con un nutrido número de seminaristas que estudiaban allí hasta finalizar los cursos de filosofía, pasando luego a estudiar teología a los seminarios de España.\n
+        En 1956 se fundó en la misión de Concepción el seminario (postulantado), para la formación de Misioneros Claretianos nativos. Después de estudiar allí los cinco años de humanidades marchaban a España para cursar los estudios de teología en el seminario claretiano.
+    </string>
+
+    <string name="gainfo">
+        Anterior a 1918, esta casa forma parte de la que se conocía como Finca Amilivia, propiedad hasta los años 80 de uno de los alcaldes que presidió el Ayuntamiento de Malabo.\n\nCuentan que este patio fue el primer punto de distribución de luz eléctrica a la ciudad de Malabo.
+    </string>
+
+    <string name="picoinfo">
+        <b>Situación geografica</b>\n\n
+El Pico Basilé se encuentra situada en la provincia de Bioko Norte, en el distrito de Malabo, cuyas coordenadas geograficas son como sigue: 3º42′-3º25’S.8º37′-8º50’E. (UICN 1991 y Castroviejo, 1994).\n\n
+
+        <b>Los Límites y la superficie</b>\n\n
+Los límites del área coinciden con la curva de nivel de los 800 m, comprendiendo toda la zona por encima de esta cota, que se corresponde con el Pico Basilé, macizo volcanico que ocupa la mayor
+        extension y es el de mayor elevacion (3008 m) de la Isla. El área abarca una superficie de 300 Km², comprendiendo en exclusiva habitats terrestres.\n\n
+
+        <b>El Relieve y red hidrografica</b>\n\n
+Sin duda, uno de los atractivos del lugar es la diversidad de paisajes que alberga, y el contraste entre los diferentes tipos de vegetación cuando se asciende en altura, desde los bosques montaños
+        a praderas subalpinas en las cotas mas altas. Destacan los profundos barrancos formados por los rios que nacen en este macizo. A la diversidad de relieve hay que sumarle el contraste climatológico que encontramos
+        entre las zonas de menor altura y la cumbre del Pico Basile, donde se alcanzan temperaturas extremas debido a la altura y fuerte insolación.\n\n
+
+        <b>La Red hidrográfica</b>\n\n
+Esta zona, está condicionada por la topografia muy abrupta y abundantes precipitaciones. Son numerosos los rios y arroyos de carácter torrentoso como los rios Ría-Ría, Cope,Bao,Uba, Date,
+        Buye y el rio Apu que produce una profunda garganta. En general en el macizo del Pico tiene lugar el nacimiento de todos los rios que desembocas en el litoral situado al norte del corredor de Musola, desde la bahía de Luba a la de Riaba.\n\n
+
+        <b>Las Formaciones geológicas</b>\n\n
+Las características generales obedecen al origen volcánico de la Isla de Bioko. El área protegida tiene una forma eliptica con un eje mayor de unos 25 Km orintado SO/NE y el menor, de uno 10 Km,
+        en dirección NE/SE. Dentro del área, en sus flancos oriental y occidental, se encuentran gran cantidad de crateres y barrancos, muchos de ellos abiertos al mar y que constituye la cabecera
+        de numerosos rios. Destacando la Caldera de bonyoma, así como cráteres cerrados que coronan picos (Loros, Monteverde, Agujas, Rampa, Sitial y Piramide) e incluso forman lagos (Lago Loreto o Esaá).
+        Los suelos de esta zona tienen su origen en el proceso volcánico que dan lugar al origen de esta isla. Son, por lo tanto derivado de rocas basálticas donde abundan elementos coloidales de textura arcillosa.
+        El contenido del humus oscila entre 4% y un 13%. En altitudes superiores los suelos son de braunlehm rojizo.\n\n
+
+        <b>El Clima</b>\n\n
+Toda la zona presenta un clima de tipo ecuatorial con un régimen térmico de gran regularidad. Los datos para Malabo indican una temperatura media anual de 25ºC, con una media de 26,2ºC para el mes más calido y de 24ºC para el más fresco.
+        Las variaciones en altitud dan lugar a un marcado gradiente termico que va desde los valores citados en las cotas mas bajas hasta temperaturas bajo cero durante la noche en las praderas de la cumbre del Pico Basié.\n\n
+
+        <b>Vegetación</b>\n\n
+Por su situación geográfica, la Isla de bioko está enteramente incluida en el dominio de la selva guineocongoliana (White, 1983), aunque es una variante que semeja a las de sur de Camerun y Nigeria. El pico Basilé está
+        cubierto de varios tipos de formaciones vegetales que cubren desde bosque secundario y remanente de pluvisilva tropical en las partes inferiores hasta una zona de vegetación subalpina a los 3.000 m de altura.\n\n
+    </string>
+
+    <string name="santiinfo">
+        Desde Comercial Santy queremos estar a la vanguardia de las necesidades de los consumidores y es por esto que quisimos ampliar entre nuestros servicios la incorporación de una cadena de supermercados.\n
+
+Tiendas que a día de hoy, se han convertido en las líderes en varios de los países ya citados en los cuales actuamos.\n\n
+
+En Comercial Santy Supermercado, es tal nuestro compromiso en este tipo de negocio que creamos tiendas las cuales son catalogadas por nuestros clientes y proveedores como Hipermercados.\nOfreciendo en ellas más de 15.000 referencias comprendidas desde alimentación, droguería, menaje, electrónica y perfumería.\n\n
+
+En nuestros almacenes en España comprendemos un stock lo suficientemente alto como para que nunca nos falte los productos más esenciales.\n\n
+
+Son nuestros propios proveedores los cuales quedan asombrados, no sólo por la cantidad de variedad, sino por el orden de estos y la calidad humana en el trato que damos a nuestros clientes.\n
+
+En nuestras superficies pueden encontrar productos que vería en cualquier importante cadena de supermercados que se encuentran operando actualmente en Europa. Incluyendo mercancía catalogada como gourmet para clientes de mayor exigencia.\n\n
+
+Debido a esto, grandes empresas de distinto servicios, las cuales operan en los mismos mercados que nosotros, optan por elegirnos en su abastecimiento diario y no sólo por nuestra calidad/precio sino por nuestro compromiso a la hora de garantizar el mejor de los servicios.
+    </string>
+
+    <string name="bisilainfo">
+        La Iglesia de Nuestra Señora de Bisila es una iglesia dedicada a  la Virgen de Bisila y esta situada en el Pico Basilé en la isla de Bioko a unos 3.000 metros de altura sobre el nivel del mar.\n\nLa iglesia
+        tiene forma de cruz latina, con acabado en mármol y granito;ocupa una superficie de 300 metros cuadrados con capacidad de albergar a 150 personas y está equipada de varias esculturas. La imagen de la virgen tiene 11 metros de altura.\n
+        Se espera que esta nueva iglesia sirva como centro de visitas de interés turístico y de peregrinación, para venerar a la Santísima María de Bisila.\n\n
+        La iglesia fue inaugurado el día 28 de Mayo de 2016 por el Nuncio Apostólico del Papa Francisco para Camerún y Guinea Ecuatorial, Piero Pioppo, ayudado por el Arzobispo metropolitano de Malabo, Juan Nsue Edjang Maye.\nA la ceremonia asistieron personalidades nacionales, eclesiásticas, cuerpo diplomático y la población cristiana de Bioko.
+        La iglesia ha sido construida por la empresa egipcia Arab Contractor y financiado por el Gobierno de Guinea Ecuatorial.\n\nNuestra Señora
+        de Bisila  o Virgen de Bisila es una advocación mariana, es la patrona de La Isla de Bioko en Guinea Ecuatorial ubicado en Africa .\n
+        Su estatua se construyó en 1986, encargándose de su ejecución el escultor Modesto Gené.\n\nLa figura de
+        la Virgen se erige a medio camino de la ascensión del pico Basilé a unos 2.800 metros de altitud, en un regazo del camino, desde donde las panorámicas a Malabo son envidiables.\nEn la década de los 80, el Arzobispo de Malabo, Monseñor Nzé Abuy, propone la idea de patronazgo de la Archidiócesis de Malabo, que es secundada por todo el pueblo, iniciándose de esta manera la petición oficial
+        y la insistencia ante la Santa Sede para que se aceptase el título de “Nuestra Señora de Bisila” como una advocación mariana.\nCon la Bula Pontificia de SS el Papa Juan Pablo II “CONVENIENTER MATER” del 26 de Mayo de 1986, registrada bajo el decreto Nº 603/86, firmado por el Cardenal Agustín Cassaroli.\n\n
+        El reconocimiento de Bisila por la comunidad cristiana se llevó a cabo gracias a la labor de los sacerdotes Aimemí y Amador Martín, que tras escuchar los relatos de la comunidad bubi y encontrar una semejanza con los hechos de la Virgen María, entiende que la labor de evangelización puede simplificarse utilizando la figura de Bisila como advocación de María Virgen Madre de Dios.
+    </string>
+
+    <string name="lapazinfo">
+        En una era en la que las enfermedades cruzan las fronteras con impunidad, no sorprende que cada año miles de pacientes internacionales crucen continentes y países para recibir tratamiento médico.\n\n
+
+Un nuevo centro médico de clase mundial, La Paz Medical Center en Malabo, Guinea Ecuatorial ofrece enfoques actualizados para problemas médicos complejos a través de los esfuerzos cooperativos de los equipos médicos que brindan atención individualizada a los pacientes.\n
+
+En La Paz, el paciente es lo primero, antes, durante y después de su estadía en el hospital.\n\nSu comodidad y trato son nuestra principal preocupación.\n
+Los familiares y amigos reciben la misma atención personalizada, ya que nos esforzamos por hacer que la experiencia médica sea lo más placentera posible.\n
+
+El turismo médico en La Paz se enfoca en las necesidades del paciente internacional.\n
+
+Estaremos encantados de proporcionarle información adicional y agradeceremos sus consultas.\n
+
+Centro Médico La Paz\n\nMalabo, Guinea Ecuatorial\nTel: (+240) 556666156\n(+240) 556666154\nCorreo electrónico: info@lapazmalabo.com\n
+    </string>
+
+
+    <string name="lubainfo">
+        <b>Situación geográfica</b>\n\n
+
+El área protegida del Sur de la isla de Bioko se encuentra situada en la provincia de Bioko-Sur, en los distritos de Luba y Riaba; cuyas coordenadas geograficas son como sigue: 3º25′,3º12’S.8º45’E (John E. Fa.).\n\n
+
+        <b>Límites y superficie</b>\n\n
+
+Ocupa todo el área del macizo meridional que comprende las calderas de Biao y Luba. se extiende en una línea recta que va desde Veiga y Avendaño, en el extrmo oriental de la Isla hasta encontrar la cota de 800 m en el punto mas próximo al Lago Loreto por su lado norte.
+        Sigue dicha cota hasta encontrar el rio Ruma, por cuya margen izquierda desciende hasta la interseccion de este rio con el rio Grande-Calabo. Asciende por la margen derecha de su cauce y sigue el rio Calabo hasta el punto mas proximo al cauce con el rio Bibi-Lolaca cuyo curso
+        sigue por su margenizquierda hasta la desembocadura del rio Lolaca. Toda la zona al sur de estos límites está incluida. Recientemente existe un estudio realizado por el proyecto CUREF, en el que ha propuesto una nueva delimitación para dicha zona. El área abarca una superficie de 840 Km²,
+        incluidas 640 Km² de habitats terrestres y 300 Km² de habitats marinos.\n\n
+
+        <b>Relieve y red hidrográfica</b>\n\n
+
+Es de destacar el paisaje de los lagos y lagunas Biao, Loreto, etc., y de la gran Caldera de Luba. Los altos mogotes petreos aislados en la playa como los que se encuentran frente al rio Maoba y punta Owen también deben ser destacados,
+        así como las extensas playas de arenas negras y guijarros que se extienden especialmente en el sur del área. A los contrastes de paisaje hay que sumar los climatologicos, que desde las calientes playas de Ureca se llega a las frescas praderas de Moca,
+        a mas de 1.000 metros y con un clima mas propio de zonas templadas.\n\n
+
+        <b>La Hidrología</b>\n\n
+
+La hidrología de la zona está condicionada por sus peculiares caraterísticas, con topografia muy abrupta y precipitaciones elevadas. Son numerosos los rios y arroyos de carácter torrentoso y que discurren por estrechos y abruptos cañones. En esta zona se encuentran los rios caudalosos de la isla, Olé, Osa, Moaba e Iladyi.\n\n
+
+        <b>Las Formaciones geológicas</b>\n\n
+
+Toda la zona protegida responde a las características generales de la isla. Bioko es un macizo volcanico que surge sobre la fractura que corta el Golfo de Guinea en dirección SO, por consiguiente la isla está compuesta en su totalidad por rocas de origen volcanicos, principalmente basalticas,
+        pobres en feldespatos y ricas en compuestoa de magnesio, provenientes de diversas fases del vulcanismo. Los fenomenos eruptivos se han prolongado desde posiblemente el Terciario Inferior hasta bien entrado el Cuaternario, con la mayor actividad centrada en el Pleistoceno.
+        Bioko se calcula que estuvo unida a Monte Camerun hace unos 30.000 años y que el istmo que los separa fue cubierto por las aguas hace unos 10.000 a 7.000 años, a final del Pleistoceno.
+        El macizo meridional de la isla, donde se encuadra el área protegida, está constituido por dos volcanes: el Biao, de tipo estromboliano con cono de explosión que alcanza los 2009 m en sus bordes de la gran caldera de Luba, que da lugar al ensanchamiento occidental de la Isla (Castro y otros, 1985).\n\n
+
+        <b>Los Suelos</b>\n\n
+
+La homogeneidad de la roca madre, formada por lavas basálticas, explica la poca variedad en los tipos de suelos. Su PH nunca es inferior a 6, por lo que puede considerarse ligeramente ácidos o neutros.
+        Son pobres en fosforo, potasio y calcio y ricos en materia orgánica. Los niveles de materia orgánica del suelo aumentan con la altitud.\n\n
+
+        <b>El clima</b>\n\n
+
+La valoración climática se ha de aproximar, debido a la ausencia de datos de observatorios cercanos al área.
+        La climatología de la isla está determinada por su proximidad al ecuador y regulada por el relieve, la altitud, la proximidad al mar y la influencia de los vientos monzónicos de componente Sur.
+        Puede escribirse en general al tipo ecuatorial con una componente monzónica en la parte Sur. La temperatura media anual es de unos 25ºC en la costa, descendiendo con gradiente altitudinado.\n\nLas oscilaciones térmicas anuales son menores que las diarias, que varían de 2 a 10ºC (Capuz, 1961).
+        Los niveles de humedad relativa ambiental son altos, con una media anual de 90%. la humedad crece hacia el Sur y en altitudes de 1000 a 1500 metros como consecuencia de la formación de un cinturón de nubes densas en las montañas. La insolación es proporcionalmente baja, pasando de un 30% de las posibles horas diarias en marzo a menos de un 10% en junio.
+        La precipitacion está constituida por el relieve y la orientacion del clima monzónico en la parte Sur de la Gran Caldera de Luba, explica que sea una de las zonas de precipitaciones mas altas de Africa, llegandose a superar los 10.000 mm (Butynski, 1994). Existen dos estaciones muy marcadas, debidas fundamentalmente al régimen pluviométrico: La estación seca de diciembre a marzo, en la cual predominan los vientos secos de Harmattán provenientes del continente.
+        Las precipitaciones durante esta epoca son escasas; estación húmeda de junio a octubre, tiene lugar la mayor parte de las precipitaciones.\n\n
+
+        <b>Vegetación</b>\n\n
+
+Por su situación geográfica el área protegida del Sur de la isla de Boiko está en el dominio de la selva guineo-congoliana (White, 1983), pero es una variante semejante a las selvas próximas del sur de Camerun y Nigeria. Según White (1983), las principales formaciones vegetales son: Pluvisilva tropical de componente monzónico y bosque secundario.
+        La pluvisilva tropical que todavía cubre toda la parte sur de la Isla, llega a tener un carácter propio debido a la influencia de los vientos y lluvias monzónicos que determinan el clima de la región. La pluvisilva propiamente se distribuye en parches relictos sobre todo en su extremo oriental, entre Eori y el rio Iladyi,
+        siendo estos los últimos bosques representantes de esta formacion vegetal ya que prácticamente ha desaparecido en el resto de la isla. Es característica la gran diversidad de especies que alberga la abundancia de lianas y epifitas.\n\nEntre las especies de gran porte, se puede citar: Dum Ceiba pentandra, Ilomba Picnantus angolensis,
+        Bocapi Staulla gabonensis, Abang Clorophora excelsa. Destaca sin embargo, la ausencia de especies significativas como el Okume (Aucoumea Klaineana) y las palmeras trepadores (Elaeis sp). El bosque monozónico ocupa las vertientes meridionales de los macizos de Biao y de la Gran caldera de Luba hasta el nivel de mar (16,8% de la superficie total).
+        Este bosque se extiende hasta los 600 – 700 m, pero en condiciones favorables como en el interior de la caldera, puede ascender muchos metros. Se trata de un bosque único, a penas conocido en toda la región de Africa Occidental por sus peculiaridades, condiciones ambientales de elevada pluviosidad y riqueza biologica.
+        en este bosque, de gran espesura vegetal, predominan las criptogamas, llanas y epifitas. Las especies mas caracteristicas son el calabo (Pycnanthus angolensis), bocapi (Staudtia gabonensis) y Zarcocephalus esculentus y numerosas especies de ficus.
+
+Zona de bosque sub-tropical o pluvisilva montana. Incluye distintos tipos de formaciones de boscosas entre los 800 m y 1500 m, con precipitaciones que oscilan entre 2500 y 3000 mm. Se encuentra una vegetación formada por un extracto arboreo bajo de Macaranga occidentalis y uno mas alto de elechos arborecentes tales como Cyathea Usambarensis y C. manniana.\n\n
+
+        <b>Zona de araliáceas arboreas :</b> Estas, principalmente Schefflera manii y S. ledermanii, dominan sobre los helechos desde los 1.500 hasta los 2.300 m. La precipitación alcanza valores entre 3.000 y 4.000 mm (J.E. Garcia, 1997).\n\n
+
+        <b>Zona de ericaceas :</b> Esta es un piso subalpino, característico de las montañas tropicales. Las ericaceas arbustivas, Agauria salicifolia y Hypericum lanceolatum, dominan, cubiertas de líquenes Usnea articulata, el matorral inferior y llegan hasta el límite de los 2.500 a 2.600 metros.\n\n
+
+        <b>Praderas subalpinas :</b> Estas caracteristicas del Pico Basilé en el norte de la isla, son anecdoticas en el Sur. son extensiones de gramineas que se originan generalmente después de los 2.500 m con especies características como Festuca sspp, Agrostis sspp, etc.\n\n
+
+        <b>La fauna</b>\n\n
+
+Aunque es quizás la fauna la mejor estudiada hasta ahora, todavía no se conocen inventarios faunísticos detallados pero es presumible distinguir comunidades de especies animales directamente relacionadas con las distintas formaciones vegetales. Destacan sin duda en esta zona las cuatro especies de tortugas marinas que desovan en las playas del Sur (Chelonia mudas, Dermochelys coriacea, Eretmochelys imbricata, Lepidochelys olivavea), entre Punta Santiago y Punta Oscura, siendo este área una de las mas importantes para el desove de chelonio marinos en Africa central. Según estudios recientes llevados a cabo por Butynski y Koster (1988), en este lugar se ha encontrado una de las mas altas densidades de primates de Africa, destancando la presencia de cuatro subespecies endemicas: Mono de Preuss Cercopithecus preussi, Mono de orejas orjas Cercopithecus erythrotis, Colobo negro Colobus satanas y Colobo rojo Colobus pennanti En esta zona se encuentra una de las últimas poblaciones de driles (Mandrillus leucophaeus). Constituye el único lugar de la isla donde se puede observar regularmente el calao negro (Ceratogumna atrata), el loro gris (Psittacus erithacus), el ibis hadada (Ostrychia rubricollis) y el malimbo cuellirojo (Malimbus ribricollis). La única especies endemicas de ave en Bioko, miopito de Fernando Poo (Speirops bruneus), encontrada en las praderas alpinas del Pico Basilé, probablemente se encuentre en esta zona. Debe destacarse que en la isla no existen probóscidos y galliformes y que el numero de predadores es relativamente bajo y se trata en general de especies poco especializadas. Faltan por ejemplo los félidos, y las jinetas, en esta zona son omnivoras. En cuanto a los artiodáctilos, se supone que en la extincion del bufalo rojo y el jabalí de selva a finales del siglo pasado fue un factor condicionante las reducidas dimensiones de la isla. Estas circunstancias podrían también explicar la ausencia de elefantes y leopardos y probablemente de los grandes primates antropoides, gorilas y chimpances.
+
+        <b>Población humana</b>\n\n
+
+Los pobladores originales de la zona son los Bubis, con rasgos culturales bien definidos. Actualmente dentro del área se encuentran los poblados de Ureca, Bioko y Malabo de Moca, Ruiché y Belebú. En su limite Sur, Veiga y Avendaño, Bocoricho y Balacha de Riaba. Así mismo, a lo largo de todo su limite norte se encuentra diversos poblados: Batete, Balombe, Boemeriba, poblado de Maori, Balacha y Riaba. El área protegida del Sur de la Isla de Bioko afecta a unas 2.200 personas que viven en su interior y a otras 5.000 que viven en zona limítrofe, aunque su conservación es de importancia vital para toda la Isla.\n\n
+
+        <b>Infraestructura</b>\n\n
+
+Existen pistas en las fincas de cacao hasta Veiga y Avendaño, San José, Ruiche, Bocoricho, Belebú, Calabó y Eoco, que permiten acceso todo el año en vehiculo todo-terreno. Todos los demas poblados que están en sus limites o entorno también tienen acceso con vehículo.
+
+Bioco y Moca de Malabo tienen una carretera que enlaza con la de Luba-Riaba, también accesible durante todo el año. Además existen caminos y sendas de cazadores repartidos por todo el área aunque principalmente en su perimetro norte.\n\n
+
+        <b>Actividades humanas</b>\n\n
+
+La agricultura tradicional constituye una parte importante del sustento de los habitantes de esta zona, con técnicas poco evolucionadas. Las practicas agrícolas están relacionadas con formas de organizacion social y familiar. Las fincas agrícolas,
+        de pequeña extensión (entre 1 y 3-4 ha) se intercalan entre los cacaotales y en las proximidades de las poblaciones. La actividad de caza se practica por cazadores de fuera del área, quienes ocupan los campamentos de caza y que intervienen
+        en todo el circuito de comercialización de carne de monte. A lo largo de la costa desde Luba a Veiga y Avendaño, se practica la pesca, fundamentalmente con arpones, en las aguas del sur de la isla.
+
+La explotacion forestal en Bioko para la exportación es reciente, empezó en 1989 y fue prohibido en el año 1991 (Decreto 55/91, de fecha 9 de julio). Por lo general, esta actividad se practicaba en las fincas de cacao y en bosques libres de estado,
+        causando serios deterioros en la infraestructura viaria.
+
+La ganaderia se ha desarrollado poco en la isla debido a la tripanosomiasis. Solo es factible en las praderas de Moca, a unos 1.000 m de altura. Se practica ganaderia de vacuno, de ovino y equino. En algunas localidades hay ganado menor y es frecuente encontrar cerdos destinados al autoconsumo en los poblados. No suelen faltar también cabras y ovejas, que parecen perfectamente adaptados y quizás constituyan una raza propia.\n\n
+
+        <b>Marco legal y gestión</b>\n\n
+
+La Ley 8/1988, crea la parte sur de la isla como área protegida. En los últimos años se ha llevado en la zona diferentes estudios sobre la biodiversidad. La Organización no Gubernamental Amigos de Doñana, ha trabajado sobre la protección de la tortuga marina en la zona de Ureca.\n\n
+
+        <b>Estado de conservación y valor</b>\n\n
+
+Desde la declaración dla zona de Sur de Bioko como área protegida, el impacto sobre el estado de degradación de biodiversidad no es muy significativo, debido a su relieve muy accidentado, que ha permitido de una forma conservar esta parte de la Isla de Bioko.
+        En cuanto a su valor para la conservación, se puede mencionar: La diverficación de la vegetación de carácter tropical, subtropical y alpino todavía poco perturbados.
+        estos habitats son lugares donde existen las mayores concentraciones de especies en Bioko ; El macizo meridional es importante para estabilizar la alta pluviosidad de la zona y controlar el flujo fluvial hacia las partes bajas del lugar ;
+        La diversidad de paisaje, su belleza escenica y la posibilidad de observar fácilmente especies de fauna como primates o tortugas marinas, la zona tiene un indudable valor para el desarrollo del ecoturismo.
+        La evaluación realiza da sobre la zona, indica que en los últimos diez años, el estado de la diversidad biológica de la zona no sufrido gran variación y su grado de amenaza no es tan significativo.\n\n
+
+        <b>Problemas identificados</b>\n\n
+
+Como principal problema, cabe mencionar la falta de una delimitación física del área, la falta de implementación de actividades tendentes a conservar los recursos silvestres de la zona ; se puede mencionar la intervención de la caza comercial ilegal.\n
+
+Acciones prioritarias para la conservación y uso duradero de los recursos
+
+Una de las prioridades para la conservación de la zona es en primer lugar delimitar la zona; en segundo lugar elaborar estrategias y plan de manejo para la conservación de la biodiversidad de la zona. siendo solo necesario crear la infraestructura para atraer hacia esta zona gran numero de turistas interesados en disfrutar los atractivos del Área protegida del Sur de la Isla de Bioko.\n\n
+
+Fuente : Extraido del documento base elaborado por Central African Regional Program for the Environment (CARPE) para la segunda reunion de la «Conferencia sobre los Ecosistemas Forestales Densos y Húmedos de Africa Central” (CEFDHAC)
+    </string>
+
+    <string name="repreinfo">
+        Este edificio de principios del siglo XX representó a la Cámara de Agrícola, institución creada en 1906 para velar por los intereses de los comerciantes y agricultores de la isla de Bioko con el fin de darles voz frente al estado colonial.\n\nHoy en día es la sede principal de la Cámara de los Representantes del Pueblo, nombre oficial que recibe el parlamento unicameral o Poder legislativo nacional de la República de Guinea Ecuatorial.
+    </string>
+
+    <string name="hotelbisilainfo">
+        Bisila Palace Hotel está a menos de diez minutos en coche de Ayuntamiento de Malabo y Universidad Nacional de Guinea Ecuatorial (UNGE).\nAdemás, este hotel de 4 estrellas se encuentra a 6,8 km de Catedral de Malabo y a 7,1 km de Estadio de Malabo.\n\n
+
+        <b>Habitaciones</b>\n\n
+        Te sentirás como en tu propia casa en cualquiera de las 187 habitaciones con aire acondicionado, minibar y televisor LCD. Con reproductor de DVD y conexión a Internet de alta velocidad por cable (gratuita), tienes para elegir a la hora de entretenerte.\nEl baño privado con bañera y ducha independientes está provisto de bidé y secador de pelo. Entre las comodidades, se incluyen caja fuerte, escritorio y teléfono.\n\n
+        <b>Servicios</b>\n\n
+        Para tus ratos libres, tienes instalaciones recreativas como piscina al aire libre, una pista de tenis exterior y gimnasio a tu disposición. Otros servicios de este hotel incluyen conexión a Internet wifi gratis, servicio de canguro (de pago) y un salón de baile. Llegarás a las principales atracciones de la zona en un abrir y cerrar de ojos gracias al servicio de transporte gratuito
+
+    </string>
+
+    <string name="vaticanainfo">
+        Los Supermercados Martínez Hermanos y MH Express están ubicados estratégicamente en las zonas más concurridas de Bata y Malabo con el objetivo de estar al alcance del pueblo de Guinea Ecuatorial.\nQueremos que nuestros clientes puedan acceder fácilmente a nuestros productos, ofreciendo la máxima calidad posible y el mejor servicio en infraestructuras y equipo humano, porque en Supermercados Martínez Hermanos “Marcamos la diferencia”.\n\n
+
+Supermercados Martínez Hermanos City\n\n
+
+En atención a la demanda de nuestros clientes, ponemos en marcha nuestra nueva red de Supermercados, Martínez Hermanos City, un concepto de establecimiento moderno, con la misma calidad y nuestros productos de primeras marcas, que cuenta con una gran variedad de surtido en un espacio cómodo y práctico, diseñado para realizar nuestra comprar diaria de forma rápida, al mejor precio.\n\n
+
+MH City, tu compra ágil al mejor precio.\n\n
+
+Nos preocupamos por ofrecer el mejor de los servicios a nuestros clientes y seguir mejorando su experiencia de compra a través de nuevos servicios y establecimientos únicos como MH City.
+    </string>
+
+
+
+    <!--CULTURE INFO-->
+
+    <string name="fanginfo">
+        Forman el grupo étnico más importante en términos de población.\n\nTradicionalmente, su convivencia se estructura en familias,
+        clanes y tribus relativamente autónomas. Los descendientes son transmitidos por los hombres de ahí la importancia del padre, el tío y el mayor.\n
+        Sus tallas de madera, máscaras y estatuas rituales de colmillos son apreciadas en todo el mundo.
+
+    </string>
+
+    <string name="bubiinfo">
+
+        Se encuentran en la isla de Bioko y son bantúes pertenecientes a la "Civilización Yam".\n\n
+        Su sociedad se estructuró en forma de reino que se mantuvo hasta el final del período colonial.\n
+        Su religión básica era monoteísta y la música, la danza y su canto tradicional estaban inspirados en ceremonias religiosas que aún han permanecido muy arraigadas.
+
+    </string>
+
+    <string name="anoboninfo">
+
+        Se encuentran en la isla de Annobón y son una mezcla de portugueses, españoles y esclavos descendientes de África.\n\n
+        Fueron tradicionalmente pescadores, ya que la agricultura es escasa en la isla, siendo una tierra volcánica.\n
+        Usan canoas conocidas como pequeñas canoas hechas de madera de queso. La mayoría de ellos dominan el dialecto Fá d\'Ambo, que es una mezcla criolla entre portugués y español.
+
+    </string>
+
+    <string name="pygmiesinfo">
+
+        En Guinea Ecuatorial se les llama Beyeles y Bokuigns.\n\n
+        Viven en pequeños grupos y se dedican a la caza y recolección de raíces y bayas silvestres.
+
+    </string>
+
+    <string name="ndowesinfo">
+
+        Es un pueblo minoritario, formado por muchas etnias: los kombè, los bujeba, los bapuku, los balenke, los enviko y los benga.\n\n
+        Su organización social es jerárquica por familias, pueblos, linajes y clanes.
+    </string>
+
+    <string name="bisiosinfo">
+        De Camerún, que son pocos y emigró a los 19 º siglo en regiones cercanas costeras de la Región Continental, junto al río Ntem.
+
+    </string>
+
+    <string name="fernandinosinfo">
+        Propietarios y comerciantes burgueses, que vivieron durante mucho tiempo en la capital, y que eran descendientes mixtos de trabajadores que se asentaron durante siglos en las plantaciones de la isla de Bioko.
+
+    </string>
+
+
+    <!--RESTAURANTS-->
+
+    <string name="lalunainfo">
+        El complejo La Luna consta de restaurante, bar, discoteca, piscina y gimnasio.\n\n
+        Un ambiente cálido y acogedor le espera. Un restaurante, una piscina, una discoteca y un gimnasio te esperan.\n\n
+        <b> EL RESTAURANTE </b>\n\n
+
+Ven y descubre un lugar donde se encuentran los sabores notables.\n\n
+
+        <b> THE NIGHTCLUB </b>\n\n
+
+La Luna Discothèque le da la bienvenida en un ambiente festivo.\n\n
+
+        <b> EN LA PISCINA </b>\n\n
+
+La calidad del agua de la piscina es satisfactoria.
+
+    </string>
+
+    <string name="magnoinfo1">
+        Magno Suites es un elegante y discreto Boutique Hotel, situado en el tranquilo barrio residencial de Paraíso en la Cuidad de Malabo, capital insular de Guinea Ecuatorial.\nLa situación no podría ser más privilegiada para un hotel en Malabo, ya que Paraíso se encuentra entre el aeropuerto internacional «Santa Isabel», la vieja ciudad colonial y el novísimo y moderno distrito de negocios Malabo II.\n
+        Esto garantiza la tranquilidad de un barrio residencial y la rapidez de desplazamiento a los principales puntos de interés de la ciudad.\n\n
+        Magno Suites con el tiempo se ha posicionado como un hotel único y exclusivo en la ciudad de Malabo, garantizando todas las comodidades de un hotel de lujo del siglo XXI. La perfecta combinación del diseño funcional y moderno, el altísimo confort y estándares de calidad junto con una atención personalizada, permiten ofrecer a los clientes justo lo que están buscando.\n\n
+        Este Boutique Hotel es un proyecto con la firma del Estudio Alberto Mustelier para Magno Suites, y constituye una arriesgada apuesta por la decoración moderna y sencilla que lo han convertido en poco tiempo en una de las joyas de Malabo.\n\n
+        El complejo cuenta con un total de 15 habitaciones,\nde las que 10 son «Estándar»,\n3 habitaciones «Junior Suite»\ny 2 «Suite Exclusive» con piscina privada, entre otros ventajas.
+        El hotel destaca por ofrecer un servicio personalizado con gran atención en los detalles, un valor seguro para cualquier estancia de negocios u ocio. Una experiencia que se complementa con una oferta gastronómica de referencia, una ubicación privilegiada, y variados servicios del hotel, que incluyen la terraza chill out, zona VIP y el lounge.
+        Precios.\n\n
+
+        <b>Estándar</b> – 116.000 XAF/por noche\n\n
+
+        <b>Junior Suite</b>- 138.000 XAF/por noche\n\n
+
+        <b>Exclusive Suite</b>- 275.000 XAF/por noche\n\n
+    </string>
+
+    <string name="babelinfo">
+        El Restaurante Babel en el centro de la ciudad de Malabo de Guinea Ecuatorial, junto a la plaza EWAISO IPOLA
+
+Restaurante de comida casera en pleno centro de malabo, cocinamos comida africana y europea.\n\n
+
+        <b>Especialidades :</b> Sirve desayuno, almuerzo, cenas, bebidas y cafú\n\n
+        <b>Servicios :</b> Catering , ideal para grupos, terraza,  Acepta reservas\n\n
+    </string>
+
+    <string name="ibisinfo1">
+        Cocina abierta y una selección ilimitada de recetas para menús a medida. Nuestro restaurante abierto le permite crear deliciosos platos con nuestra sabrosa pasta, pescado a la parrilla y carne cocinada en una variedad de salsas.
+
+    </string>
+
+    <string name="legolfinfo1">
+        El "hoyo 19" del primer campo de golf de Guinea es este relajado restaurante estilo brasserie dentro de la Casa Club.\nDespués de una partida de golf, refrésquese con delicadas croquetas y platos de charcutería con vistas al campo y al mar.\n\n
+        Con vista a las arenas blancas de una milla de largo de la playa de Sipopo, este bar junto a la piscina es ideal para mantenerse fresco mientras toma un jugo de frutas tropicales o un cóctel exclusivo.\n\nAdmire las impresionantes vistas del mar y, en días despejados, el monte Camerún.
+        Fruits de mer se sirven en esta acogedora brasserie de estilo francés, junto con sabores exóticos de Guinea Ecuatorial, como plátanos fritos.\nUn excelente restaurante de mariscos en Sipopo para un abundante desayuno, brunch dominical, almuerzo de negocios o cena a la carta.
+
+    </string>
+
+    <string name="presinfo">
+        Igual que Le Golf, pero este hotel está ubicado en el palacio del presidente y le ofrece una gran vista de la mansión.\n\nFruits de mer se sirven en esta acogedora brasserie de estilo francés, junto con sabores exóticos de Guinea Ecuatorial, como plátanos fritos.\n\nUn magnífico restaurante de mariscos en Sipopo para un abundante desayuno, brunch dominical, almuerzo de negocios o cena a la carta.
+
+    </string>
+
+    <string name="icefinfo">
+        Ubicado en \'Centro cultural Frances\' tiene un buen ambiente de ese sentimiento francés europen con platos especiales como Ratatouile, escalope de poisson pane y otros platos deliciosos.\n\nSirven desayuno, almuerzo y cena y también aceptan reservas, asientos, servicio de mesa y también sirven alcohol.
+    </string>
+
+    <string name="imagineinfo1">
+        El Restaurante IMAGINE está situado en la nueva zona de construcción de Malabo 2, concretamente entre CANIGE y el inmueble de Naciones Unidas.\n\nCuenta con una superficie de 1000 m, de los cuales 600 m2 serán destinados al Restaurante con capacidad de albergar 500 comensales.\n\nIMAGINE, podrá
+        organizar distintos eventos, seminarios, bodas, bautizos, comuniones, comidas de empresas … \n\nTodo ello a precios competitivos y con la mayor calidad de restauración.\n\n
+
+        <b>Opening Hours</b>\n\n
+Lunes:
+9:00-23:30\n
+Martes:
+9:00-23:30\n
+Miercoles:
+9:00-23:30\n
+Jueves:
+9:00-23:30\n
+Viernes:
+9:00-23:30\n
+Sábado:
+9:00-23:30\n
+Domingo:
+12:00-17:00\n
+    </string>
+
+    <string name="cafemalaboinfo1">
+        Ambiente lujoso y desenfadado, ideal en cualquier momento del día, desde su reunión de negocios hasta sus ratos más relajados.\nDisfruten
+        de un mojito y emocionense con nuestra orquesta todos los fines de semana.
+    </string>
+
+    <string name="terazainfo1">
+        Terraza impala by G, ubicada en la azotea del hotel impala (piso 6) en la ciudad de malabo GE.\n\nUna terraza que cuenta con 150 metros cuadrados,
+        donde podrás disfrutar y apreciar las hermosas vistas de la ciudad de malabo.\n\nabrimos desde las 4:00 pm la tarde hasta las 2h00 Contamos con los servicios de: coctelería, shisa, raciones (tapas) y otros.\n\nEn
+        la terraza de impala te ofrecemos el mejor servicio y te hacemos disfrutar del mejor ambiente con poco volumen donde poder charlar con amigos, familiares o conocidos.\n\n<b>¡Visítanos!</b>\n\nMÁS INFORMACIÓN:
+        Teléfono móvil: +240 222680887
+
+    </string>
+
+    <string name="orientelinfo">
+        Grupo Restaurante L\'oriental - Gastronomía Libanesa - Contacto (+240) 222.050.050 - Alquiler de salones, catering a domicilio, eventos privados, desayunos, almuerzos y cenas.\n\nUbicado
+        en Guinea Ecuatorial: ASEPASEO MARITIMO, PUERTO DE BATA, AEROPUERTO KM 5, EDIFICIO BANTU CIUDAD MALABO @restauranteloriental en instagram y facebook
+
+    </string>
+
+    <string name="deliceinfo">
+        Libanesa, africana, marroquí, internacional, comida mediterránea, este lugar de propiedad libanesa es perfecto para el desayuno.\n\nHay un excelente café y deliciosos croissants franceses y pains au chocolat. Siéntese en la terraza y observe cómo Malabo se despierta o se refresca en el aire acondicionado helado del interior.
+        También hace pizzas (CFA6000) y tortillas (CFA2500), y hay un bar de schwarma al lado.
+
+    </string>
+
+    <string name="aviatorinfo1">
+        American Bar Style, Big Burgers, Wings, Ribs, Onion Rings y muchos más con música en vivo todos los viernes y sábados a las 22: 00h.\nKaraoke todos los jueves a las 21.00h. El Aviator es un pub nuevo y elegante,
+        todas las paredes de color verde oscuro y algunos asientos al aire libre.\n\nHay pantallas deportivas, karaoke muy popular los jueves y música en vivo los viernes y sábados. Hay comida para beber cerveza: el propietario
+        inglés ofrece un desayuno inglés completo (4000 CFA) y pescado y patatas fritas (7000 CFA). También hay comida para llevar.
+
+    </string>
+
+    <string name="yutakainfo1">
+        Con una calificación de 4.5, Restaurante Japones El primer y único Restaurante Japonés en Guinea Ecuatorial. ¡Disfruten de la auténtica comida Japonesa, como SUSHI, SASHIMI, TEMPURA, SOLOMILLO ESTILO JAPONÉS, BROCHETAS, etc.!
+
+    </string>
+
+    <string name="etiopiainfo">
+        Restaurante Lucy and Lounge, uno de los 50 mejores lugares para comer de Malabo, celebra las raíces de la humanidad en Etiopía, que encontrará en nuestra comida, galería de arte y festividades.\n\nSomos de propiedad familiar y estamos operados con un personal amable, comida y bebida deliciosas y un gran ambiente.
+    </string>
+
+    <string name="bidinfo">
+        \'Comida como la que hace mamá\' es lo que significa el nombre, y ella estaría orgullosa de las pizzas.\n\nTambién se ofrecen pastas y ensaladas.\nHay dos niveles en el interior fresco y una agradable terraza al frente.\nEl personal es amable y este es un lugar popular.\nComida para llevar también
+        está disponible.\nOfrece pastas y ensaladas.\n\nHay dos niveles en el interior, fresco y una bonita terraza al frente.\n\nPrecios de pizzas desde 6500 F. CFA ",
+
+    </string>
+
+    <string name="pizzainfo">
+        Pizza y cocina italiana a un precio razonable, un lugar popular en Malabo para reuniones de amigos. El lugar tiene buena música y es visitado tanto por lugareños como por turistas, rara vez lo verá vacío.\n\nUna buena variedad de opciones para tu pizza y siempre puedes disfrutar de una cerveza fría.
+    </string>
+
+    <string name="imaniinfo">
+        Restaurante, Shisha, Bar y Lounge con aire acondicionado completo, amplio estacionamiento para clientes. Llame para hacer reservaciones.\n\nTambién aceptan tarjetas de crédito.
+
+    </string>
+
+    <string name="cubaninfo">
+        Una de las mejores experiencias gastronómicas del Caribe en Malabo.\n\nGran variedad de sabrosos platos cubanos, auténtica comida cubana. El menú incluye ropa vieja, congri y plátanos fritos.
+        También tiene un ambiente estupendo, con música salsa de fondo, conexión Wifi y TV para ver eventos deportivos.
+
+    </string>
+
+
+
+    <!-- URBAN INFO-->
+
+
+    <string name="independenceinfo">
+        Guinea Ecuatorial celebra su Día de la Independencia el 12 de octubre.\n\nEste día
+        festivo conmemora la liberación del país de la colonización española. Este es un DÍA especial en el corazón de todos los ciudadanos, muchas actividades se llevan a cabo en este día y si te encuentras en la capital en este día,
+        visita los lugares culturales, playas, museos y parques para ver el verdadero espíritu del nación. Todas las instalaciones públicas están cerradas este día.
+
+    </string>
+
+    <string name="presidayinfo">
+        <b>¿Cuándo es el día del presidente?</b>\n\n
+El Día del Presidente es un día festivo en Guinea Ecuatorial, que se observa el 5 de junio.\n\n
+
+Se celebra en el cumpleaños del presidente Teodoro Obiang Nguema Mbasogo.\n\n
+
+        <b>Historia del Día del Presidente</b>\n\n
+Teodoro Obiang Nguema Mbasogo es el actual presidente de Guinea Ecuatorial. Nació el 5 de junio de 1942.\n\n
+
+Es el líder político de Guinea Ecuatorial desde 1979 después de que derrocó al dictador Francisco Macías Nguema, que era su tío.
+
+Obiang es el líder más antiguo de África y el presidente más antiguo del mundo.\n\n
+
+No hay un mandato máximo para el presidente en Guinea Ecuatorial y Obiang ha ganado la reelección como presidente cuatro veces desde que asumió el cargo.
+
+    </string>
+
+    <string name="newyearinfo">
+        Cada año, el 1 de enero, Guinea Ecuatorial celebra la llegada del próximo año junto con el resto del mundo.\n\nEl
+        Ministerio de Información,Cultura y Turismo organiza una gala de Nochevieja y un espectáculo de fuegos artificiales como un evento benéfico y se transmite en todo el país.
+
+    </string>
+
+    <string name="forcesinfo">
+        El 3 de agosto es el Día de las Fuerzas Armadas de Guinea Ecuatorial para honrar a los militares.\n\nSe trata
+        como un día festivo donde los miembros de las fuerzas armadas se reúnen para una fiesta llena de comida y bebida.
+        También se realizan exposiciones para mostrar los logros clave.
+
+    </string>
+
+
+    <string name="paintinfo">
+        Imagínese un mundo donde todos podamos despertar inspirados para ir a trabajar en algo que amamos, donde nuestra familia y amigos tengan la oportunidad de explorar sus talentos y ser valorados por eso.\n\nMás que
+        un festival, somos un movimiento para inspirarte a explorar tus talentos y mostrarlos con orgullo, sintiéndote lleno sabiendo que también estás inspirando a otros a explorar sus talentos,
+        y este festival es un símbolo que le dice al mundo lo que creemos, nuestra visión, que será notable cuando estés dispuesto a apoyar el talento de tus amigos.\n\n¡Gracias por ser parte de este movimiento!
+
+    </string>
+
+
+    <string name="musicfestinfo">
+        Este festival es organizado por SOMAGEC y el Ministerio de Información, Cultura y Turismo para celebrar el patrimonio de Guinea Ecuatorial.\n\n
+        Bailarines, artistas y músicos de renombre acuden a Malabo para actuar frente a miles de personas. En 2012, el Festival del Día de la Música se celebró el 28 de julio,
+        pero las fechas cambian anualmente.
+
+    </string>
+
+    <string name="tvgeinfo">
+        TVGE es una estación de televisión abierta en Malabo, Guinea Ecuatorial, que ofrece programas de noticias y entretenimiento.\n\nTambién
+        conocida como Televisión de Guinea Ecuatorial y Canal Internacional de Guinea Ecuatorial por satélite, TVGE produce y transmite noticieros locales, así como series de televisión y películas de entretenimiento.
+
+    </string>
+
+
+    <string name="chocolateinfo" tools:ignore="Typos">
+        <b> Acerca de esta actividad</b>\n\n
+        <b> Qué está incluido, qué no </b>\n\n
+        Snacks - Todos los bombones y snacks que acompañan a este manjar están incluidos en el precio del paquete. Además del agua necesaria.\n
+        Se incluye gel hidroalcohólico para desinfectar las manos antes de probar los bombones\n
+        Todas las tarifas e impuestos\n
+        Entrada / Admisión - Finca Sampaka\n
+        <b> Infórmese antes de reservar </b>\n\n
+        La confirmación se recibirá en el momento de la reserva\n
+        Accesible para sillas de ruedas\n
+        Cochecito accesible\n
+        Se admiten animales de servicio\n
+        Cerca de transporte público\n
+        El transporte es accesible para sillas de ruedas\n
+        La mayoría de los viajeros pueden participar\n
+        Esta experiencia requiere buen clima. Si se cancela debido al mal tiempo, se le ofrecerá una fecha diferente o un reembolso completo\n
+        Esta experiencia requiere un número mínimo de viajeros. Si se cancela porque no se alcanza el mínimo, se le ofrecerá una fecha / experiencia diferente o un reembolso completo\n
+        Este tour / actividad tendrá un máximo de 12 viajeros\n
+        Todos los productos alimenticios se manipulan con guantes de un solo uso. Los encargados de tratar estos productos tienen el cabello y la boca tapados en todo momento.\n
+        Vuelve al punto de partida original\n
+        Hora de salida: 11:00 AM\n\n
+
+        <b> Qué puede esperar </b>\n\n
+
+        <b> Itinerario </b>\n\n
+        Este es un itinerario típico para este producto\n\n
+
+        <b> Para en </b>:\n\n
+        Finca Sampaka, Km 7 Carretera a Luba, Malabo, Isla de Bioko Guinea Ecuatorial
+        Nuestro guía lo llevará a través de las maravillosas palmeras que crecen al costado de la carretera y donde se han filmado películas como “Palmeras en la Nieve” de Mario Casas.
+        Desde allí pasaremos por la historia del chocolate en Finca Sampaka, desde que los primeros libertos comenzaron a cultivar esta deliciosa fruta.\n\n
+        Luego nos dirigiremos a la fábrica donde habrá una explicación detallada del proceso de elaboración del chocolate “Tree to Bar” totalmente casero.
+        Y finalmente, degustaremos diferentes bombones de forma profesional enseñando las diferencias entre ellos y utilizando todos nuestros sentidos.
+        Al finalizar esta actividad, nuestros clientes podrán identificar las principales características de los chocolates y notar su calidad.\n\n
+        Duración: 2 horas
+    </string>
+
+    <string name="misterinfo1">
+        El sábado 20 de octubre de 2012, a las 20:00 horas, tuvo lugar la Gran Gala Final del Concurso MISTER GUINEA EQUATORIAL 2012 en el Restaurante IMAGINE de Malabo
+        y con esta primera edición del evento de belleza masculina más importante al que puedes aspirar nación, el círculo de debuts en este tipo de concursos en nuestro país se cerró,
+        luego de la exitosa edición del certamen Miss Belleza 2012 en la que resultó ganadora Jennifer Riveiro, quien nos representó fabulosamente en la final de MISS WORLD celebrada en agosto
+        en el Ciudad china de Ordos.\n\nComo dijo la Presidenta de la Agencia Mogue, Consuelo Obiang en su discurso de apertura de la gala, “Guinea Ecuatorial finalmente ha comenzado a ocupar el lugar que durante
+        mucho tiempo ha merecido ocupar en el mundo de la moda a nivel internacional (… ) ”.\n\nPero para la Agencia Mogue, no es solo el éxito nacional e internacional en materia de moda lo que la ha motivado
+        a promocionar estos eventos sino la repercusión personal y social que ha tenido para todos los jóvenes, niños y niñas, que han participado. en sus categorías correspondientes ".
+
+    </string>
+
+    <string name="yumainfo1">
+        Un tesoro nacional digno de admirar, en Guinea Ecuatorial, la más famosa y popular es la señorita Yuma, de 34 años.\n\nCon una voz imponente y una entrega segura, interpreta una amplia gama de canciones que a menudo son fascinantes.
+        Su repertorio incluye canciones tradicionales de estilo africano, así como gospel, reggae, hip hop y rhythm and blues. Nacida en Evinayong en el continente, creció en un hogar musical con dos padres que escribían e interpretaban canciones y una abuela que escribía canciones africanas tradicionales.
+        De niña cantaba en la iglesia y luego, cuando se mudó a España, comenzó a cantar con amigos y a grabar canciones.\n\n“Desde niña siempre escuché música gospel”, nos dijo durante una entrevista reciente en Malabo.
+        Una influencia particular fue Aretha Franklin: "A menudo trataba de imitarla, de disciplinarme para entender lo que cantaba".\n\nCon el tiempo, las influencias se ampliaron y Yolanda Ayingono (su nombre real) aprendió a mezclar estos estilos musicales con la música africana,
+        de modo que muchas de sus canciones entrelazan estos hilos musicales en un sonido que es completamente suyo ". Mantiene lo africano en su música. utilizando a menudo el idioma Fang de Guinea Ecuatorial para la letra, o mezclando Fang y español en la misma canción.
+
+    </string>
+
+    <string name="hipinfo1">
+        Un evento de 10 días que se lleva a cabo todos los años en diciembre, las celebraciones a menudo son organizadas por el Instituto de Expresión Cultural. Artistas de la comunidad hip-hop de toda África asisten a talleres y eventos organizados por artistas de Europa (en particular, España y Francia).\n\n
+        La música y la danza son dos de las grandes pasiones del pueblo de Guinea Ecuatorial. Junto a los ritmos africanos tradicionales, en los últimos años la música latinoamericana se ha puesto de moda y ahora está presente en la mayoría de los clubes de Malabo.\n\nEl hip hop también ha ganado muchos adeptos, entre otras cosas,
+        gracias al éxito del Festival Internacional de Hip Hop de Malabo, que en noviembre de 2013 celebró su sexta edición.\n\nEl evento, patrocinado por la Embajada de Estados Unidos en Guinea Ecuatorial y organizado por el Centro Cultural de España en Malabo, el Instituto Cultural de la Expresión Francesa (ICEF) y el Centro Cultural Ecuatoguineano,
+        reúne cada año a los mejores raperos de Guinea y otras partes del mundo. Muy relacionado con la cultura urbana, el festival también acoge espectáculos de danza y talleres de creación musical, postproducción de estudio e incluso break dance.
+
+    </string>
+
+    <string name="navidadinfo1">
+        Guinea Ecuatorial es mayoritariamente católica, por lo que el país celebra la Navidad cada 25 de diciembre.\n\nAdemás de las festividades cristianas, también se llevan a cabo celebraciones tradicionales como el baile conocido como balélé en la región de Bioko.\nEn las ciudades, amigos y familias celebran juntos comiendo,
+        bebiendo e intercambiando regalos.\n\nLos ecuatoguineanos también decoran sus hogares con las decoraciones habituales, como luces y árboles de Navidad.
+
+    </string>
+
+    <string name="missinfo1">
+        Miss Guinea Ecuatorial (tradicionalmente conocida como Miss Guinea Ecuatorial) es un concurso de belleza nacional anual en Guinea Ecuatorial.\n\nY la ganadora de la presente edición es Serafina Nchama Eyene Ada.\n\nComenzó en 2012 el Miss Guinea Ecuatorial es un certamen anual que se encarga de seleccionar a la representante de Guinea Ecuatorial para el certamen de Miss Mundo.\nEl certamen está a cargo de la Agencia Mouge. En los últimos años, la organización se hizo cargo de las licencias de Miss Universo y Miss Internacional por primera vez.
+
+    </string>
+
+    <string name="rumboinfo1">
+        <b>Infórmese antes de reservar</b>\n\n
+La confirmación se recibirá en el momento de la reserva.\n
+
+No accesible para sillas de ruedas\n
+
+Cochecito accesible\n
+
+Sin problemas cardíacos u otras afecciones médicas graves\n
+
+La mayoría de los viajeros pueden participar\n
+
+Esta experiencia requiere buen clima. Si se cancela debido al mal tiempo, se le ofrecerá una fecha diferente o un reembolso completo.\n
+
+Esta experiencia requiere un número mínimo de viajeros. Si se cancela porque no se alcanza el mínimo, se le ofrecerá una fecha / experiencia diferente o un reembolso completo.\n
+
+Este tour / actividad tendrá un máximo de 15 viajeros.\n\n
+
+Camino sin nombre, Guinea Ecuatorial\n\n
+
+Hora de salida: 9:00 AM\n\n
+
+        <b>Que puedes esperar</b>\n\n
+Itinerario\n
+Este es un itinerario típico para este producto.\n\n
+
+        <b>Para en: Sipopo, Santiago de Baney, Guinea Ecuatorial</b>\n\n
+
+1) Primero nos encontraremos en el restaurante La Gaviota. Desde allí tendremos una hermosa vista de la playa Sipopo así como de la Isla Horacio. Admiraremos ese parque recreativo que incluye el mural de la región y la escultura de la zona. Desde el rompeolas, hay hermosas vistas tanto del restaurante como de la costa.\n
+
+Consejo: muchas de las fotos ganadoras de nuestro concurso de fotografía se toman a partir de ahí.\n\n
+
+2) Cogeremos las bicicletas y cruzaremos el paseo marítimo por la costa frente a las casas de nueva construcción para los líderes africanos y encontraremos la única vivienda local en todo el recorrido.
+        Suelen encontrarse en los alrededores y podemos observar las herramientas que utilizan para pescar y si regresan del matadero tendremos la oportunidad de comprar pescado fresco a precios inmejorables.\n
+
+3) Finalmente pararemos cerca del hospital de La Paz, en un hostal tranquilo. Desde allí los valientes podrán regresar en bicicleta al lugar de salida y los que lo deseen podrán esperar a que el coche los recoja.\n
+
+Organizamos concursos fotográficos en cada visita con maravillosos premios.\n\n
+
+Atrévete a descubrir este paseo.\n\n
+
+Duración: 3 horas\n\n
+
+    </string>
+
+    <string name="gitgeinfo1">
+
+        <b>GITGE (Gestor de Infraestruturas de Guinea Ecuatorial - Director de Infraestructuras de Telecomunicaciones en Guinea Ecuatorial)</b>.\n\nGITGE se fundó para gestionar las destacadas infraestructuras de telecomunicaciones desarrolladas en Guinea Ecuatorial.
+        Dica infraestructura de gestión ha sido identificada como las que forman el cable SAIL, que conecta África (Kribi, Camerún) con Sudamérica (Fortaleza, Brasil), la Red Nacional de Fibra Óptica,
+        incluyendo en esta red el cable submarino Ceiba-1 y 2 que conecta las ciudades de Malabo, Bata y Kribi, el cable submarino ACE que une Guinea Ecuatorial con Europa, el cable Ultramar (Isla Annobón-Santo Tomé), la red de fibra óptica terrestre como otras redes futuras.
+        Las infraestructuras gestionadas por GITGE nos permiten ofrecer servicios en el territorio EG, en el territorio CEMAC a empresas internacionales y operadores de telecomunicaciones nacionales.\n\nNuestra
+        nueva conexión intercontinental a través de Brasil nos da la posibilidad de conectar a cualquier usuario de WACS y ACE a través de la nueva ruta alternativa que emerge en el Atlántico Sur.\n\n
+
+http://www.gitge.com/\n\n240 222 129 997\nEnviar mensaje: eventos@gitge.org
+
+    </string>
+
+    <string name="chochaminfo1">
+        Los PREMIOS JONCHAM son un proyecto de reconocimiento dirigido a la interpretación, creatividad y calidad artística de músicos y cantantes.
+
+    </string>
+
+    <string name="ecuainfo1">
+
+        SOMOS UNA EMPRESA DIGITAL, CON VARIEDAD DE CONTENIDO Y ACTIVIDAD. Hacemos documentales, yo vine, hicimos videoclips y muchas otras cosas.
+
+    </string>
+
+    <string name="asongainfo1">
+        RTV Asonga es una red de radio y televisión privada pionera en Guinea Ecuatorial. Inició sus transmisiones regulares el 4 de junio de 2013.
+
+    </string>
+
+    <string name="nzalanginfo1">
+        La selección de fútbol de Guinea Ecuatorial, apodada Nzalang Nacional, representa a Guinea Ecuatorial en el fútbol internacional y
+        está controlada por la Federación Ecuatoguineana de Fútbol, miembro de la Confederación Africana de Fútbol (CAF).\n\nEl equipo nunca se ha clasificado para la Copa Mundial de la FIFA, pero se ha clasificado para la Copa Africana de Naciones en dos ocasiones, como anfitriones en 2012 y 2015.
+        Llegó a los cuartos de final del primero y cuarto en el segundo.
+
+    </string>
+
+
+
+    <string name="fivestar">
+        5
+    </string>
+
+    <string name="fourfivestar">
+        4.5
+    </string>
+
+    <string name="fourstar">
+        4
+    </string>
+
+    <string name="threestar">
+        3
+    </string>
+
+
+    <string name="onestar">
+        1
+    </string>
+
+
+    <string name="threeone">
+        3.1
+    </string>
+
+    <string name="threetwo">
+        3.2
+    </string>
+
+    <string name="threethree">
+        3.3
+    </string>
+
+    <string name="threefour">
+        3.4
+    </string>
+
+    <string name="threefive">
+        3.5
+    </string>
+
+    <string name="threesix">
+        3.6
+    </string>
+
+    <string name="twosix">
+        2.6
+    </string>
+
+    <string name="twofive">
+        2.5
+    </string>
+
+    <string name="twofour">
+        2.4
+    </string>
+
+    <string name="twothree">
+        2.3
+    </string>
+
+    <string name="twotwo">
+        2.2
+    </string>
+    <string name="twoone">
+        2.1
+    </string>
+
+    <string name="twostar">
+        2
+    </string>
+
+    <string name="fourone">
+        4.1
+    </string>
+
+    <string name="fourtwo">
+        4.2
+    </string>
+
+
+    <string name="twonine">
+        2.9
+    </string>
+
+    <string name="twoeight">
+        2.8
+    </string>
+
+    <string name="twoseven">
+        2.7
+    </string>
+
+    <string name="fourthree">
+        4.3
+    </string>
+
+    <string name="fourfour">
+        4.4
+    </string>
+
+
+    <string name="threeseven">
+        3.7
+    </string>
+</resources>
+
+

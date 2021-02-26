@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mimalabo">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.egcoding.mimalabo">
 
     <application
         android:allowBackup="true"
@@ -9,14 +10,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+
         <activity
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings">
 
         </activity>
-
-        <activity android:name=".CityToursActivity" />
-
 
 
         <activity android:name=".HelpActivity" />
@@ -44,9 +44,21 @@
         <activity
             android:name=".DetailsActivities.Activity_places_detail"
             android:label="@string/places_details">
+            <tools:validation testUrl="https://www.guinealia.com/place/buddha-nights-malabo/" />
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".PlacesActivity" />
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="https"
+                    android:host="www.guinealia.com"
+                    android:pathPattern="/place/buddha-nights-malabo/" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".DetailsActivities.HotelDetailActivity"
@@ -71,21 +83,16 @@
                 android:value=".EgHistoryActivity" />
         </activity>
 
-        <activity android:name=".HistoryActivity"
+        <activity
+            android:name=".HistoryActivity"
             android:label="@string/malabo_tab">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".HistoryActivity" />
         </activity>
 
-        <activity android:name=".TopLocationActivity"
-            android:label="@string/common_locations">
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".PlacesActivity" />
-        </activity>
-
-        <activity android:name=".FeedbackActivity"
+        <activity
+            android:name=".FeedbackActivity"
             android:label="Give us a FeedBack">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -101,5 +108,8 @@
             </intent-filter>
         </activity>
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
 </manifest>

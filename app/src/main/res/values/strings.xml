@@ -1,9 +1,14 @@
 <resources>
     <string name="app_name">Mi Malabo</string>
+
+    <!-- App Multi Language -->
+    <string name="changeLang"> change Language</string>
+
+
     <!-- Labels for Activity-->
-    <string name="buttonmain"><b>Know Malabo</b></string>
+
     <string name="hotel_details"> Top Hotel</string>
-    <string name="know_malabo"><b> Know Malabo </b></string>
+    <string name="know_malabo"><b> Malabo </b></string>
     <string name="places_details"> Most Visited Places </string>
     <string name="res_details"> Best Restaurants in Town </string>
     <string name="Urban_details"><i><b> Top Urban Events </b></i>  </string>
@@ -12,13 +17,14 @@
 
     <!-- Navigation Drawer-->
     <string name="appdrawer">Mi malabo</string>
-    <string name="welcome"> Bienvenido A Malabo </string>
+
+    <string name="welcome"> Welcome to Malabo </string>
 
     <string name="open_navigation"> Open Navigation Drawer </string>
     <string name="close_navigation"> Close Navigation Drawer </string>
 
     <string name="Malabo_Hist"> Malabo History </string>
-    <string name="Tours"> City Tours </string>
+
     <string name="EG_Hist"> Country History </string>
     <string name="help"> Help </string>
     <string name="feedback"> Give us a Feedback</string>
@@ -27,27 +33,12 @@
     <string name="common_places"> Common Places </string>
 
     <!-- Button Names -->
-    <string name="culture"><i><b> Guineanos </b></i></string>
+
     <string name="restaurants"><i><b> Restaurants </b></i></string>
     <string name="hotels"><b> Hotels </b></string>
-    <string name="parks"><i><b> Parks </b></i></string>
+
     <string name="urban"><i><b> Urban </b></i>  </string>
 
-
-    <string name="celebrities"><i><b> Celebrities </b></i>  </string>
-    <string name="Sport"><i><b> Sports </b></i>  </string>
-    <string name="museums"><i><b> Museums </b></i>  </string>
-    <string name="unique"><i><b> Only in Malabo </b></i>  </string>
-    <string name="Shopping"><i><b> Our Shopping Centers </b></i>  </string>
-    <string name="tourist"><i><b> What Tourist Love </b></i></string>
-    <string name="amusement_park"><i><b> Amusement Park </b></i></string>
-    <string name="bars"><b> Bars </b> </string>
-
-
-    <string-array name="hoteles">
-        <item> Djibulo </item>
-        <item> Hilton </item>
-    </string-array>
 
 
     <string-array name="people">
@@ -60,11 +51,10 @@
     <string name="urban_tab">Urban</string>
     <string name="people_tab">people</string>
     <string name="restaurants_tab">food</string>
-    <string name="culture_tab">sports</string>
     <string name="places_tab">Places</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
     <string name="display_map">Display map</string>
     <string name="maps"> Get Directions </string>
     <string name="title_activity_settings">SettingsActivity</string>
@@ -95,10 +85,9 @@
         Insular Equatorial Guinea): Bioko (formerly Fernando Po), Corisco, Great Elobey (Elobey Grande), Little
         Elobey (Elobey Chico) and Annobón (Pagalu). Bata is the administrative capital of the continent. Formerly a
         colony of Spain with the name of Spanish Guinea, the country achieved its independence on October 12, 1968.
-        The capital is Malabo, in Bioko.
-
-        "The island of Bioko (formerly Fernando Po) was sighted by the Portuguese explorer Fernão do Pó, probably in 1472.
-        At first it was called Formosa (“Beautiful”). Annobón was probably spotted by Ruy de Sequeira on a New Year's Day
+        The capital is Malabo, in Bioko.\n\n"The island of Bioko
+        (formerly Fernando Po) was sighted by the Portuguese explorer Fernão do Pó, probably in 1472.
+        At first it was called Formosa (“Beautiful”). Annobón was probably spotted by Ruy de Sequeira on a New Year\'s Day
         (hence the name, which means "good year") between 1472 and 1475, probably 1474. By the Treaty of Tordesillas (June 7, 1494),
         The Portuguese had exclusive commercial rights in Africa, and it was not until 1778 that they agreed to cede the islands of Annobón and Fernando Po to Spain.
         as well as rights on the continental coast between the Ogooué and Niger rivers. These assignments were designed to give Spain its own source of slaves.
@@ -113,7 +102,7 @@
         <b> "Spanish Guinea\n\n" </b> "In 1844 the Spanish made a second effort for the effective occupation of Fernando Po, and their first exploration of the continent was carried out
         in the two decades ending in 1877. Meanwhile, the Spanish had expelled the British Baptists from Fernando Po in 1858, and in 1879 they began to use it
         as a penal settlement for Cubans. After the Spanish-American War (1898), Spanish Guinea remained the last significant tropical colony in Spain.
-        Taking advantage of Spain's weakness, France was able to confine continental Spanish Guinea to its present limited extent. Economic development started only at that time
+        Taking advantage of Spain\'s weakness, France was able to confine continental Spanish Guinea to its present limited extent. Economic development started only at that time
         and focused on the richest and healthiest Fernando Po. The continent received significant attention from Spain only after the Spanish Civil War (1936-1939).
         In 1959, the status of Spanish Guinea was changed and the region reorganized into two overseas provinces of Spain, each of which was placed under a civil governor.
         Citizens, including Africans, enjoy the same rights as citizens of Spain. In 1963, a measure of economic autonomy was agreed by plebiscite
@@ -136,16 +125,16 @@
         to which it added some civilians in 1981. A less authoritarian constitution was instituted in 1982, followed by the election of 41 unopposed candidates to the legislature in 1983. Although another new constitution in 1991 provided for a
         multiparty state - which led to the first multiparty elections, held in 1993 - there was no indication that Obiang voluntarily stepped down from power, and his regime was the target of much international criticism for
         its oppressive nature.In the 1990s and early 2000s, the president and members of his party repeatedly won reelection by uneven margins on ballots that were riddled with charges of fraud.
-        In addition, allegations abounded that a clique surrounding the president had systematically pocketed most of the country's considerable oil revenues, which grew dramatically beginning in the late 20th century.
+        In addition, allegations abounded that a clique surrounding the president had systematically pocketed most of the country\'s considerable oil revenues, which grew dramatically beginning in the late 20th century.
         As it had done since the 1980s, the Obiang regime continued to claim that it had been the target of several coup attempts, but most of the accusations could not be confirmed. One notable exception was a conspiracy
         to replace Obiang with exiled opposition leader Severo Moto; discovered in 2004, the plan involved foreign mercenaries. In July 2008 a Malabo court sentenced a British mercenary, Simon Mann, to 34 years in prison for his
         participation in the matter, but Obiang pardoned him in November 2009. In November 2011, Equatorial Guinea approved many changes to its constitution by referendum with 97.7 percent of the vote.
         The changes included making the unicameral legislature bicameral, imposing a limit of two consecutive presidential terms, lifting the age limit for presidential candidates, and creating the position of a vice president,
         that he would be appointed by the president and that he would be next in line to assume the presidency in the event that the incumbent president dies or retires. The last two changes,
-        as well as others, they had been denounced as a means of expanding Obiang's control over power. The vote itself was subject to criticism, with accusations of voting irregularities,
+        as well as others, they had been denounced as a means of expanding Obiang\'s control over power. The vote itself was subject to criticism, with accusations of voting irregularities,
         bullying and harassment. The revised constitution was promulgated in February 2012. In May, Obiang appointed one of his sons, Teodoro (“Teodorin”) Nguema Obiang Mangue, as second vice president,
-        charge that was not foreseen in the recent constitutional changes. Teodorin was widely seen as Obiang's choice for his successor.
-        Equatorial Guinea's 2016 presidential elections were held on April 24. As in previous polls, Obiang was re-elected by a large margin, 93.7 percent, defeating six other candidates.\n\n "
+        charge that was not foreseen in the recent constitutional changes. Teodorin was widely seen as Obiang\'s choice for his successor.
+        Equatorial Guinea\'s 2016 presidential elections were held on April 24. As in previous polls, Obiang was re-elected by a large margin, 93.7 percent, defeating six other candidates.\n\n "
     </string>
 
     <string name="parteTierra">
@@ -162,7 +151,7 @@
         The central mountain range divides the basin of the Mbini river (Benito) to the north from the southern basin of the Utamboni river (Mitèmboni).
         The Niefang-Mikomeseng mountain range north of the Mbini River is somewhat lower. All of these ranges form segments of the Crystal Mountains in Gabon.
         The Mbini River (known as the Woleu River in Gabon) generally runs east to west through the center of the Muni River;
-        it is not navigable except for the first 12 miles (19 km) inland. To the north,
+        it is not navigable except for the first 12 miles (19 km) inland.\n\nTo the north,
         the Campo River (called Ntem in French-speaking Africa) marks part of the border with Cameroon.
         The Utamboni River flows south. To the southwest, the Muni is not itself a river,
         but the estuary of several rivers in Gabon and southern Equatorial Guinea. To the East,
@@ -194,7 +183,7 @@
         Local variations are due to differences in height and proximity to the sea. The rainy seasons in the continental region are from February to June and from September to December.
         Precipitation is higher on the coast than inland. In Bata, the rainiest months are September, October and November, with an average rainfall of approximately
         95 inches (2,400 mm) per year. In Calatrava, further south of the coast, it sometimes reaches 180 inches (4,600 mm). Inland, however, rainfall decreases; Mikomeseng,
-        for example, you receive less than 60 inches (1,500 mm) per year. The temperature is fairly constant throughout the year, with an annual average of about 26 ° C (70 ° F).
+        for egcoding, you receive less than 60 inches (1,500 mm) per year. The temperature is fairly constant throughout the year, with an annual average of about 26 ° C (70 ° F).
         The maximum temperatures are somewhat lower than in Bioko. The relative humidity, however, is higher than at Bioko.
         Bioko\'s dry season lasts from November to March and the rest of the year is rainy; the average annual temperature is between 70 ° F (approximately 25 ° C)
         and the temperature varies little throughout the year, reaching 32 ° C (80 ° F) in the afternoon and dropping to 70 ° F (70 ° F).
@@ -227,12 +216,1332 @@
     <string name="historia_de_malabo">History of Malabo</string>
     <string name="malabo"><b> Malabo </b></string>
     <string name="malabo_tab"> History of Malabo </string>
-    <string name="malabo_history"> Malabo, before (until 1973) Santa Isabel, capital of Equatorial Guinea. It is located at the northern end of the island of Bioko (or Fernando Po) on the edge of a sunken volcano.
+    <string name="malabo_history"><b>Malabo, before (until 1973) Santa Isabel, capital of Equatorial Guinea</b>. It is located at the northern end of the island of Bioko (or Fernando Po) on the edge of a sunken volcano.
         With an average temperature of 77 ° F (25 ° C) and an annual rainfall of 75 inches (1,900 mm), it has one of the most onerous climates in Biafra Inlet (Gulf of Guinea).
-        Malabo is the commercial and financial center of the republic. Its port, which is one of the deepest seaports in the region, can dock several ships and the main
+        Malabo is the commercial and financial center of the republic.\n\nIts port, which is one of the deepest seaports in the region, can dock several ships and the main
         activity is the export of cocoa, wood and coffee. It also has an international airport with flights to Bata, in continental Equatorial Guinea, and to countries in Africa and Europe, and to the United States.
-        The European population of the city declined after the 1969 riots, and later after its Nigerian contract workers returned to Nigeria in the mid-1970s.
-        The discovery and development of the country\'s oil reserves in the 1980s and 1990s led to increased business and development in the city. Popular. (2003 est.) 92,900.</string>
+        The European population of the city declined after the 1969 riots, and later after its Nigerian contract workers returned to Nigeria in the mid-1970s.\n\nThe discovery and development of the country\'s oil reserves in the 1980s and 1990s led to increased business and development in the city. Popular. (2003 est.) 92,900.</string>
     <string name="common_locations">Common Locations</string>
 
+
+    <!-- Feedback Activity-->
+    <string name="message">Message</string>
+    <string name="subject">Subject</string>
+    <string name="to">To</string>
+    <string name="send_feedback">Send Feedback</string>
+
+    <!--Hoteles-->
+
+    <string name="legolfinfo">
+        5-star hotel with pools, private beach, full-service spa\n\nSpend the day relaxing at Sofitel Malabo Sipopo Le Golf\'s private
+        white sand beach, practicing your swing on the golf course, or pampering yourself at the full-service spa.
+        Then enjoy a meal at one of the hotel\'s 4 restaurants.\n\nAll 200 rooms offer thoughtful touches like pillow menus and slippers, as well as comforts such as Egyptian cotton sheets and down comforters.
+        Free WiFi and balconies are standard, as are flat-screen TVs with satellite channels.\n\nSofitel Malabo Sipopo Le Golf
+        offers 200 accommodations with iPod docking stations and minibars. Rooms open to balconies.
+        Beds feature Egyptian cotton sheets, down comforters, and premium bedding. A pillow menu is available. Flat-screen televisions come with premium satellite channels. Bathrooms include bathtubs or showers, slippers, designer toiletries, and complimentary toiletries.\n
+        Guests can surf the web using the complimentary wireless Internet access. Business-friendly amenities include desks, safes, and phones. Additionally, rooms include complimentary bottled water and coffee/tea makers. A nightly turndown service is provided and housekeeping is offered daily.
+        Amenities available on request include in-room massages.\n\n
+        Guests can play rounds at the 18-hole golf course and enjoy other recreation facilities including 2 outdoor tennis courts. 2 spa tubs are on site along with an outdoor pool. Other recreational amenities include a sauna and a 24-hour fitness center.
+        The recreational activities listed below are available either on site or nearby; fees may apply.\n\n
+        <b>Sipopo Spa</b> has 2 treatment rooms. Services include facials, body wraps, body scrubs, and body treatments. A variety of treatment therapies are provided, including aromatherapy. The spa is equipped with a sauna, a spa tub, and Turkish bath/hammam.
+        Guests under 16 years old are not allowed in the spa.
+    </string>
+
+    <string name="magnoinfo">
+        A restaurant, a bar/lounge, and a coffee shop/café are available at this smoke-free hotel.\n\nFree WiFi in public
+        areas is provided, as well as a free airport shuttle, a free casino shuttle, and a free manager\'s reception.\n\nAdditionally, 24-hour room service, a meeting room, and
+        concierge services are onsite. All 15 soundproofed rooms provide free WiFi, free wired Internet, and memory foam beds.\nFor a bit of entertainment, guests will find
+        LED TVs with cable channels and first-run movies, and other amenities include 24-hour room service and refrigerators.
+    </string>
+
+    <string name="ibisinfo">
+        This smoke-free hotel features a restaurant, an outdoor pool, and a bar/lounge.\n\nFree WiFi in public areas and
+        free self parking are also provided.\n\nAdditionally, dry cleaning, laundry facilities, and a 24-hour front desk are onsite. All 130 rooms offer free WiFi, minibars,
+        and TVs with cable channels.\n\nHair dryers, safes, and showers are among the other amenities that guests will find.
+    </string>
+
+    <string name="newchinainfo">
+        See why so many travelers make Hotel Anda China Malabo their hotel of choice when visiting Malabo.\n\n
+        Providing an ideal mix of value, comfort and convenience, it offers an array of amenities designed for travelers like you. The rooms offer air conditioning, and getting online is possible,
+        as free wifi is available, allowing you to rest and refresh with ease.\n\nHotel Anda China Malabo features a 24 hour front desk, room service, and a concierge. In addition, as a valued Hotel Anda
+        China Malabo guest, you can enjoy a pool and an on-site restaurant that are available on-site.\nGuests arriving by vehicle have access to street parking. While staying at Hotel Anda China Malabo,
+        visitors can check out Catedral de Santa Isabel (2.0 mi), which is a popular Malabo attraction.\n\nWhile you’re here, be sure to check out Delice De France, one of the Mediterranean restaurants that
+        can be found in Malabo, which is a short distance from Hotel Anda China Malabo. We’re sure you’ll enjoy your stay at Hotel Anda China Malabo as you experience all of the things Malabo has to offer.
+    </string>
+
+
+    <string name="sofitelinfo">
+        A restaurant, an outdoor pool, and a fitness center are available at this hotel
+        Free WiFi in public areas, free valet parking, and a free airport shuttle are also provided. Other amenities include a bar/lounge, a 24-hour business center,
+        and massage/treatment rooms. All 100 rooms offer free WiFi, 24-hour room service, and TVs with satellite channels. Guests will also find minibars, premium bedding,
+        and coffee makers.
+    </string>
+
+    <string name="tresinfo">
+        Featuring a bar, garden and views of pool, Hotel 3 de Agosto is located in Ciudad de Malabo, 1.4 km from Martinez Hermanos Supermarket.\n\n
+        Among the facilities of this property are a restaurant, a 24-hour front desk and room service, along with free WiFi throughout the property. The hotel features family rooms. A continental breakfast is
+        available daily at the hotel.\n\nHotel 3 de Agosto offers a terrace. Popular points of interest near the accommodation include South African Embassy, Clinica Guadalupe and Casa Verde.
+    </string>
+
+    <string name="hiltoninfo">
+        4-star hotel with free valet parking and free airport shuttle
+        A restaurant, an outdoor pool, and 2 bars/lounges are available at this smoke-free hotel.\n\nFree WiFi in public areas, free valet parking, and a free airport shuttle are also provided.\n\nAdditionally, a health club,
+        a poolside bar, and an outdoor tennis court are onsite.\n\nAll 187 rooms offer free WiFi and free wired Internet, plus 24-hour room service and LCD TVs with DVD players.\n\nGuests will also find minibars, separate bathtubs and showers, and coffee makers.
+        Hilton Malabo offers 187 air-conditioned accommodations with DVD players and minibars.\n\nLCD televisions are featured in guestrooms. Bathrooms include separate bathtubs and showers, bathrobes, bidets, and hair dryers.
+        Guests can surf the web using the complimentary wired and wireless Internet access.\n\nBusiness-friendly amenities include desks, safes, and phones.\n\nAdditionally, rooms include coffee/tea makers and irons/ironing boards. Housekeeping is provided daily.
+        Recreational amenities at the hotel include an outdoor tennis court, an outdoor pool, and a health club.\n\n
+        The recreational activities listed below are available either on site or nearby; fees may apply.
+    </string>
+
+    <string name="nationalinfo">
+        The newly built hotel opened in 2015, modern in style, but without losing the history of where we are.\n\nLocated on the road that connects the airport with Malabo (4 km from the city center and 4 from the airport),
+        it gives it a privileged location close to both points.\nThe impressive blue mirror facade makes it easy to locate. Upon entering you will find our well-kept garden and ample parking.\n\nOur friendly doormen will facilitate your entrance to the hotel helping you at all times.\nAt the reception, we will help you in everything you need to make your check-in quick.
+        If you wish, you can refresh your arrival in our cheerfully decorated “Gin Club” space.\n\nThe exclusivity of this hotel is based on the versatility, in the designs and in the decoration of the rooms, changing the style and color in each one of them.\n\n
+        You will rest peacefully during your stay with all the necessary services. In addition, for our clients, we have our own laundry service, so that their clothes are treated with the best guarantee; like the clothes in our rooms.
+        We have a large number of exclusive services, among many others, private airport transfer vehicles.
+    </string>
+
+    <string name="bamyinfo">
+        4-star Hotel, that provides fully equipped rooms with Air conditioning, television, a friendly Bar, Conference Room, an easily accessible elevator, free strong wifi, and a swimming pool.
+    </string>
+
+    <string name="fedeinfo">
+        Located in front of Malabo National Stadium, 3.5-star hotel with free breakfast and free airport shuttle
+        Along with a restaurant, this hotel has a bar/lounge and dry cleaning.\n\nFree English breakfast is provided, as well as free WiFi in public areas, free self-parking, and a free airport shuttle.\n\nOther amenities include a 24-hour front desk, free newspapers, and a front-desk safe.\n\nAll
+        100 rooms provide conveniences like sitting areas and refrigerators,plus free WiFi and flat-screen TVs.\nOther amenities available to guests include free newspapers, free bottled water, and safes.\n\nHotel de Federaciones
+        offers 100 air-conditioned accommodations with safes and complimentary newspapers.\nAccommodations offer separate sitting areas and include desks.\nFlat-screen televisions are featured in guestrooms.\nBathrooms include showers and complimentary toiletries. Guests can surf the web using the complimentary wireless Internet access. Housekeeping is provided daily."
+    </string>
+
+    <string name="candyinfo">
+        4-Star Hotel.\n\nRooms and Apartments, right in the center of Malabo, opposite the Centro Cultural Ecuatoguineano, at Avenida de la Independencia.\nIn the heart of the same town,In a nice and pleasant corner.\n\nIt has air conditioned rooms, bathrooms, telephone and televisions. For those want to joint useful and pleasure Hotel Candy has a night club.\nCandy restaurant is open to all tourist.
+    </string>
+
+    <string name="impalainfo">
+        3 Star Hotel.\n\nSet in Ciudad de Malabo, Hotel IMPALA provides accommodation with a hot tub.\nFree WiFi is featured.\nAll units include a fully equipped kitchenette, allowing guests to prepare their own meals.\n\n
+        City Center Hotel with western architecture. Wi-fi, restaurant, 24h reception.
+    </string>
+
+
+    <string name="mocainfo">
+        3-star hotel located in Moka, or Moca, "our hotel is a very cozy place and full of magic, it is the place that you always dreamed for holiday, we wait for you". Surrounded by beautiful trees and nice cool weather, the hotel also has an inside Disco.\n\n
+
+        <b>PRICE PER NIGHT 1/2 PEOPLE</b>\n\n
+        1:30 hours of Malabo\n
+        Food a la carte per person\n\n
+
+        <b>Standard room</b>\n\n
+45.000 XAF\n
+77 USD (approx)\n
+69 EURO (approx)\n\n
+
+        <b>Mini suite room</b>\n\n
+55.000 XAF\n
+94 USD (approx)\n
+84 EURO (approx)\n\n
+
+        <b>Buffet lunch</b>\n\n
+15.000 XAF\n
+25.7 USD (approx)\n
+22.9 EURO (approx)\n\n
+
+        <b>Buffet dinner</b>\n\n
+12.000 XAF\n
+20.56 USD (approx)\n
+18.32 EURO (approx)\n
+
+
+    </string>
+
+
+    <string name="retiroinfo">
+
+        The ultimate and unique leisure &amp; corporate destination in Riaba, Equatorial Guinea.\n
+
+        The only place in Equatorial Guinea where you can taste the world\'s best food, beverages, and products in our different restaurants and bars.\n\n
+
+        <b>Managed by Luxury Hotels Management Company Ltd</b>\n\n
+        Hotel Management company that follows all operational activities, organizational, marketing, general and administrative, working in the “Luxury” hotel industry in Europe and Africa.\n\n
+
+        The company was founded by experienced professionals operating in “business tourism” for several years and then in possession of the necessary know-how to create and develop all kinds of activities consultancy, design, engineering, and
+        management as part of a tourist-national and international hotel. The experience gained in over 30 years working closely with managers more prepared and the continuous study and updating,
+        provide a wealth of knowledge that is made available by the team through personalized services, carefully designed, aimed at optimizing the results shared by catch up.
+    </string>
+
+    <string name="complejoinfo">
+        Located in Ciudad de Malabo, 2,300 feet from Malabo Rial Supermarket, Complejo Ligia features accommodations with a restaurant, free private parking, a fitness center and a bar.\n\nFeaturing a shared lounge, the 3-star hotel has air-conditioned rooms with free WiFi, each with a private bathroom.\nThe accommodations offers a 24-hour front desk, room service and currency exchange for guests.\n
+
+        The rooms in the hotel are fitted with a flat-screen TV with satellite channels.\nThe units have a wardrobe.\n\n
+
+        Complejo Ligia offers a continental or à la carte breakfast.\n\n
+
+        The accommodations offers a barbecue. You can play billiards at Complejo Ligia.\n\n
+
+        Malabo EGTC Supermarket is 0.9 mi from the hotel, while Martinez Hermanos Supermarket is 2.3 mi from the property.\n\nThe nearest airport is Malabo International (Saint Isabel), 6.8 mi from Complejo Ligia, and the property offers a paid airport shuttle service.\n\n
+
+        <b>We speak your language!</b>
+    </string>
+
+    <string name="carmengalxy">
+
+        We are located at the entrance of the Pilar Buepoyo school leaving "seis casas".
+    </string>
+
+    <string name="lakebiaoinfo">
+
+        <b>Introduction</b>
+        Lake Biao should be another wonder of the world. It is a place you need to include in your travel bucket list, about 30 minutes from Riaba and approximately 1 hour from Malabo by car, you can find it at the south of the island of Bioko. Lake Biao is one of the few lakes that sits on the crater of a volcano. It was considered a sanctuary and retreat for the great  Bubis priests.\n\n
+
+        The journey from Moka to the lake is simply spectacular. A 3 hours jungle journey and expired that would have you feeling like a  documentary explorer. We expect the ride a bit challenging so that we will provide a lot of water for hydration and protein-based foods for energy for the trip.
+        During the exploration, we would preview to a mixture of plains, ferns, and trees until we reach the beautiful crater of the lake. In the early mornings, depending on the time we depart, you will be able to see endemic birds, as well as monkeys.
+
+        <b>Details</b>\n\n
+        <b>Duration</b>\n
+        Total: 5-6 hours (drive included)\n
+        3 hours of hiking\n\n
+
+        <b>What is included?</b>\n\n
+
+        Enough breakfast and plenty of water\n
+        In this excursion you will find a mixture of sensations, you will observe plains, ferns, and trees until you reach the viewpoint of the beautiful crater of the lake.\n
+        Possibility to observe endemic birds, as well as monkeys in a totally wild state.\n
+        Fun and knowledge of the forest in equal parts.\n
+        Local guide expert in the field\n
+
+        <b>What should I take for this activity?</b>\n\n
+        Hiking boots.\n
+        Long and light pants.\n
+        Raincoat.\n
+        Plenty of water.\n
+
+
+    </string>
+
+
+    <string name="lateinfo">
+
+        Africa is diverse and multicultural, and we are offering you a trip that will make you discover the richness and diversity of its cuisine.\nAll
+        wood, brick, and leopard print, this modish restaurant is the place to be seen.\n\nThere\'s a bar at the entrance and a cabaret lounge upstairs.\n\nThe
+        menu features African dishes including giant snails and chicken or fish with chocolate sauce, as well as Cameroonian dishes such as ndolé and follon. The menu changes weekly.
+    </string>
+
+
+    <string name="arenainfo">
+
+        Arena Blanca is Bioko’s only white-sand beach – most of the beaches have black sands. The water is warm and clean with gentle currents, and suitable for swimming.\n\nDuring
+        the dry season, the area is usually teeming with butterflies. You can enjoy seafood and other delicacies at any of the several nice and inexpensive restaurants around.
+    </string>
+
+    <string name="urekainfo">
+        Ureka is one of the most magical and beautiful places on the Island of Bioko Norte, and like everything of value, the road is full of adventure.\n\nEven though
+        we will depart first thing in the morning, It will be an overnight stay in tents on the beach.\n\nWhile there we will enjoy magnificent walks along virgin beaches with river crossings and different nature sounds until we discover giant tortoises (depending on the season).\n\nWe will enjoy dinner on the beach and admire the stars. We will be in paradise.
+        Next day after breakfast, we will trek through the jungle before making our way back alongside the beach waters to the vehicles to return to Malabo.
+        With this excursion, you will visit the beautiful waterfalls in the area, as well as the heart of Moaba.\n\n It is an ecofriendly excursion, perfect for nature lovers,  do not be missing out on the chance to visit while you are here on the Bioko Island.
+    </string>
+
+    <string name="coriscoinfo">
+
+        Corisco is a small island of Equatorial Guinea, located 29 kilometers (18 mi) southwest of the Rio Muni estuary that defines the border with Gabon.\n\nCorisco,
+        whose name derives from the Portuguese word for lightning, has an area of just 14 km2, and its highest point is 35 meters (115 ft) above sea level.
+        During the Iron Age (50 BC - 1400 AD) and prior to the arrival of the Portuguese, the island was densely settled.\n\nThe most important evidence of human occupation comes from the area of Nandá, near the eastern coast,
+        where dozens of prehistoric burials have been excavated. After more than three centuries of abandonment, during which the island was sporadically visited by European sailors, Corisco was settled by the Benga people.
+        They arrived during the second half of the 18th century attracted by the prospects of trade with the Europeans. The island was later acquired by Spain in 1843, as a result of an arrangement made by J. J. Lerena y Barry with Benga king Bonkoro I.
+        Bonkoro I died in 1846 and was succeeded by his son Bonkoro II, but due to rivalries on the island, Bonkoro II moved to São Tomé, and Munga I ruled in Corisco 1848 to 1858, his son Munga II taking over, and meeting the explorer Manuel Iradier in the 1870s.\n\nIn general
+        the Spanish paid little attention to Corisco.In the early part of the 20th century, it was part of the administration of Elobey, Annobon, and Corisco, and postage stamps were issued under that name. It became an integral part of Equatorial Guinea upon independence.
+        Corisco and the surrounding waters of Corisco Bay have become of interest in recent years for their oil prospects.
+    </string>
+
+
+    <string name="hotellapazinfo">
+        Set in Ciudad de Malabo, 12 km from Malabo Rial Supermarket, Hotel La Paz Malabo offers accommodation with a restaurant, free private parking, a bar, and a garden.\n\nThe
+        property is around 12 km from Malabo EGTC Supermarket, 15 km from Martinez Hermanos Supermarket, and 45 km from Pico Basile National Park.
+        Local points of interest like the South African Embassy and Malabo Cathedral are reachable within 16 km and 36 km, respectively.\n\nAt the hotel,
+        each room comes with a balcony. At Hotel La Paz Malabo all rooms include air conditioning and a flat-screen TV.\n
+        A "la carte" breakfast is available every morning at the accommodation.\n\n
+        Hotel La Paz Malabo offers a terrace. Non-stop assistance is available at the reception, where the staff speaks English, Spanish, and French. Clinica Guadalupe is 15 km from the hotel, while Casa Verde is 15 km from the property.
+    </string>
+
+    <string name="flarexinfo">
+
+        <b>FLAREX HOTEL (FLAVIA RESIDENTIAL COMPLEX)</b>\n\n
+A luxury hotel located in the Timbabe neighborhood (Malabo) Bioko Norte\n\n16 luxury suites.\nRestaurant\nGim Club (Terrace, Barbecue)\nSPA (Massage Room, Jacuzzi, Shop, Hairdresser).\n
+    </string>
+
+    <string name="yolyinfo">
+
+        Hotel Yoly Hermanos emerged in 1995 at the initiative of Ms. Carlota Nzang Obono an enterprising woman who starts the first person promoted by an Equatorial Guinean hotel in the city of Malabo.\n\n
+
+        Hotel Yoly Hermanos well and adds to the small hotel network at that time on the island, since there were only hotels in the colonies as Bahia, Bantu, and Ureka time.\n
+        Initially, there were only 18 rooms, but it is re-opening the first extension of the Hotel going to have 30 rooms to try to host the growing demand occupation with which it is finding May 1, 2000.\n\nAt present,
+        it has 47 rooms and is running the third extension of the Hotel Yoly and Brothers. And this will soon count with 73 rooms.
+        We can say that Hotel Yoly and Brothers is one of the hotels with more tradition in Malabo, with reference both for and Equatorial Guinea who move from the mainland to the island of the country, as well as many foreign people who come to the island for different reasons.
+        All this is possible thanks to the family atmosphere that since its creation and implementation by Ms. Carlota Nzang Obono promoted and still maintaining and caring for the team that currently manages the Hotel, for which it is very important that the customers and staying in the same feel at home.
+
+    </string>
+
+    <string name="preguisinfo">
+        <b>The Preguis Apartahotel</b> offers you the best option to stay in the city of Malabo, whether you have a short stay or for regular residents.\n
+
+        Each of our apartments offers you a complete home with the best decoration, authentic luxury furniture and all the comforts you need, including a complete kitchen for those who wish to live an authentic life at home.\n
+
+But also, in Preguis you will find the best services of any hotel: 24-hour multi-language reception, WIFI Internet, daily cleaning service of the apartments, special transport service, permanent generator and air conditioning, Bar-Vips, hairdressing service, aesthetics and massages, etc.\n\n
+
+At Apartahotel Preguis we offer you the best value for money during your stay in the city of Malabo.\n\n
+
+
+
+<b>Contact information</b>\n\n
+
+Aparthotel Preguis\nAlcaide neighborhood, next to Jesús y María Church\nTelephone 00 240 333 040 710 and 222 01 99 55\nTo request information and consult our prices, please contact: apartahotelpreguis@gmail.com
+    </string>
+
+
+    <string name="complejocaribeinfo">
+
+        El Caribe Complex is a tourist place located 5 kilometers from the city next to the airport.
+        We find in it the view towards the sea, enjoying the pure air and the best that can be found in the capital.\n\n
+        <b>SERVICES</b>\n\n
+        We have four fundamental structures, such as: a Bar, with a terrace available outdoors and overlooking the sea, in order to enjoy while consuming.
+        A pool with European style, natural water, including a delicious barbecue plate with servitude at your disposal and of course, if you don\'t come prepared for the chapuson, don\'t worry. Caribe has a bikini shop for both men and women at normally affordable prices.
+        A Hotel with rooms adapts where you can enjoy the best. Sheets at level and with flex cushions, appliances and internet, like many other things.\n\n
+
+        <b>Restaurant</b>\n\nthe most essential of a complex. "After a great working day, it doesn't hurt to relax with a delicious delicacy." In Caribe you will find the best dishes of the day, prepared as you order, since we have chefs of different nationalities, you just ask and they will.\nThe Caribbean complex is for you, the objective of the staff is that the client feels comfortable.\n\n
+        For more information you can contact us at that address: complexelcaribe@hotmail.com
+    </string>
+
+    <string name="tropicanainfo">
+        Hotel Tropicana is a modern hotel with exclusive facilities in the center of Malabo.
+        When talking about hotels in Malabo, it is difficult not to mention the Tropicana Hotel. Hotel that due to its ideal location, its original architecture and exquisite service will not fail to seduce you.\n\nA stay at the Tropicana Hotel is an experience worth living. All rooms are equipped with a refrigerator full of televisions with the main international channels, desk chair and coffee table for your relaxation.\nHas access points for all clients with a computer with a Wi-Fi device.\n\n
+        <b>BEDROOMS</b>\n\n
+        The short and long term accommodation offer has three types of rooms: single doubles and suites.\n
+        <b>RESTAURANT</b>\n\n
+        From 7:00 to 11:00 the hotel restaurant offers you a rich and varied breakfast buffet.\n
+        <b>OTHER SERVICES</b>\n\n
+        Large guarded parking 24h / 24 offers maximum security for your vehicles Cafeteria and Bar.\n\nLaundry: Open 7 days / 7 the laundry service of the Hotel Tropicana offers a laundry service.\nWe wash and iron your clothes.
+    </string>
+
+    <string name="leticiainfo">
+
+        Boasting a restaurant, bar, garden, and free WiFi, <b>HOTEL LETICIA</b> is situated in Ciudad de Malabo, 8 km from Martinez Hermanos Supermarket and 11 km from Malabo Rial Supermarket.\n\nFeaturing a terrace, the 4-star hotel has air-conditioned rooms with a private bathroom.\n\n
+        South African Embassy is 9 km away and Clinica Guadalupe is 9 km from the hotel.\nAll rooms in the hotel are fitted with a flat-screen TV.\nA continental breakfast is available each morning at HOTEL LETICIA.\nSpeaking English, Spanish and French at the reception, staff are ready to help around the clock.\nMalabo
+        EGTC Supermarket is 11 km from the accommodation, while Pico Basile National Park is 49 km from the property.
+    </string>
+
+    <string name="bahai2info">
+        3 Star Hotel located in the center of malabo,The original version of this brand-new hotel used to be situated at the port in central Malabo,
+        but it has relocated to this modern building in the suburb of Caracolas off the airport road.\n\nRooms are nicely decorated and comfortable, and staff are pleasant. It all seems eerily empty, though.
+        The Hotel has strong wifi and a friendly service, with a splendid view of Caracolas and nearby places.
+    </string>
+
+    <string name="colinasinfo">
+        Located in Ciudad de Malabo, 3.1 mi from Martinez Hermanos Supermarket, Colinas Hotel provides accommodations with a restaurant, free private parking, an outdoor swimming pool and a bar.\n\nAmong the facilities at this property are a 24-hour front desk and room service, along with free WiFi throughout the property.\nThe accommodations features a shared lounge and a concierge service for guests.\n
+
+All units are equipped with air conditioning, a flat-screen TV with cable channels, a kettle, a shower, a hairdryer and a desk.\nAt the hotel every room is fitted with a wardrobe and a private bathroom.\n\nA continental breakfast is available daily at Colinas Hotel.\nThe accommodations offers a sun terrace.\nMalabo Rial Supermarket is 4.3 mi from Colinas Hotel, while Malabo EGTC Supermarket is 4.3 mi away. The nearest airport is Malabo International (Saint Isabel) Airport, 3.7 mi from the hotel.\n\n
+
+        <b>We speak your language!</b>
+    </string>
+
+
+    <!-- PLACES -->
+    <string name="eclipseinfo">
+        Come and have fun at the best disco in Malabo!\n
+        Nice atmosphere with a large dance floor and VIP rooms.\n\nAnimation with DJs, raffles, concerts, parties with African music, rap, house, hip-hop, R&amp;B.\n
+        Now with FREE WiFi! You no longer have to wait to share your best moments with your friends.\nIf you come today, you will come back tomorrow.
+    </string>
+
+    <string name="delmarinfo">
+        Open-air lounge next to Bahía Sound, and another big one at night in the city, where you can relax on its terraces with seats, or where you can vibrate to the rhythm of the most catchy R&amp;B.\n\n
+        A luxury lounge / disco with sea views.
+    </string>
+
+    <string name="barcoinfo">
+        If you are looking to play with fortune, this modern casino is your place.\nAn establishment where you can also enjoy a snack or a cocktail late at night.
+    </string>
+
+    <string name="colonialinfo">
+        Malabo is the oldest city in Equatorial Guinea and that is why you can see a large number of buildings with colonial architecture that at the same time coexist with modern buildings built in the last and recent stage.\n\nThe streets of the center, with a square design,
+        reveal the old conception of a modern city, with pedestrian areas in all of them.\nThis phenomenon causes a sensation of pressure architecture attenuated by the low stature of the buildings in a combination between architectural westernization and Africanism that preserves minor buildings from the colonial era, many of them in a state of disrepair, which are still preserved.
+        \n\nThus, today it is still possible to see wooden houses from the 19th century, such as those located between Nigeria and Rey Boncoro streets.
+    </string>
+
+    <string name="playasinfo">
+        Both make up two little paradises.\nA very close to Malabo, beach six, is 5 minutes by car and is more than 3 kilometers long.\n\n
+        Until the opening of the new beach in the city of Sipopo, these were the quintessential beaches of the city of Malabo, so on weekends they used to (and still are) quite crowded.\nPlaya del Quince, which we find on the road that connects Malabo with Luba, has white sand, very popular especially on weekends.
+    </string>
+
+    <string name="mercadoinfo">
+        This market is the ideal place to live the authentic experience of the “buyansellam"
+        (word in Pidgin-English for buying and selling), where you can enjoy the authentic experience of the classic African market. This market is the perfect center of a mixture of many different nationalities, it is the main market and almost all commodities in the countries capital originate from here.\n\nOnly
+        suitable for people who really know how to haggle.
+    </string>
+
+    <string name="rutainfo">
+        Ruta47 EG is a subsidiary in Equatorial Guinea of the travel agency for Africa Ruta47.\nIt operates touristic routes to visit the Island of Malabo, and soon the Continental Region of the country.\n
+
+        The promotion of local tourism and services at the destination will be the pillars on which this new commitment of Route 47 will be based.\nIt is planned to establish collaborators in all the key points of the country and in the medium term to establish the second office in the part In the city of Bata.\n
+        The different agreements established with several tour operators will allow Equatorial Guinea to leave the queues as far as tourist reception is concerned.
+
+        Among the services offered by the Ruta47 EG team are:\n\n
+
+        The Ruta47 GE work team is made up of professionals.\n
+        We have a great knowledge of Equatorial Guinea.\n
+        We have a great experience in the world of receptive and issuing tourism.\n
+        We have been offering unpublished experiences to those who wish to visit Equatorial Guinea for years.\n
+        Among our collaborators, we have professionals in the administration of tourist and hotel companies, statesmen, economists, lawyers, sociologists, anthropologists, and geologists.\n
+
+    </string>
+
+    <string name="sipopoinfo">
+
+        The City of Sipopo is a tourist leisure and international congress area located in the Sipopo area, on the Island of Malabo, Equatorial Guinea.\n\nThe city has been built by the Government of the Republic of Equatorial Guinea, to host international meetings.\n
+        On June 5, 2011, coinciding with the celebrations of the anniversary of H.E. the President of the Republic, the city of Sipopo was inaugurated
+        The total area of Sipopo is 3,003,320.39 m² and the Government of Equatorial Guinea has invested more than 580,000 million euros in the construction of the entire complex that helps diversify the country\'s economy.\n\n
+        The works complex is made up of a total of 21 infrastructures that have been undertaken by ten different companies in less than two years.\nEThe main objective of the construction of Sipopo is that the island of Bioko can offer a spectacular reception center to tourists, in one of the most beautiful settings in the country, in the middle of the jungle and with paradisiacal beaches.\n
+        Within this tourism space, the 52 residential villas located next to the beaches stand out, which offer independent housing for tourist rental by individuals or institutions; as well as the new Sofitel Malabo Sipopo Le Golf, the first spa resort in Equatorial Guinea, with a kilometer-long private beach and a golf course.
+
+    </string>
+
+    <string name="bibliotecainfo">
+        The National Library of Equatorial Guinea, with the acronym BnGE, is the highest institution of the State and responsible for the Libraries of Guinea system. \ NEl BnGE was attached to the Ministry of Culture, but is currently a private department and as a National Library it is the center responsible for the preservation, conservation and dissemination of the documentary heritage of Equatorial Guinea.\n\n
+
+It is currently a state agency and its employees have been hired as public servants, each one according to their academic record at the corresponding level. But it is planned for the end of 2009 to define the National Library as an independent public institution of an administrative nature with civil identity, with its own statutes and with financial autonomy that will depend organically on the Ministry of Culture.\n
+
+The National Library, a former building of the famous Equatorial Guinean sculptor Leandro Mbomio Nsue, was rehabilitated between 2007 and 2008 by H.E. The President of the Republic of Equatorial Guinea Teodoro Obiang Nguema Mbasogo and since its inauguration on June 4, 2009: "Equatorial Guinea Cultural Revolution Day" will perform the functions of a public library, and will have a bibliographic collection of 60,000 copies.\n\n
+
+The main functions of the National Library are:\n\n
+
+Collect, catalog and preserve the bibliographic funds collected in any material support, prepared in any Spanish language or in another language, at the service of research, culture and information, and spread the knowledge of said funds.\n\n
+
+Promote research, mainly in the area of humanities, through consultation, study, loan and reproduction of the materials that make up its bibliographic and documentary collection.\n\n
+
+Disseminate information on its holdings through the publication of catalogs, and in particular on Guinean bibliographic production.
+    </string>
+
+    <string name="museoinfo">
+        The Museum of Modern Art Equatorial Guinea (Spanish: Museo de Arte Moderno de Guinea Ecuatorial) is a modern art museum in Malabo, the capital city of Equatorial Guinea.\n\nThe museum displays contemporary and traditional artworks from the continent of Africa.\n
+        The collection of the Museum shows traditional and contemporary artworks from across Africa and encompasses pieces by some of the regions best-known creators.\n The seeks to enhance the understanding and appreciation of Africa’s diverse people and culture through the arts.\n\n
+        The Museum is currently adding to the collection and is working with young artists from across the region. It also aims to provide support and education to a new generation of artists by not only providing a space to exhibit but also giving them an opportunity to work with other institutions across the world.\n
+        In the past 30 years, Contemporary African art has expanded dramatically with many important collections being formed. It is still in its infancy, however. European and American galleries and major collectors particularly Jean Pigozzi, have continued to highlight and expand interest.
+        Two-dimensional works, as well as sculptures using a variety of materials and general installations, make Contemporary Africa one of the most vibrant, collectable and rich sources of future talent.
+    </string>
+
+    <string name="parqueinfo">
+        Malabo National Park is a theme and leisure park built by the Government of Equatorial Guinea (Ministry of Tourism and Culture) on the island of Bioko.\n\n
+        This large park, inaugurated on June 16, 2016, has a total area of 87 hectares and has areas for leisure, art, walks, sports, restaurants, etc.\n\nThe Malabo National
+        Park is part of the works that the Government has undertaken to improve leisure in the city and can be accessed at popular prices of 500 CFA Francs (less than one euro)
+        for adults and 250 CFA Francs for adults with children.\n\nIn addition, and to guarantee the safety of all visitors, the park has just over thirty members of the national police force.
+    </string>
+
+    <string name="francesinfo">
+        Built in 1985, the Cultural Institute of French Expression (ICEF) of Malabo, is an important part of the cultural landscape of Equatorial Guinea. It plays
+        an important role in spreading the French language in Malabo - Equatorial Guinea.\n\nInside this historical building is a large library for children full with french activities, cartoons and novel kids friendly novels, it also contains a library for adults , a big space for
+        show peformances for artiste singing days, this places host a variety of artiste every month, some of which are international and local.
+    </string>
+
+    <string name="categralinfo">
+        Malabo is the capital and main city of Equatorial Guinea and the province of Bioko Norte. It is located on the north coast of the island of Bioko (an island formerly known by the Bubis, its native inhabitants, such as Etulá and as Fernando Póo by Europeans).
+It was called Port Clarence in its foundation carried out by the British and later it was renamed Santa Isabel during the Spanish colonial period.\n\n
+
+In 1472, in his attempt to find a new route to the Indies, the Portuguese navigator Fernando Póo discovered the island of Bioko, which he called Fermosa. Later the island was baptized with the name of its discoverer, Fernando Póo. At the beginning of the 16th century,
+        specifically in 1507, the Portuguese Ramos de Esquivel made a first attempt at colonization on the island of Fernando Póo.\n\n
+
+With the treaties of San Ildefonso in 1777 and of El Pardo in 1778, during the reign of the Spanish King Carlos III the Portuguese ceded to the Spanish the island of Fernando Póo, Annobón and the right to carry out trade in the continental part,
+        an area of influence of approximately 800,000 km in Africa, in exchange for the Colonia del Sacramento in the Río de la Plata and the island of Santa Catalina off the Brazilian coast (occupied by the Spanish).
+        The area stretched from the Niger delta to the mouth of the Ogüé River —in present-day Gabon— and included, in addition to the islands of Fernando Póo and Annobón, the islets of Corisco and Elobeyes.\n\n
+
+
+In 1821, the British captain Nelly boarded the island of Fernando Póo. He found it abandoned and founded the Melville Bay (Riaba) and San Carlos (Luba) establishments. Some years later, another British captain, William Fitzwilliam Owen,
+        decided to colonize the island and establish in the north of it - on the site of the present capital - a base for British ships that pursued European slave traders. This is how Port Clarence emerged, on December 25, 1827,
+        on the ruins of a previous Portuguese settlement. The name was chosen in honor of the Duke of Clarence, who would later become Williams IV. The native Bubis of the island called it Ripotó ("place of foreigners").\n\n
+
+        In 1844, when Queen Elizabeth II was already ruling after the regency of her mother María Cristina and Baldomero Espartero, in an attempt to modernize Spain and rescue its heritage, Spain made known to the United Kingdom its desire to regain control of the colony and, therefore, of the island.
+        It took them another decade to carry out this direct control. In 1849, the Spanish Commander Lerena y Barry arrived at Fernando Póo to put Spain in command of the island, according to the Treaty of the Pardo on the African territories, and although it ratified Governor John Beecroft,
+        it was not until the arrival of Carlos Chacón (1958) to Port Clarence, four years after Beecroft\'s death, when the Capital was renamed Santa Isabel, in honor of the Queen of Spain. The capital already had more dynamism and the Protestant religious missions were having a lot of success,
+        and the change of governor became clear when the Catholics prevailed and therefore forced the Protestant missionaries to march.\n\n
+
+But it was after 1883, after the arrival of the Claretian missionaries, when the city, drawn by string, began to rise and be adorned with buildings that were to define an urban configuration marked around its Cathedral Church and Plaza de España, today called Plaza de la Independencia.
+
+The first great building erected in Santa Isabel was the Cathedral of Santa Isabel, which emerged after a terrifying fire that turned the altar and the choir of the first wooden Catholic temple to ashes. It was then replaced by another made of iron brought from Belgium inaugurated on April 14, 1897, with a solemn mass, at 12 noon,
+        officiated by four celebrants. On that basis, little by little, year after year, what today constitutes, without a doubt, the jewel in the crown of Spanish colonial architecture in Equatorial Guinea. It is a neo-gothic style temple of which its façade stands out, flanked by two 40 meter high towers, and its body of three naves.
+        the building\'s façade features elegant arched doors and windows, while finely carved wooden pillars and chiseled stone can be found inside.\n\n
+
+Sources:\n
+
+http://www.inclusion.gob.es/cartaespana/es/noticias/Noticia_0245.htm
+    </string>
+
+    <string name="verdeinfo">
+        La Casa Verde (the Green House) is located in the heart of the city. Dating back to the mid-1800, the building was formerly the Portuguese embassy.\n\n
+        La Casa Verde is home to a number of businesses, and it recently underwent a major renovation.\nAdmire the charming mid 19th-century architecture of La Casa Verde. The three-story house\'s bold green color is accented by white, gabled balconies,
+        shutters, and doors. Once home to the Portuguese Embassy, the building now holds several businesses. Recent renovations have restored its attractive interior and exterior.\n\n
+
+        It is a colonial building and one of the few that remain of its style, since it is one of the oldest buildings in the city - if not the oldest - that is still preserved. This prefabricated building was built in Belgium, entirely of American pinotea wood, and was brought to Guinea and assembled there, around the middle of the 19th century. Its color, although it was green, was much lighter than the current one; It was a soft grayish-green hue; the current color is undoubtedly more spectacular and highlights the beauty of the house.
+        His first assignment was to serve as headquarters for the Consulate of Portugal.\n\n
+        Later, in 1901, it served as the headquarters of the Pérez e Hijos company. Later, it became the property of Muñoz and Gala.
+    </string>
+
+    <string name="estadioinfo">
+        The New Stadium of Malabo is a field for multiple uses located in Malabo, Equatorial Guinea. This stadium is currently used generally for soccer matches.
+        The Equatorial Guinea soccer team normally acts as a venue in this stadium, which was inaugurated in 2007 and has a capacity for 15,250 spectators.\n\nIt was
+        chosen as one of the 4 venues for the 2012 African Cup of Nations, along with La Libertad Stadium, both located in Equatorial Guinea.\n\nThe New
+        Malabo Stadium is located in the Atepa neighborhood, a few kilometers from the city of Malabo.\nIt houses a capacity of 30,000 spectators and is currently the most important stadium in the Republic of Equatorial Guinea ahead of the La Libertad stadium (Bata) and the La Paz stadium (Malabo).
+        This stadium will be one of the four venues for the 2015 Africa Cup of Nations to be held in Equatorial Guinea.\n\n
+
+TECHNICAL DATA\n\n
+Location: Malabo, Equatorial Guinea\n
+Surface: Grass\n
+Capacity: 30,000 spectators\n
+Construction and Opening: 2007\n
+Local team: Equatorial Guinea soccer team\n
+Events: Africa Cup of Nations 2012\n
+    </string>
+
+    <string name="espanainfo">
+        The Spanish Cultural Center in Malabo (CCEM) is a cultural institution located in the city of Malabo, capital of Equatorial Guinea.\n
+        It belongs to the Network of Cultural Centers of AECID (Spanish Agency for International Development Cooperation) and is organically attached to the Embassy of Spain in Malabo.\n\n
+
+As a Unit for Cooperation Abroad, it has among its priority lines to promoting access to culture to strengthen the concept of citizenship,
+        sustainably manage the country\'s cultural heritage and promote the relationship between communication and culture, fostering creation and expressions local arts and support for cultural industries.\n\n
+        Without forgetting the dissemination of Spanish culture and / or in Spanish, contributing to the enrichment
+        and respect of cultural diversity: it began as part of the Hispano-Guinean Center, which was a cultural center shared by the two governments.
+        The CCEM arises within the framework of the successive mixed commissions between the governments of Spain and Equatorial Guinea.
+        And since the beginning of this new journey, the objective of enhancing the cultural wealth of Equatorial Guinea, its different native languages,
+        its different artistic manifestations has always been present which, although they are comparable to those of the other surrounding countries, have a great peculiarity.\n\nThe vehicular
+        language that brings them together is Spanish and that is why it is different - I do not say better, but different - and that is its peculiarity.\n\nAll its activities are free and of charge.
+    </string>
+
+    <string name="egculturalinfo">
+        The Equatorial Guinean Cultural Center takes the responsibility of coordinating and disseminating the traditions and customs of the peoples of Equatorial Guinea.\n
+
+It has Libraries and exhibition rooms, games, dance, cinema and numerous offices for staff are some of the most outstanding dependencies of this house of culture for all Equatorial Guineans.\n\n
+
+The Cultural Center is based on four fundamental pillars:\n\n
+
+Culture: In it we can find;\n
+The Bubi cultural week, the Fang Cultural week, the Annobonese cultural week Bisió cultural week, the Ndowé cultural week, traditional games contest, national dishes contest.\n\n
+
+Education: Learning of local languages, conference on various current cultural and scientific topics, technology, organization of courses in vernacular languages.\n\n
+
+The Disclosure: Art exhibition, sculptures, photographs, paintings, and publication of books by Guinean authors.\n\n
+
+Entertainment: Contest of musical performances, in this case our Youth Gala, is a contest where singers and dancers participate where the best are the ones who win the prizes. It is held every Saturday and is intended to promote Guinean artists and for this, the winners will be awarded with the creation of an album.\n\n
+
+Traditional, religious music, invitations to troubadours.
+    </string>
+
+    <string name="universidadinfo">
+        The current functional organization chart of the UNGE came into force as of January 2004, in which they develop the powers of the statutory bodies.\n\n
+        Its structure differs from the previous one in terms of the number of unipersonal bodies, by introducing new ones: vice-rectors, deans, vice deans, and university directors.\n
+        Currently, the UNGE works with a Rector, a Vice-Rector (the person in charge of the university in Bata), a Secretary-General with his deputy, the Administrator Manager,
+        the Deans and Vice-deans of the faculties and the University Directors of inter-university cooperation, affairs academics, modular approach, libraries, university residence, etc.\n\n
+        But the university also has other collegiate bodies: the university cloister, the university board of trustees, governing board, and the board of faculties.
+    </string>
+
+    <string name="socialinfo">
+        Enjoy a privileged environment, where you will find educational and leisure activities for the whole family.\n\n
+
+For Royal Palm the important thing is your happiness, that is why we work to offer you the best
+service and comfort. We know that the important thing is the family and we want you to be part of
+ours.\n\n
+
+We offer you the best facilities with the latest features so that you can enjoy them
+both alone and with your family, because we know that it is the little details that make
+life a dream adventure.\n\n
+
+        <b>Activities Sampaka Royal Palm</b>\n\n
+Swimming classes, classical ballet classes, Pilates classes, Latin classes, gym, music, animation and much more coordinated by the best professionals.\n\n
+
+        <b>Mango_Shop</b>\n\n
+
+Mangue_Boutique and the Mangue_Designs brand store, is a store of decorative accessories, fashion accessories and jewelry. In addition, we provide decoration services.\n
+
+We have handmade jewelry of natural material and fashion accessories and decoration of modern afro style and natural material.\n\n
+
+        <b>Café Malabo</b>\n\n
+For meetings with your partner or with your friends, come and enjoy the best cocktails accompanied by tapas and shisha.\n
+Atmosphere, sophisticated, pleasant and fun with good music.\n
+Live the experience of Café Malabo, at Royal Palm social club, sampaka\n\n
+
+        <b>El Nido</b>\n\n
+El Nido is a nursery for children from 18 months to 3 years.\n
+We offer you a pleasant and safe environment for your child\'s development.\n\n
+
+From Monday to Friday, our team takes care of your children by accompanying them during games and activities organized throughout the day.\n
+Painting, coloring, singing, dancing, swimming pool will be the daily life of your children.\n\n
+
+
+
+<b>Cache Boutique</b>\n\n
+
+AFRICAN FASHION AND ACCESSORIES\n\n
+
+WITH THE BRANDS: NANAWAX, PATHE´O, DIVADELICIOUS AMONG OTHERS.\n\n
+
+Monday, Friday and Saturday:
+    </string>
+
+    <string name="kabaninfo">
+        The Martínez Hermanos and MH Express Supermarkets are strategically located in the busiest areas of Bata
+        and Malabo with the aim of being within reach of the people of Equatorial Guinea.\nWe want our customers to
+        have easy access to our products, offering the highest possible quality and the best service in infrastructure
+        and human resources, because at Martinez Hermanos Supermarkets "we make a difference".\n\n
+
+        <b>Martinez Hermanos City Supermarkets</b>\n\n
+
+In response to the demand of our customers, we set up our new network of Supermarkets, Martínez Hermanos City,
+        a concept of modern establishment, with the same quality and our leading brand products, which has a wide
+        variety of assortment in one space comfortable and practical, designed to make our daily shopping quickly, at the best price.\n\n
+
+        <b>MH City, your agile purchase at the best price.</b>
+
+We care about offering the best services to our
+customers and continuing to improve their shopping experience through new services and unique establishments such as MH City.
+    </string>
+
+    <string name="esperanzainfo">
+        The Martínez Hermanos and MH Express Supermarkets are strategically located in the busiest areas of Bata and
+        Malabo with the aim of being within reach of the people of Equatorial Guinea.\nWe want our customers to have easy access to our products,
+        offering the highest possible quality and the best service in infrastructure and human resources, because at Martinez Hermanos Supermarkets "we make a difference."\n\n
+
+        <b>Martinz Hermanos City Supermarkets</b>
+
+In response to the demand of our customers, we set up our new network of Supermarkets, Martínez Hermanos City, a concept of modern establishment,
+        with the same quality and our leading brand products, which has a wide variety of assortment in one space comfortable and practical, designed to make our daily shopping quickly,
+        at the best price.\n\n
+
+MH City, your agile purchase at the best price.\n\n
+
+We care about offering the best services to our
+customers and continuing to improve their shopping experience through new services and unique establishments such as MH City.
+    </string>
+
+    <string name="bahiainfo">
+        Where formerly the so-called old port and new port were located, thanks to its natural draft of up to 16 meters, where large-draft ships dock, today the New Port of Malabo has been built,
+        which consists of 484 meters of dock, plus a dock of coat of about 400 meters.\n\nThis bay has witnessed Spanish-Cuban history, when in 1866 the ship "Rosa del Turia" deported 176 Cubans,
+        coinciding with the deported Andalusian revolutionaries who arrived in 1861 and 1862.\n\nThese Cubans were settled on the Enrique islet in the Bay of Santa Isabel,
+        isolated from the population to which must be added another 250 Cubans deported by Captain General of Cuba Domingo Dulce.
+    </string>
+
+    <string name="banapainfo">
+        Founded in 1884 and considered the cradle of the Claretian mission in Equatorial Guinea, the building located in the neighborhood of Banapá, at the southern exit of the city, en route to the city of Lubá, is this historic enclave for the Claretian Community.\n\n
+        This seminary was created to be able to consolidate and perpetuate the work of evangelization, and for this it was necessary and essential to create these seminaries, where to train the native clergy (secular and religious).\n\n
+        Following the aspirations and directives of the Church,  Father Armengol Col  founded, in 1914, the first seminary for the formation of indigenous clergy in the mission of conception (Riaba), from where he would move
+        four years later to Basilé and later, in 1932, to Banapá, where it functioned normally and with a large number of seminarians who studied there until completing the philosophy courses, then going on to study theology at the seminaries in Spain.\n
+        In 1956 the seminary (postulancy) was founded in the mission of Concepción, for the formation of native Claretian Missionaries. After studying the humanities there for five years, they went to Spain to study theology at the Claretian seminary.
+    </string>
+
+    <string name="gainfo">
+        Before 1918, this house is part of what was known as Finca Amilivia, owned until the 1980s by one of the mayors who presided over the Malabo City Council.\n\nThey say that this patio was the first point of distribution of electricity to the city of Malabo.
+    </string>
+
+    <string name="picoinfo">
+        <b>Geographic situation</b>\n\n
+        Pico Basilé is located in the province of Bioko Norte, in the district of Malabo, whose geographical coordinates are as follows: 3º42\′-3º25\'S.8º37′-8º50\'E. (IUCN 1991 and Castroviejo, 1994).\n\n
+
+        <b>Limits and surface</b>\n\n
+        The limits of the area coincide with the level curve of 800 m, including the entire area above this level, which corresponds to the Pico Basilé, a volcanic massif that occupies the largest extension and is the highest (3008 m) of the Island. The area covers an area of 300 km², comprising exclusively terrestrial habitats.
+
+        <b>The relief and hydrographic network</b>\n\n
+        Undoubtedly, one of the attractions of the place is the diversity of landscapes that it houses, and the contrast between the different types of vegetation when ascending in height, from the mountainous forests to subalpine meadows at the highest levels.
+        The deep ravines formed by the rivers that are born in this massif stand out. To the diversity of relief we must add the climatic contrast that we find between the lower areas and the summit of Pico Basile, where extreme temperatures are reached due to the height and strong sunlight.\n\n
+
+        <b>The hydrographic network</b>\n\n
+        This area is conditioned by the very steep topography and abundant rainfall. There are numerous rivers and streams of a torrential nature such as the Ría-Ría, Cope, Bao, Uba, Date, Buye rivers and the Apu river that produces a deep gorge. In general, in the Pico massif,
+        all the rivers that flow into the coast located north of the Musola corridor take place, from the Luba bay to the Riaba bay.\n\n
+
+        <b>The geological formations</b>\n\n
+        The general characteristics are due to the volcanic origin of Bioko Island. The protected area has an elliptical shape with a major axis of about 25 km oriented SW / NE and the smallest one,
+        10 km, in a NE / SE direction. Within the area, on its eastern and western flanks, there are a large number of craters and ravines, many of them open to the sea and which constitute the headwaters of numerous rivers.
+        Highlighting the Caldera de bonyoma, as well as closed craters that crown peaks (Loros, Monteverde, Agujas, Rampa, Sitial and Piramide) and even form lakes (Lake Loreto or Esaá). The soils of this area have their origin
+        in the volcanic process that gave rise to the origin of this island. They are, therefore, derived from basalt rocks where colloidal elements with a clayey texture abound. The humus content ranges between 4% and 13%.\n\n
+
+        <b>The weather</b>\n\n
+        The entire area has an equatorial climate with a highly regular thermal regime. The data for Malabo indicate an average annual temperature of 25ºC, with an average of 26.2ºC for the warmest month and 24ºC for the coolest.
+        The variations in altitude give rise to a marked thermal gradient that goes from the values mentioned in the lower elevations to temperatures below zero at night in the meadows of the summit of Pico Basilé.\n\n
+
+        <b>Vegetation</b>\n\n
+        Due to its geographical location, the Island of Bioko is entirely included in the domain of the Guineo-Congo forest (White, 1983), although it is a variant similar to those of southern Cameroon and Nigeria.
+        The Basilé peak is covered with various types of plant formations that cover from secondary forest and remnants of tropical rainforest in the lower parts to a zone of subalpine vegetation at 3,000 m high.\n\n
+    </string>
+
+    <string name="santiinfo">
+        From  Comercial Santy  we want to be at the forefront of consumer needs and that is why we wanted to expand the incorporation of a supermarket chain among our services.\n
+
+Stores that today have become the  leaders in several of the  aforementioned countries in which we operate.\n\n
+
+At  Comercial Santy Supermercado ,  our commitment  to this type of business is such that we create stores which are classified by our customers and suppliers as Hypermarkets.\nOffering in them  more than 15,000 references  ranging from  food, drugstore, kitchenware, electronics and perfumery.\n\n
+
+In our  warehouses in Spain we have  a stock that is high enough so that we never lack the most essential products.\n
+
+It is our own suppliers who  are astonished,  not only by the  amount of variety,  but by the order of these and the  human quality in the treatment we give to our clients.\n
+
+On our surfaces you can find products that you would see in  any major supermarket chain  that is currently operating in Europe. Including merchandise classified as  gourmet for more demanding customers.\n
+
+Due to this, large companies with different services, which operate in the same markets as us, choose to choose us in their  daily supply and  not only because of our quality / price but also because of our commitment when it comes to guaranteeing  the best of services.
+    </string>
+
+    <string name="bisilainfo">
+        The Church of Our Lady of Bisila is a church dedicated to the Virgin of Bisila and is located on Pico Basilé on the island of Bioko at about 3,000 meters above sea level.\n\nThe church is shaped like a Latin cross , finished in marble and granite; It occupies an area of 300 square meters with the capacity to accommodate 150 people and is equipped with various sculptures. The image of the Virgin is 11 meters high.\n
+
+It is expected that this new church will serve as a center for visits of tourist interest and pilgrimage, to venerate the Holy Mary of Bisila.\n\n
+
+The church was inaugurated on May 28, 2016 by the Apostolic Nuncio of Pope Francis for Cameroon and Equatorial Guinea, Piero Pioppo, assisted by the Metropolitan Archbishop of Malabo, Juan Nsue Edjang Maye. \ NThe ceremony was attended by national and ecclesiastical personalities, diplomatic corps and the Christian population of Bioko.
+
+The church has been built by the Egyptian company Arab Contractor and financed by the Government of Equatorial Guinea.\n\n
+
+Our Lady of Bisila or Virgin of Bisila is a Marian invocation, she is the patron saint of Bioko Island in Equatorial Guinea located in Africa.\n
+
+His statue was built in 1986, and the sculptor Modesto Gené was in charge of its execution.\n\n
+
+The figure of the Virgin stands halfway up the Basilé peak at an altitude of 2,800 meters, in a lap of the road, from where the panoramic views of Malabo are enviable.\nIn the 1980s, the Archbishop of Malabo , Monsignor Nzé Abuy, proposes the idea of patronage of the Archdiocese of Malabo, which is supported by all the people, thus initiating the official petition and insistence before the Holy See that the title of "Our Lady of Bisila be accepted "As a Marian invocation.\nWith the Pontifical Bull of SS Pope John Paul II" CONVENIENTER MATER "of May 26, 1986, registered under decree No. 603/86, signed by Cardinal Agustín Cassaroli.\n\n
+
+The recognition of Bisila by the Christian community was carried out thanks to the work of the priests Aimemí and Amador Martín, who after listening to the stories of the Bubi community and finding a similarity with the events of the Virgin Mary, understood that the work of Evangelization can be simplified by using the figure of Bisila as an invocation of the Virgin Mary Mother of God.
+    </string>
+
+    <string name="lapazinfo">
+        In an era when diseases crosses borders with impunity, it is no surprise that every year thousands of international patients cross continents and countries for medical treatment.\n\n
+
+A new world-class medical center, La Paz Medical Center in Malabo, Equatorial Guinea offers up to date approaches to complex medical problems through the cooperative efforts of medical teams providing individualized attention to patients.\n
+
+At La Paz the patient comes first – before, during and after his hospital stay.\n\n His comfort and treatment are our primary concern.\n
+Family and friends receive the same personal attention, as we strive to make the medical experience as pleasant as possible.\n
+
+Medical tourism at La Paz is focused on the needs of the international patient.\n
+
+We will be happy to provide you with additional information and would welcome your inquiries.\n
+
+La Paz Medical Center\n\nMalabo, Equatorial Guinea\nTel: (+240) 556666156\n(+240) 556666154\nE-mail: info@lapazmalabo.com\n
+    </string>
+
+
+    <string name="lubainfo">
+        <b>Geographic situation</b>\n\n
+
+The protected area of the South of the island of Bioko is located in the province of Bioko-Sur, in the districts of Luba and Riaba; whose geographic coordinates are as follows: "3º25\′, 3º12\'S.8º45\'E (John E. Fa.)".
+
+        <b>Boundaries and surface</b>\n\n
+
+        It occupies the entire area of the southern massif that includes the Biao and Luba calderas. It extends in a straight line that goes from Veiga and Avendaño,
+        at the eastern end of the Island until it reaches the 800 m elevation at the point closest to Lake Loreto on its north side. Follow this level until you find the Ruma river,
+        along whose left bank it descends to the intersection of this river with the Grande-Calabo river. It ascends along the right bank of its channel and follows the Calabo river to the point closest to the river bed with the Bibi-Lolaca river,
+        whose course continues on its left bank until the mouth of the Lolaca river. The entire area south of these limits is included. Recently there is a study carried out by the CUREF project, in which it has proposed a new delimitation for this area. The area covers an area of 840 km.\n\n
+
+        <b>Relief and hydrographic network</b>\n\n
+
+        It is worth highlighting the landscape of the lakes and lagoons Biao, Loreto, etc., and the great Caldera de Luba. The high isolated rock mogotes on the beach such as those in front of the Maoba River and Owen Point should also be highlighted,
+        as well as the extensive beaches of black sand and pebbles that extend especially in the south of the area. To the landscape contrasts we must add the climatic ones, that from the hot beaches of Ureca you reach the cool meadows of Moca, more than 1,000 meters away and with a climate more typical of temperate zones.\n\n
+
+        <b>Hydrology</b>\n\n
+
+        The hydrology of the area is conditioned by its peculiar characteristics, with very steep topography and high rainfall. There are numerous rivers and streams of a torrential nature that run through narrow and steep canyons. In this area are the mighty rivers of the island, Olé, Osa, Moaba and Iladyi.\n\n
+
+        <b>The geological formations</b>\n\n
+
+        The entire protected area responds to the general characteristics of the island. Bioko is a volcanic massif that arises on the fracture that cuts the Gulf of Guinea in a SW direction, therefore the island is composed entirely of rocks of volcanic origin, mainly basalt, poor in feldspars and rich in magnesium compound, coming from various phases of volcanism.
+        The eruptive phenomena have lasted from possibly the Lower Tertiary until well into the Quaternary, with the greatest activity centered on the Pleistocene. Bioko is estimated to have been attached to Mount Cameroon about 30,000 years ago and that the isthmus that separates them was covered by waters about 10,000 to 7,000 years ago, at the end of the Pleistocene.
+        The southern massif of the island, where the protected area is framed, is made up of two volcanoes:\n\n
+
+        <b>The soils</b>\n\n
+
+        The homogeneity of the mother rock, formed by basaltic lavas, explains the little variety in the types of soils. Its PH is never less than 6, so it can be considered slightly acidic or neutral. They are poor in phosphorus, potassium and calcium and rich in organic matter. Soil organic matter levels increase with altitude.\n\n
+
+        <b>The weather</b>\n\n
+
+        The climatic assessment has to be approximated, due to the absence of data from observatories near the area. The climate of the island is determined by its proximity to the equator and regulated by the relief, the altitude, the proximity to the sea and the influence of the monsoon winds from the South.
+        It can be written generally in the equatorial type with a monsoon component in the southern part. The average annual temperature is about 25ºC on the coast, descending with an altitude gradient. The annual thermal oscillations are less than the daily ones, which vary from 2 to 10ºC (Capuz, 1961).
+        Relative humidity levels are high, with an annual average of 90%. the humidity increases towards the South and at altitudes of 1000 to 1500 meters as a consequence of the formation of a belt of dense clouds in the mountains. The insolation is proportionally low, going from 30% of the possible daily hours in March to less than 10% in June.
+        The precipitation is constituted by the relief and the orientation of the monsoon climate in the southern part of the Great Caldera de Luba, which explains why it is one of the highest rainfall areas in Africa, reaching over 10,000 mm (Butynski, 1994). There are two very marked seasons, mainly due to the rainfall regime: The dry season from December to March, in which the dry winds of Harmattan from the continent predominate.
+        The precipitations during this time are scarce; wet season from June to October, most of the rainfall occurs. The precipitation is constituted by the relief and the orientation of the monsoon climate in the southern part of the Great Caldera de Luba, which explains why it is one of the highest rainfall areas in Africa, reaching over 10,000 mm (Butynski, 1994).\n\nThere are two very marked seasons, mainly due to the rainfall regime: The dry season from December to March,
+        in which the dry winds of Harmattán from the continent predominate. The precipitations during this time are scarce; wet season from June to October, most of the rainfall occurs. The precipitation is constituted by the relief and the orientation of the monsoon climate in the southern part of the Great Caldera de Luba, which explains why it is one of the highest rainfall areas in Africa, reaching over 10,000 mm (Butynski, 1994).
+        There are two very marked seasons, mainly due to the rainfall regime: The dry season from December to March, in which the dry winds of Harmattan from the continent predominate. The precipitations during this time are scarce; wet season from June to October, most of the rainfall occurs. mainly due to the rainfall regime: The dry season from December to March, in which the dry winds of Harmattan from the continent predominate.
+        The precipitations during this time are scarce; wet season from June to October, most of the rainfall occurs. mainly due to the rainfall regime: The dry season from December to March, in which the dry winds of Harmattan from the continent predominate. The precipitations during this time are scarce; wet season from June to October, most of the rainfall occurs.\n\n
+
+        <b>Vegetation</b>\n\n
+
+        Due to its geographical location, the protected area in the south of the island of Boiko is in the domain of the Guinean-Congolese forest (White, 1983), but it is a variant similar to the nearby forests of southern Cameroon and Nigeria. According to White (1983), the main plant formations are: tropical rainforest with a monsoon component and secondary forest.
+        The tropical rainforest that still covers the entire southern part of the Island, comes to have its own character due to the influence of the monsoon winds and rains that determine the climate of the region. The rainforest itself is distributed in relict patches especially at its eastern end, between Eori and the Iladyi River,
+        these being the last forests representing this plant formation since it has practically disappeared in the rest of the island. The great diversity of species that houses the abundance of lianas and epiphytes is characteristic. Among the large species, we can mention: Dumb Ceiba pentandra, Ilomba Picnantus angolensis, Bocapi Staulla gabonensis, Abang Clorophora excelsa.
+        However, the absence of significant species such as the Okume (Aucoumea Klaineana) and the climbing palms (Elaeis sp) stands out. The monozone forest occupies the southern slopes of the Biao massifs and the Great Luba caldera down to sea level (16.8% of the total area). This forest extends up to 600 - 700 m, but in favorable conditions such as inside the caldera, it can ascend many meters.
+        It is a unique forest, hardly known in the entire West African region for its peculiarities, environmental conditions of high rainfall and biological richness. In this forest, of great vegetation, the cryptogams, plains and epiphytes predominate. The most characteristic species are the blackberry (Pycnanthus angolensis), bocapi (Staudtia gabonensis) and Zarcocephalus esculentus and numerous species of ficus.
+        Sub-tropical forest or montane rainforest area. It includes different types of forest formations between 800 m and 1500 m, with rainfall ranging between 2500 and 3000 mm. There is a vegetation formed by a low arboreal extract of Macaranga occidentalis and a higher one of arborecent elects such as Cyathea Usambarensis and C. manniana.\n\n
+        <b>Arboreal araliaceae zone :</b> These, mainly Schefflera manii and S. ledermanii, dominate the ferns from 1,500 to 2,300 m. Precipitation reaches values between 3,000 and 4,000 mm (JE Garcia, 1997).\n\n
+        <b>Ericaceae zone :</b> This is a subalpine floor, characteristic of the tropical mountains. The shrubby ericaceae, Agauria salicifolia and Hypericum lanceolatum, dominate, covered with Usnea articulata lichen, the lower thicket and reach the limit of 2,500 to 2,600 meters.\n\n
+        <b>Subalpine meadows :</b> These characteristics of Pico Basilé in the north of the island are anecdotal in the South. are extensions of grasses that generally originate after 2,500 m with characteristic species such as Festuca sspp, Agrostis sspp, etc.\n\n
+
+        <b>Fauna</b>\n\n
+        Although the fauna is perhaps the best studied so far, detailed fauna inventories are not yet known, but it is presumable to distinguish communities of animal species directly related to the different plant formations. The four species of sea turtles that lay their eggs on the southern beaches (Chelonia mudas, Dermochelys coriacea, Eretmochelys imbricata, Lepidochelys olivavea),
+        between Punta Santiago and Punta Oscura, stand out without a doubt in this area, this area being one of the most important marine chelonius spawning in central Africa. According to recent studies carried out by Butynski and Koster (1988), one of the highest densities of primates in Africa has been found in this place,
+        highlighting the presence of four endemic subspecies: Preuss monkey Cercopithecus preussi, Orjas-eared monkey Cercopithecus erythrotis, Black colobus Colobus satanas and Red colobus Colobus pennanti One of the last populations of drills (Mandrillus leucophaeus) is found in this area.
+        It is the only place on the island where you can regularly see the black calao (Ceratogumna atrata), the gray parrot (Psittacus erithacus), the fairy ibis (Ostrychia rubricollis) and the red-necked malimbo (Malimbus ribricollis).\n\nThe only endemic bird species in Bioko, Fernando Poo\'s myopic (Speirops bruneus),
+        found in the alpine meadows of Pico Basilé, is probably found in this area. It should be noted that there are no proboscids and galliforms on the island and that the number of predators is relatively low and they are generally not very specialized species. For egcoding, cats are missing, and the genets, in this area are omnivorous.
+        As for the artiodactyls, it is assumed that the extinction of the red buffalo and the wild boar at the end of the last century was a determining factor in the small size of the island. These circumstances could also explain the absence of elephants and leopards and probably the great anthropoid primates, gorillas and chimpanzees.\n\n
+        <b>Human population</b>\n\n
+        The original inhabitants of the area are the Bubis, with well-defined cultural features. Currently within the area are the towns of Ureca, Bioko and Malabo de Moca, Ruiché and Belebú. In its southern limit, Veiga and Avendaño, Bocoricho and Balacha de Riaba.
+        Likewise, along its entire northern limit there are various towns: Batete, Balombe, Boemeriba, a town of Maori, Balacha and Riaba. The protected area of the South of Bioko Island affects some 2,200 people who live in its interior and another 5,000 who live in the border area, although its conservation is of vital importance for the entire Island.\n\n
+        <b>Infrastructure</b>\n\n
+        There are tracks on the cocoa farms up to Veiga and Avendaño, San José, Ruiche, Bocoricho, Belebú, Calabó and Eoco, which allow access all year round by all-terrain vehicle. All the other towns that are in its limits or surroundings also have vehicle access.
+        Bioco and Moca de Malabo have a road that connects with that of Luba-Riaba, also accessible throughout the year. In addition, there are paths and trails of hunters distributed throughout the area, although mainly in its northern perimeter.\n\n
+        <b>Human activities</b>\n\n
+        Traditional agriculture constitutes an important part of the livelihood of the inhabitants of this area, with little evolved techniques. Agricultural practices are related to forms of social and family organization. Small agricultural farms (between 1 and 3-4 ha) are interspersed among the cocoa plantations and in the vicinity of the towns. The hunting activity is practiced by hunters from outside the area, who occupy the hunting camps and who intervene in the entire bushmeat marketing circuit.
+        Fishing is practiced along the coast from Luba to Veiga and Avendaño, mainly with harpoons, in the southern waters of the island.
+        Logging in Bioko for export is recent, it began in 1989 and was prohibited in 1991 (Decree 55/91, dated July 9). In general, this activity was practiced on cocoa farms and in free state forests, causing serious deterioration in road infrastructure.
+        Livestock has little developed on the island due to trypanosomiasis. It is only feasible in the Moca grasslands, at about 1,000 m high. Cattle, sheep and horses are practiced. In some localities there are smaller livestock and it is common to find pigs destined for self-consumption in the villages. There is also usually no lack of goats and sheep, which seem perfectly adapted and perhaps constitute a breed of their own.\n\n
+        <b>Legal framework and management</b>\n\n
+        Law 8/1988 creates the southern part of the island as a protected area. In recent years, different studies on biodiversity have been carried out in the area. The Friends of Doñana non-governmental organization has worked on the protection of the sea turtle in the Ureca area.\n\n
+        <b>Conservation status and value</b>\n\n
+        Since the declaration of the Sur de Bioko area as a protected area, the impact on the state of degradation of biodiversity is not very significant, due to its very rugged terrain, which has allowed in a way to conserve this part of Bioko Island. Regarding its conservation value, it is worth mentioning: The diversity of tropical, subtropical and alpine vegetation, still little disturbed.
+        these habitats are places where there are the highest concentrations of species in Bioko; The southern massif is important to stabilize the high rainfall in the area and control the fluvial flow towards the lower parts of the place; The diversity of the landscape, its scenic beauty and the possibility of easily observing species of fauna such as primates or sea turtles, The area has undoubted value for the development of ecotourism.
+        The evaluation carried out on the area, indicates that in the last ten years, the state of the biological diversity of the area has not suffered great variation and its degree of threat is not so significant.\n\n
+        <b>Identified issues</b>\n\n
+        As the main problem, it is worth mentioning the lack of a physical delimitation of the area, the lack of implementation of activities aimed at conserving the wild resources of the area; the intervention of illegal commercial hunting can be mentioned.
+        Priority actions for the conservation and sustainable use of resources
+        One of the priorities for the conservation of the area is in the first place to delimit the area; secondly, to develop strategies and a management plan for the conservation of the biodiversity of the area. being only necessary to create the infrastructure to attract to this area a large number of tourists interested in enjoying the attractions of the protected area of the South of Bioko Island\n\n
+        Source: Extracted from the base document prepared by the Central African Regional Program for the Environment (CARPE) for the second meeting of the "Conference on Dense and Humid Forest Ecosystems of Central Africa" (CEFDHAC).
+    </string>
+
+    <string name="repreinfo">
+        This building from the beginning of the 20th century represented the Chamber of Agriculture, an institution created in 1906 to protect the interests of the merchants and farmers of the island of Bioko in order to give them a voice against the colonial state.\n\nToday it is the main seat of the House of People\'s Representatives, the official name given to the unicameral parliament or national legislative branch of the Republic of Equatorial Guinea.
+    </string>
+
+    <string name="hotelbisilainfo">
+        Bisila Palace Hotel is within a 10-minute drive of Malabo City Hall and National University of Equatorial Guinea (UNGE).\nIn addition, this 4-star hotel is 6.8 km from Malabo Cathedral and 7.1 km from Malabo Stadium.\n\n
+
+        <b> Rooms </b>\n\n
+        Make yourself at home in any of the 187 air-conditioned rooms with minibars and LCD televisions. With a DVD player and high-speed wired Internet connection (free), you have to choose when to entertain yourself.\nThe private bathroom with separate bathtub and shower has a bidet and hairdryer. Conveniences include a safe, desk, and telephone.\n\n
+        <b> Services </b>\n\n
+        For your free time, you have recreational facilities such as an outdoor swimming pool, an outdoor tennis court and a gym at your disposal. Other services at this hotel include free wireless Internet access, babysitting services (fees apply) and a ballroom. You will reach the main attractions of the area in the blink of an eye thanks to the free shuttle service
+    </string>
+
+
+    <!--CULTURE INFO-->
+
+    <string name="fanginfo">
+        They form the most numerous ethnic group in population.\n\n
+        Traditionally, they are structured in relatively autonomous families, clans and tribes.
+        Descendancy is transmitted by the men, hence the importance of the father, of the uncle and of the first born son.\nTheir wooden sculptures, their masks and the Fang ritual statues are appreciated the world over.
+
+    </string>
+
+
+    <string name="bubiinfo">
+
+        They are found on the island of Bioko and are Bantus belonging to the “civilization of the ñame”.\n\n
+        Their society is structured in the form of a kingdom that was maintained until the end of the colonial period.\n
+        Their original religion was monotheist and music, dance and their traditional singing was inspired by religious ceremonies that are still deeply rooted.
+
+
+    </string>
+
+    <string name="anoboninfo">
+
+        They live on the island of Annobon and are a mixture of Portuguese, Spanish and African descendants of slaves.\n\n
+        They are traditionally fishermen, since agriculture is scarce on the island due to its volcanic soil.\n
+        They use canoes known as cayucos or dugouts, made of ceiba wood. Most of them speak the Fá d\'Ambó dialect, which is Portuguese Creole mixed with Spanish.
+
+    </string>
+
+    <string name="pygmiesinfo">
+
+        In Equatorial Guinea they are called Beyeles and Bokuigns.\n\n
+        They live in small groups and are dedicated to hunting and to the collection of roots and wild berries.
+
+    </string>
+
+    <string name="ndowesinfo">
+
+        They are a minority, formed by numerous ethnic groups: the Kombe, the Bujeba, the Bapuka, the Balenke, the Enviko and the Benga.\n\n
+        Their social organization is through a hierarchy of families, villages, lineages and clans.
+
+    </string>
+
+    <string name="bisiosinfo">
+
+        Originally from Cameroon, they are not very numerous and emigrated in the 19th century towards the regions near the coast of the Continental Region, down the river Ntem.
+
+    </string>
+
+    <string name="fernandinosinfo">
+
+        The middle class of land owners and merchants, who lived a long time in the capital and were mixed descendants of workers that settled throughout the centuries on the plantations of the island of Bioko.
+
+    </string>
+
+    <string name="vaticanainfo">
+        The Martínez Hermanos and MH Express Supermarkets are strategically located in the busiest areas of Bata and Malabo with the aim of being within reach of the people of Equatorial Guinea.\n
+        We want our customers to have easy access to our products, offering the highest possible quality and the best service in infrastructure and human resources, because at Martinez Hermanos Supermarkets "we make a difference."\n\n
+        Martinez Hermanos City Supermarkets\n\n
+        In response to the demand of our customers, we launch our new network of Supermarkets, Martínez Hermanos City, a concept of modern establishment,
+        with the same quality and our leading brand products, which has a wide variety of assortment in a space comfortable and practical, designed to make our daily purchases quickly, at the best price.
+        MH City, your agile purchase at the best price.\n\n
+        We care about offering the best of services to ours customers and continue to improve their shopping experience through new services and unique establishments such as MH City.
+    </string>
+
+    <!--RESTAURANTS-->
+
+    <string name="lalunainfo">
+        The La Luna complex consists of a restaurant, bar, disco, swimming pool and gym.\n\n
+        A warm and welcoming atmosphere awaits you. A restaurant, a swimming pool, a disco and a gym await you.\n\n
+        <b> THE RESTAURANT </b>\n\n
+        Come and discover a place where remarkable flavors meet.\n\n
+        <b>THE NIGHTCLUB</b>\n\n
+        La Luna Discothèque welcomes you in a festive atmosphere.\n\n
+        <b>THE POOL</b>\n\n
+        The quality of the pool water is satisfactory.\n
+
+    </string>
+
+    <string name="magnoinfo1">
+        Magno Suites is an elegant and discreet Boutique Hotel, located in the quiet residential neighborhood of Paraíso in the City of Malabo, the island capital of Equatorial Guinea.\nThe situation could not be more privileged for a hotel in Malabo, since Paraíso is located between the "Santa Isabel" international airport,
+        the old colonial city and the brand new and modern Malabo II business district.\nThis guarantees the tranquility of a residential neighborhood and the speed of travel to the main points of interest in the city.\n\n
+        Magno Suites over time has positioned itself as a unique and exclusive hotel in the city of Malabo, guaranteeing all the comforts of a 21st century luxury hotel. The perfect combination of functional and modern design, the highest comfort and quality standards, together with personalized attention, allow us to offer clients exactly what they are looking for.\n\n
+        This Boutique Hotel is a project signed by Estudio Alberto Mustelier for Magno Suites, and constitutes a risky commitment to modern and simple decoration that has made it one of the jewels of Malabo in a short time.\n\n
+        The complex has a total of 15 rooms,\nof which 10 are "Standard",\n3 are "Junior Suite" and\n2 "Exclusive Suite" with private pool, among other advantages.
+        The hotel stands out for offering personalized service with great attention to detail, a sure value for any business or leisure stay. An experience that is complemented by a reference gastronomic offer, a privileged location, and various hotel services, including the chill out terrace, VIP area and lounge.
+        Prices.\n\n
+
+        <b>Standard </b>- XAF 116,000 / per night\n\n
+
+        <b>Junior Suite</b>- 138,000 XAF / per night\n\n
+
+        <b>Exclusive Suite</b>- 275,000 XAF / per night\n\n
+    </string>
+
+    <string name="babelinfo">
+        Babel Restaurant in the center of the city of Malabo in Equatorial Guinea, next to the EWAISO IPOLA square
+        Homemade food restaurant in the heart of Malabo, we cook African and European food.\n\n
+
+        <b>Specialties:</b> Serves breakfast, lunch, dinner, drinks and coffee\n\n
+        <b>Services:</b> Catering, ideal for groups, terrace, Accepts reservations\n\n
+
+    </string>
+
+    <string name="ibisinfo1">
+        Open-minded cuisine and an unlimited choice of recipes for tailor-made menus. Our open restaurant lets you create delicious dishes with our tasty pasta, grilled fish and meat cooked in a range of sauces.
+
+    </string>
+
+    <string name="legolfinfo1">
+        The "19th hole" of Guinea\'s first golf course is this relaxed brasserie-style restaurant inside the Club House.\nAfter a round of golf, refresh yourself with delicate croquettes and charcuterie platters overlooking the course and the sea.\n\n
+        Overlooking the mile-long white sands of Sipopo beach, this poolside bar is ideal for staying cool while sipping a tropical fruit juice or signature cocktail.\n\nTake in breathtaking views of the sea and, on clear days, Mount Cameroon.
+        Fruits de mer are served in this cozy French-style brasserie - along with exotic tastes from Equatorial Guinea such as fried plantains.\nA superb seafood restaurant in Sipopo for a hearty breakfast, Sunday brunch, business lunch or à la carte dinner.
+
+
+    </string>
+
+    <string name="presinfo">
+        Same as the Le Golf but this Hotel is located in the President\'s palace offering you a great view of the mansion.\n\nFruits de mer are served in this cozy French-style brasserie - along with exotic tastes from Equatorial Guinea such as fried plantains.\n\nA superb seafood restaurant in Sipopo for a hearty breakfast, Sunday brunch, business lunch or à la carte dinner.
+    </string>
+
+    <string name="icefinfo">
+        Located in \'Centro cultural Frances\' has a good atmosphere of that french european feeling with special dishes like Ratatouile, escalope de poisson pane and other delicious dishes.\n\nThey serve Breakfast,
+        Lunch and Dinner and also accept reservations,seatings, Table service and also serve alcohol.
+    </string>
+
+    <string name="imagineinfo1">
+        The IMAGINE Restaurant is located in the new construction area of Malabo 2, specifically between CANIGE and the United Nations building. It has an area of 1000 m2, of which 600 m2 will be used for the Restaurant with a capacity of 500 diners.\n\nIMAGINE,
+        you can organize different events, seminars, weddings, baptisms, communions, company meals. n\n\All at competitive prices and with the highest quality of catering.\n\n
+
+        <b>Opening hours</b>\n\n
+Monday:
+9: 00-23: 30\n
+Tuesday:
+9: 00-23: 30\n
+Wednesday:
+9: 00-23: 30\n
+Thursday:
+9: 00-23: 30\n
+Friday:
+9: 00-23: 30\n
+Saturday:
+9: 00-23: 30\n
+Sunday:
+12: 00-17: 00\n
+    </string>
+
+    <string name="cafemalaboinfo1">
+        Luxurious and carefree environment, ideal at any time of the day, from your business meeting to your most relaxed moments.\nEnjoy
+        a mojito and get excited with our orchestra every weekend.
+    </string>
+
+    <string name="terazainfo1">Impala by G terrace, located on the roof of the impala hotel (6th floor) in the city of malabo GE.\n\nA terrace that has 150 square meters,
+        where you can enjoy and appreciate the beautiful views of the city of malabo \n\nwe open from 4: 00 pm the afternoon until 2h00 We have the services of: cocktails, shisa, rations (tapas) and others.
+        On the terrace of impala we offer you the best service and make you enjoy the best atmosphere with low volume where you can have a chat with friends, family or acquaintances.\n\n<b>Visit us!</b>\n\nMORE
+        INFORMATION: Mobile Phone: +240 222680887
+
+    </string>
+
+    <string name="orientelinfo">
+        Grupo Restaurante L\'oriental - Lebanese Gastronomy - Contact (+240) 222.050.050 - Hall rental, home catering, private events, breakfasts, lunches and dinners.\n\nLocated
+        in Equatorial Guinea: ASEPASEO MARITIMO ,PUERTO DE BATA, KM 5 AIRPORT ,BANTU CIUDAD MALABO BUILDING "@restauranteloriental" on instagram and facebook.
+    </string>
+
+    <string name="deliceinfo">
+        Lebanese, African, Moroccan, International, Mediterranean Food, This Lebanese-owned place is perfect for breakfast.\n\nThere are excellent coffee and delicious French croissants and pains au chocolat. Sit on the terrace and watch Malabo wake up or cool off in the frosty air-con inside.
+        It also does pizzas (CFA6000) and tortillas (CFA2500), and there\'s a schwarma bar next door.
+
+    </string>
+
+    <string name="aviatorinfo1">
+        American Bar Style, Big Burgers, Wings, Ribs, Onion rings, and many more with Live Music every Fri &amp; Sat at 22:00h.\nKaraoke every Thursday at 21.00h.
+        The Aviator is a stylish new pub, all dark green walls, and some outside seating.\n\nThere are sports screens, very popular karaoke on Thursdays and live music on Fridays and Saturdays.
+        There\'s food to soak up the beer: the English owner offers a full English breakfast (CFA4000) and fish and chips (CFA7000). Takeaways are available, too.
+
+    </string>
+
+    <string name="yutakainfo1">
+        With a rating of 4.5, Japanese Restaurant The first and only Japanese Restaurant in Equatorial Guinea. Enjoy authentic Japanese food, such as SUSHI, SASHIMI, TEMPURA, JAPANESE STYLE SIRLOIN, SKEWERS, etc.!
+
+    </string>
+
+    <string name="etiopiainfo">
+        One of Malabo\'s 50 Best Places to Eat, Lucy Restaurant and Lounge celebrates the roots of humanity in Ethiopia - which you will find in our food, art-gallery, and festivities.\n\nWe are
+        family-owned and operated with friendly staff, delicious food and drink, and a great atmosphere!
+
+    </string>
+
+    <string name="bidinfo">
+        \'Food like mama makes\' is what the name means, and she\'d be proud of the pizzas.\n\nPasta and salads are also on offer.\nThere are two levels in the cool interior and a pleasant terrace at the front.\nThe
+        staff is friendly and this is a popular place.\nTakeaway is also available.\nIt offers pasta and salads.\n\nThere are two levels inside, cool, and a nice terrace at the front.\n\nPrices of Pizzas from 6500 F. CFA".
+
+    </string>
+
+    <string name="pizzainfo">
+        Pizza and Italian cuisine at a reasonable price, a popular place in Malabo for friend gatherings. The place has nice music and is visited by both locals and tourists, you will rarely see it empty.\n\nA nice variety of options for your pizza and can always enjoy a cold beer.
+
+    </string>
+
+    <string name="imaniinfo">
+        Restaurant, Shisha, Bar, and Lounge with full air-condition, big parking space for customers. Call in for reservations.\n\nThey also accept credit cards.
+
+    </string>
+
+    <string name="cubaninfo">
+        One of the best Caribbean top dining experiences in Malabo.\n\nGreat variety of tasty Cuban dishes, authentic Cuban food. The menu includes ropa vieja, congri, and platanos fritos.
+        Also has a terrific ambiance, with salsa music in the background, Wifi connection, and TV to watch sports events.
+
+    </string>
+
+
+    <!-- URBAN INFO-->
+
+
+    <string name="independenceinfo">
+        Equatorial Guinea celebrates its Independence Day on October 12.\n\nThis public holiday commemorates the country’s freedom from Spanish colonization.\nThis is
+        a special DAY in the hearts of all the citizens, many activities take place on this day and if you find yourself in the capital on this day,
+        Visit the cultural places, beaches, museums, and parks to see the true spirit of the nation. All public facilities are closed on this day.
+
+    </string>
+
+    <string name="presidayinfo">
+        <b>When is President\'s Day?</b>\n\n
+        President\'s Day is a public holiday in Equatorial Guinea, observed on June 5th.
+        It is celebrated on the birthday of President Teodoro Obiang Nguema Mbasogo.\n\n
+
+        <b>History of President\'s Day</b>\n\n
+        Teodoro Obiang Nguema Mbasogo is the current president of Equatorial Guinea. He was born on June 5th 1942.\n\n
+        He has been the political leader of Equatorial Guinea since 1979 after he ousted the dictator Francisco Macias Nguema, who was his uncle.
+        Obiang is the longest-serving leader in Africa and the longest-serving president in the world.\n\n
+        There is no maximum term for the president in Equatorial Guinea and Obiang has won re-election as president four times since he came to office.
+
+    </string>
+
+    <string name="newyearinfo">
+        Every year on January 1, Equatorial Guinea celebrates the arrival of the upcoming year along with the rest of the world.\n\nA New Year’s
+        Eve Gala and fireworks display is organized by the Ministry of Information, Culture and Tourism as a charity event,
+        and it is broadcast throughout the country.
+
+    </string>
+
+    <string name="forcesinfo">
+        August 3 is Equatorial Guinea’s Armed Forces Day to honor the military.\n\nIt is
+        treated as a public holiday where members of the armed forces gather together for a feast filled with food and drinks. Exhibitions are also held to showcase key achievements.
+
+    </string>
+
+
+    <string name="paintinfo">
+        Imagine a world where we can all wake up inspired to go to work in something we love, where our family and friends have the opportunity to explore their talents and be valued for that.\n\nMore than a festival,
+        we are a movement to inspire you to explore your talents and show them with pride, feeling full knowing that you are also inspiring others to explore their talents,
+        and this festival is a symbol that tells the world what we believe, our vision, which will be remarkable when you are willing to support the talent of your friends.\n\nThank you for being part of this movement!
+
+    </string>
+
+
+    <string name="musicfestinfo">
+        This festival is hosted by SOMAGEC and the Ministry of Information, Culture, and Tourism to celebrate Equatorial Guinea’s heritage.\n\n
+        Renowned dancers, artists, and musicians flock to Malabo to perform in front of thousands. In 2012, Music Day Festival was held on July 28, but the dates change yearly.
+
+    </string>
+
+    <string name="tvgeinfo">
+        TVGE is a broadcast television station in Malabo, Equatorial Guinea, providing News and Entertainment shows.\n\nAlso known as Televisión de Guinea Ecuatorial and Canal Internacional de Guinea Ecuatorial on satellite,
+        TVGE produces and airs local newscasts as well as airing entertainment TV series and movies.
+
+    </string>
+
+
+    <string name="chocolateinfo">
+        <b>About this activity\n</b>\n\n
+        <b>What\'s included, what\'s not</b>\n
+        Snacks - All the chocolates and snacks that accompany this delicacy are included in the package price. As well as the necessary water.\n
+        Hydroalcoholic gel included to disinfect your hands before tasting chocolates\n
+        All Fees and Taxes\n
+        Entry/Admission - Finca Sampaka\n\n
+        <b>Know Before You Book</b>\n\n
+        Confirmation will be received at time of booking\n
+        Wheelchair accessible\n
+        Stroller accessible\n
+        Service animals allowed\n
+        Near public transport\n
+        Transport is wheelchair accessible\n
+        Most travellers can participate\n\n
+        This experience requires good weather. If it’s cancelled due to poor weather, you’ll be offered a different date or a full refund\n
+        This experience requires a minimum number of travellers. If it’s cancelled because the minimum isn’t met, you’ll be offered a different date/experience or a full refund\n
+        This tour/activity will have a maximum of 12 travellers\n
+        All food products are handled with single-use gloves. Those in charge of dealing with these products have their hair and mouth covered at all times.\n
+        Returns to original departure point\n
+        Departure time: 11:00 AM\n\n
+
+        <b>What you can expect</b>\n\n
+
+        <b>Itinerary</b>\n\n
+        This is a typical itinerary for this product\n\n
+
+        <b>Stop At</b>:\n\n
+        Finca Sampaka, Km 7 Road to Luba, Malabo, Bioko Island Equatorial Guinea
+        Our guide will take you through the marvellous palm trees that grow on the side of the road and where films like “Palmeras en la Nieve” by Mario Casas have been filmed.
+        From there we will go through the history of chocolate at Finca Sampaka, since the first freedmen began to cultivate this delicious fruit.\n\n
+        Then we will go to the factory where there will be a detailed explanation of the process of making the totally homemade “Tree to Bar” chocolate.
+        And finally, we will taste different chocolates in a professional way teaching the differences between them and using all our senses.
+        At the end of this activity, our clients will be able to identify the main characteristics of the chocolates and be able to notice their quality.\n\n
+        Duration: 2 hours
+
+
+    </string>
+
+    <string name="misterinfo1">
+        On Saturday, October 20, 2012, at 8:00 p.m., the Grand Final Gala of the MISTER GUINEA EQUATORIAL 2012 Contest took place at the IMAGINE Restaurant in Malabo and
+        with this first edition of the most important male beauty event to which you can aspire a nation, the circle of debuts in this type of contests in our country was closed,
+        after the successful edition of the Miss Beauty 2012 pageant in which Jennifer Riveiro was the winner, who represented us fabulously in the MISS WORLD final held in August in the Chinese city of Ordos.\n\nAs the President
+        of the Mogue Agency, Ms. Consuelo Obiang said in her opening speech at the gala, - “Equatorial Guinea has finally begun to occupy the place that it has long deserved to have in the world of fashion at an international level ( …) ”.\n\nBut to
+        the Mogue Agency, it is not only the national and international success in terms of fashion that has motivated it to promote these events but the personal and social repercussion that it has had for all the young people, boys and girls, who have participated in their corresponding categories."
+
+    </string>
+
+    <string name="yumainfo1">
+        A national treasure to be admired, In Equatorial Guinea, the most renowned and most popular is 34-year-old Miss Yuma.\n\n
+        With a commanding voice and sure delivery, she performs a wide range of songs that are often mesmerizing.
+        Her repertoire includes traditional African style songs as well as gospel, reggae, hip hop, and rhythm and blues.
+        Born in Evinayong on the mainland, she grew up in a musical home with two parents who both wrote and performed songs and a grandmother who wrote traditional African songs.
+        As a girl, she sang in church, and later, when she moved to Spain, she started singing with friends and recording songs.\n\n“Ever since
+        I was a child I always listened to gospel music,” she told us during a recent interview in Malabo.\n\n
+        A particular influence was Aretha Franklin: “I often tried to imitate her, to discipline myself to understand what she was singing.”.\n\nOver time,
+        the influences broadened and Yolanda Ayingono (her real name) learned to mix these music styles with African music such that many of her songs weave these musical strands into a sound that is all her own.
+        "She keeps the African in her music by often using the Fang language of Equatorial Guinea for the lyrics, or mixing Fang and Spanish in the same song.
+
+    </string>
+
+    <string name="hipinfo1">
+        A 10-day event held every year in December, the celebrations are often hosted by the Institute of Cultural Expression.
+        Performers in the hip-hop community from all over Africa attend workshops and events hosted by artists from Europe (particularly Spain and France).\n\n
+        Music and dance are two of the great passions of the people of Equatorial Guinea. Along with traditional African rhythms, in recent years Latin American music has become fashionable and is now present in most clubs in Malabo.\n\nHip hop
+        has also won many followers, among other things, thanks to the success of the Malabo International Hip Hop Festival, which in November 2013 held its sixth edition.\nThe event, sponsored by the US Embassy in Equatorial Guinea and organized by the Cultural Centre of Spain in Malabo,
+        the Cultural Institute of French Expression (ICEF) and the Equatorial Guinean Cultural centre, each year brings together the best rappers from Guinea and other parts of the world. Closely related to urban culture, the festival also hosts dance performances and workshops on musical creation,
+        studio postproduction and even break dancing.
+
+    </string>
+
+    <string name="navidadinfo1">
+        Equatorial Guinea is mostly Roman Catholic, so the country celebrates Christmas every December 25.\n\nApart from Christian festivities, traditional celebrations are also held like the dance known as balélé in the Bioko region.\nIn the cities, friends and families celebrate together by eating, drinking and exchanging gifts.\n\nEquatorial Guineans also decorate their homes with the usual decorations, including lights and Christmas trees.
+
+    </string>
+
+    <string name="missinfo1">
+        Miss Equatorial Guinea (traditionally known as Miss Guinea Ecuatorial) is an annual national beauty pageant in Equatorial Guinea.\n\nAnd the winner of the present edition is Serafina Nchama Eyene Ada.\n\nBegan in 2012 the Miss Equatorial Guinea is an annual pageant who responsible for selecting Equatorial Guinea\'s representative to the Miss World pageant. The pageant is held by Agencia Mouge.\nIn recent year the organization took over the licenses of Miss Universe and Miss International for the first time.
+
+    </string>
+
+    <string name="rumboinfo1">
+        <b>Know Before You Book\n</b>\n\n
+        Confirmation will be received at the time of booking\n
+        Not wheelchair accessible\n
+        Stroller accessible\n
+        No heart problems or other serious medical conditions\n
+        Most travelers can participate\n
+        This experience requires good weather. If it’s canceled due to poor weather, you’ll be offered a different date or a full refund\n
+        This experience requires a minimum number of travelers. If it’s canceled because the minimum isn’t met, you’ll be offered a different date/experience or a full refund\n
+        This tour/activity will have a maximum of 15 travelers\n
+        Unnamed Road, Equatorial Guinea\n\n
+        Departure time: 9:00 AM\n\n
+
+        <b>What you can expect</b>\n\n
+        Itinerary\n\n
+        This is a typical itinerary for this product\n\n
+
+        <b>Stop At: Sipopo, Santiago de Baney, Equatorial Guinea</b>\n\n
+
+1) First we will meet at the restaurant La Gaviota. From there we will have a beautiful view of Sipopo beach as well as Horacio Island. We will admire that recreation park which includes the mural of the region and the sculpture of the area.
+        From the breakwater, there are beautiful views of both the restaurant and the coast.\n\n
+
+Tip: Many of the winning photos of our photo contest are taken from there.\n\n
+
+2) We will take the bicycles and cross the promenade along the coast in front of the newly built houses for the African leaders and we will find the only local dwelling on the entire route. They are usually found in the surroundings and we can observe the tools they use to fish and if they return from slaughter we will have the opportunity to buy fresh fish at unbeatable prices.\n
+
+3) Finally we will stop near the hospital of La Paz, in a quiet hostel. From there the brave may return by bike to the starting place and those who wish may wait for the car to pick them up.\n
+
+We organize photographic competitions on each visit with wonderful prizes.\n
+
+Dare to discover this ride.\n\n
+
+Duration: 3 hours\n\n
+
+    </string>
+
+    <string name="gitgeinfo1">
+
+       <b>GITGE (Gestor de Infraestruturas de Guinea Ecuatorial - Infrastructure Telecommunication\'s Manager in Equatorial Guinea)</b>.\n\nGITGE was
+        founded to manage the outstanding telecommunications infrastructures developed in Equatorial Guinea.
+        Such management infrastructure has been identified as those that form the SAIL cable, connecting Africa (Kribi, Cameroon) to South America (Fortaleza, Brazil), the National Fiber Optic Network,
+        including in this network the submarine cable Ceiba-1 and 2 that connects the cities of Malabo, Bata and Kribi, the submarine cable ACE that unite Equatorial Guinea with Europe, the Ultramar cable (Annobon Island-Sao Tome), the terrestrial fiber-optic network as other future networks.
+        The infrastructures managed by GITGE allows us to offer services in the EG territory, in the CEMAC territory to International companies and national telecommunications operators.\n\n
+        Our brand new intercontinental connection through Brazil gives us the possibility to connect any user of WACS and ACE through the new alternative route emerging in the South Atlantic.\n\n
+
+http://www.gitge.com/\n240 222 129 997\nSend message: eventos@gitge.org\n
+
+    </string>
+
+    <string name="chochaminfo1">
+
+        The JONCHAM AWARDS are a recognition project aimed at the performance, creativity, and artistic quality of musicians and singers.
+
+    </string>
+
+    <string name="ecuainfo1">
+
+        WE ARE A DIGITAL COMPANY, WITH A VARIETY OF CONTENT AND ACTIVITY. We make documentaries, I came, we made video clips and many other things.
+
+    </string>
+
+    <string name="asongainfo1">
+        RTV Asonga is a pioneering private radio-television network in Equatorial Guinea. It began its regular broadcasts on June 4, 2013.
+
+    </string>
+
+    <string name="nzalanginfo1">
+        The Equatorial Guinea national football team, nicknamed Nzalang Nacional, represents Equatorial Guinea in international football and is controlled by the Equatoguinean Football Federation,
+        a member of the Confederation of African Football (CAF).\n\nThe team has never qualified for the FIFA World Cup but has qualified for the Africa Cup of Nations twice, both as hosts in 2012 and 2015. It reached the quarter-finals of the former and came fourth at the latter.
+
+    </string>
+
+
+
+    <string name="fivestar">
+        5
+    </string>
+
+    <string name="fourone">
+        4.1
+    </string>
+
+    <string name="fourtwo">
+        4.2
+    </string>
+
+    <string name="fourthree">
+        4.3
+    </string>
+
+    <string name="fourfour">
+        4.4
+    </string>
+
+    <string name="fourfivestar">
+        4.5
+    </string>
+
+    <string name="fourstar">
+        4
+    </string>
+
+    <string name="threeone">
+        3.1
+    </string>
+
+    <string name="threetwo">
+        3.2
+    </string>
+
+    <string name="threethree">
+        3.3
+    </string>
+
+    <string name="threefour">
+        3.4
+    </string>
+
+    <string name="threefive">
+        3.5
+    </string>
+
+    <string name="threesix">
+        3.6
+    </string>
+
+    <string name="threeseven">
+        3.7
+    </string>
+
+
+    <string name="threestar">
+        3
+    </string>
+
+    <string name="twonine">
+        2.9
+    </string>
+
+    <string name="twoeight">
+        2.8
+    </string>
+
+    <string name="twoseven">
+        2.7
+    </string>
+
+    <string name="twosix">
+        2.6
+    </string>
+
+    <string name="twofive">
+        2.5
+    </string>
+
+    <string name="twofour">
+        2.4
+    </string>
+
+    <string name="twothree">
+        2.3
+    </string>
+
+    <string name="twotwo">
+        2.2
+    </string>
+    <string name="twoone">
+        2.1
+    </string>
+
+    <string name="twostar">
+        2
+    </string>
+
+
+    <string name="onestar">
+        1
+    </string>
+
+
+
 </resources>
+
+
+
